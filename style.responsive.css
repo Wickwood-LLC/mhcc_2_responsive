@@ -412,8 +412,13 @@ div.views-slideshow-cycle-main-frame-row-item {
 }
 
 .responsive .responsive-nav-toggle {
+  background: #4383A3;
+  border: 0px;
+  border-radius: 3px;
+  color: #CCEAF5;
   cursor: pointer;
   display: table;
   font-size: x-large;
-  margin: 0 auto;  
+  margin: 4% auto;  
+  padding: 2%;
 }
