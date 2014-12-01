@@ -40,4 +40,5 @@ stylesheets[undefined][]= favicon.ico
 
 scripts[]= script.js
 scripts[]= script.responsive.js
+scripts[]= mobile-nav.js
 
