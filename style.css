@@ -4804,11 +4804,14 @@ div.simplead-container {
   text-align: center;
   font-weight: bold;
   vertical-align:middle;
-  height: 244px;
-  width: 375px;
+  height: auto;
+  width: 100%;
   overflow: hidden;
   display: table-cell;
+}
 
+div.simplead-container img {
+  width: 100%;
 }
 
 div.simplead-container p {
@@ -4854,6 +4857,6 @@ div.feed-icon img {
   border-style: none;
 }
 
-
-
-
+.responsive-nav-toggle {
+  display: none;
+}

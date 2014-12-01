@@ -214,7 +214,7 @@
 /* full width hmenu, instead of inline-block */
 .responsive .responsive-nav ul.art-hmenu 
 {
-   display: block;
+   display: none;
    float: none;
    text-align: center;
 }
@@ -411,3 +411,9 @@ div.views-slideshow-cycle-main-frame-row-item {
    width: 18%;
 }
 
+.responsive .responsive-nav-toggle {
+  cursor: pointer;
+  display: table;
+  font-size: x-large;
+  margin: 0 auto;  
+}
