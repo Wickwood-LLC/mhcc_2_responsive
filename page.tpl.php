@@ -66,7 +66,7 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
 	</nav>
 <?php endif; ?>
 <?php if (!empty($banner1)) { echo '<div id="banner1">'.render($banner1).'</div>'; } ?>
-<?php echo top_block_output(render($top1), render($top2), render($top3)); ?>
+<section class="region-top"><?php echo top_block_output(render($top1), render($top2), render($top3)); ?></section>
 	<div class="art-layout-wrapper clearfix">
 		<div class="art-content-layout">
 			<div class="art-content-layout-row">
@@ -189,7 +189,7 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
 		</div>
 	</div>
 </div>
-<?php echo bottom_block_output(render($bottom1), render($bottom2), render($bottom3)); ?>
+<section class="region-bottom"><?php echo bottom_block_output(render($bottom1), render($bottom2), render($bottom3)); ?></section>
 <?php if (!empty($banner6)) { echo '<div id="banner6">'.render($banner6).'</div>'; } ?>
 <footer class="art-footer clearfix">
 <?php

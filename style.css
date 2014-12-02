@@ -4885,3 +4885,16 @@ div.feed-icon img {
   display: table;
   text-align: center;
 }
+
+.region-top > *,
+.region-bottom > * {
+  float: left;
+}
+
+@media screen and (max-width: 460px) {
+  .region-top > *,
+  .region-bottom > * {
+    float: none;
+    width: 100%;
+  }
+}

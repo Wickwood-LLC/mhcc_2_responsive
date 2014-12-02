@@ -229,43 +229,27 @@ function top_block_output($var1, $var2, $var3) {
   $output = '';
   if (!empty($var1) && !empty($var2) && !empty($var3)) {
     $output .= <<< EOT
-      <table class="position" cellpadding="0" cellspacing="0" border="0">
-        <tr valign="top">
-          <td class="twenty-percent-width">$var1</td>
-          <td class="forty-percent-width">$var2</td>
-          <td>$var3</td>
-        </tr>
-      </table>
+      <div class="twenty-percent-width">$var1</div>
+      <div class="forty-percent-width">$var2</div>
+      <div class="forty-percent-width">$var3</div>
 EOT;
   }
   else if (!empty($var1) && !empty($var2)) {
     $output .= <<< EOT
-      <table class="position" cellpadding="0" cellspacing="0" border="0">
-        <tr valign="top">
-          <td class="third-width">$var1</td>
-          <td>$var2</td>
-        </tr>
-      </table>
+      <div class="third-width">$var1</div>
+      <div class="two-thirds-width">$var2</div>
 EOT;
   }
   else if (!empty($var2) && !empty($var3)) {
     $output .= <<< EOT
-      <table class="position" cellpadding="0" cellspacing="0" border="0">
-        <tr valign="top">
-          <td class="two-thirds-width">$var2</td>
-          <td>$var3</td>
-        </tr>
-      </table>
+      <div class="two-thirds-width">$var2</div>
+      <div class="third-width">$var3</div>
 EOT;
   }
   else if (!empty($var1) && !empty($var3)) {
     $output .= <<< EOT
-      <table class="position" cellpadding="0" cellspacing="0" border="0">
-        <tr valign="top">
-          <td class="half-width">$var1</td>
-          <td>$var3</td>
-        </tr>
-      </table>
+      <div class="half-width">$var1</div>
+      <div class="half-width">$var3</div>
 EOT;
   }
   else {
@@ -293,43 +277,27 @@ function bottom_block_output($var1, $var2, $var3) {
   $output = '';
   if (!empty($var1) && !empty($var2) && !empty($var3)) {
     $output .= <<< EOT
-      <table class="position" cellpadding="0" cellspacing="0" border="0">
-        <tr valign="top">
-          <td class="forty-percent-width">$var1</td>
-          <td class="thirty-percent-width">$var2</td>
-          <td>$var3</td>
-        </tr>
-      </table>
+      <div class="forty-percent-width">$var1</div>
+      <div class="thirty-percent-width">$var2</div>
+      <div class="thirty-percent-width">$var3</div>
 EOT;
   }
   else if (!empty($var1) && !empty($var2)) {
     $output .= <<< EOT
-      <table class="position" cellpadding="0" cellspacing="0" border="0">
-        <tr valign="top">
-          <td class="third-width">$var1</td>
-          <td>$var2</td>
-        </tr>
-      </table>
+      <div class="third-width">$var1</div>
+      <div class="two-thirds-width">$var2</div>
 EOT;
   }
   else if (!empty($var2) && !empty($var3)) {
     $output .= <<< EOT
-      <table class="position" cellpadding="0" cellspacing="0" border="0">
-        <tr valign="top">
-          <td class="two-thirds-width">$var2</td>
-          <td>$var3</td>
-        </tr>
-      </table>
+      <div class="two-thirds-width">$var2</div>
+      <div class="third-width">$var3</div>
 EOT;
   }
   else if (!empty($var1) && !empty($var3)) {
     $output .= <<< EOT
-      <table class="position" cellpadding="0" cellspacing="0" border="0">
-        <tr valign="top">
-          <td class="half-width">$var1</td>
-          <td>$var3</td>
-        </tr>
-      </table>
+      <div class="half-width">$var1</div>
+      <div class="half-width">$var3</div>
 EOT;
   }
   else {
