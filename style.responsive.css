@@ -146,6 +146,10 @@
    padding: 0 !important;
 }
 
+.responsive .art-header .art-shapes {
+  width: 100%;
+}
+
 .responsive .art-header .art-shapes,
 .responsive .art-header .art-shapes *
 {
@@ -161,7 +165,7 @@
 .responsive .art-header #art-flash-area,
 .responsive .art-header .art-shapes>*
 {
-   display: none;
+   /*display: none;*/
 }
 
 .responsive #art-header-bg 
@@ -212,7 +216,7 @@
 }
 
 /* full width hmenu, instead of inline-block */
-.responsive .responsive-nav ul.art-hmenu 
+.responsive ul.art-hmenu 
 {
    display: none;
    float: none;
@@ -411,6 +415,9 @@ div.views-slideshow-cycle-main-frame-row-item {
    width: 18%;
 }
 
+.responsive .site-title-and-slogan {
+  float: none;
+}
 .responsive .responsive-nav-toggle {
   background: #4383A3;
   border: 0px;

@@ -398,7 +398,9 @@ li p, .art-postcontent li p, .art-blockcontent li p
 
 .art-shapes
 {
-   position: absolute;
+   /*position: absolute;*/
+   display: block;
+   float: left;
    top: 0;
    right: 0;
    bottom: 0;
@@ -426,12 +428,13 @@ li p, .art-postcontent li p, .art-blockcontent li p
 }
 
 .site-title-and-slogan {
+  float: left;
   text-align: center;
 }
 
 .art-headline
 {
-  display: inline-block;
+  /*display: inline-block;*/
   /*position: absolute;*/
   min-width: 50px;
   /*top: 8px;*/
@@ -452,7 +455,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
 .art-headline a:visited, 
 .art-headline a:hover
 {
-font-size: 48px;
+font-size: 36px;
 font-family: Alike, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 font-weight: normal;
 font-style: normal;
@@ -464,15 +467,24 @@ text-shadow: 3px 3px 2px rgba(245, 245, 245, 0.5);
   color: #000000 !important;
   white-space: nowrap;
 }
+@media screen and (min-width: 690px) {
+  .art-headline, 
+  .art-headline a, 
+  .art-headline a:link, 
+  .art-headline a:visited, 
+  .art-headline a:hover {
+    font-size: 48px;
+  }
+}
 .art-slogan
 {
-  display: inline-block;
+  /*display: inline-block;*/
   /*position: absolute;*/
   min-width: 50px;
   /*top: 73px;
   left: 84.57%;*/
   line-height: 100%;
-  /*margin-left: -479px !important;*/
+  margin: 0 auto !important;
   /*-webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -488,7 +500,7 @@ text-shadow: 3px 3px 2px rgba(245, 245, 245, 0.5);
 .art-slogan a:visited, 
 .art-slogan a:hover
 {
-  font-size: 16px;
+  font-size: 12px;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
   font-weight: bold;
   font-style: italic;
@@ -497,12 +509,19 @@ text-shadow: 3px 3px 2px rgba(245, 245, 245, 0.5);
   padding: 0;
   margin: 0;
   color: #000000 !important;
-  text-shadow: 1.5px 1.5px 2px rgba(245, 245, 245, 0.5);}
+  text-shadow: 1.5px 1.5px 2px rgba(245, 245, 245, 0.5);
+  width: 100%;
+}
 
-
-
-
-
+@media screen and (min-width: 690px) {
+  .art-slogan, 
+  .art-slogan a, 
+  .art-slogan a:link, 
+  .art-slogan a:visited, 
+  .art-slogan a:hover {
+    font-size: 16px;
+  }
+}
 
 #art-header-bg
 {
@@ -4859,4 +4878,10 @@ div.feed-icon img {
 
 .responsive-nav-toggle {
   display: none;
+}
+
+.header-inner {
+  margin: 0 auto;
+  display: table;
+  text-align: center;
 }

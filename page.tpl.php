@@ -17,6 +17,7 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
 	</div>
 	<div class="art-sheet clearfix">
 		<header class="art-header clearfix">
+			<div class="header-inner">
 <?php if (!empty($art_header)) { echo render($art_header); } ?>
 			<div class="art-shapes">
 				<img src="<?php echo path_to_theme('mhcc_2', 'mhcc_2'); ?>/images/object1769127921.png" />
@@ -44,6 +45,7 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
 		</h2>
 <?php endif; ?>
 </div>
+		</div>
 	</header>
 	<button class="responsive-nav-toggle"> ≡ Menu </button>
 <?php if (!empty($navigation) || !empty($extra1) || !empty($extra2)): ?>
