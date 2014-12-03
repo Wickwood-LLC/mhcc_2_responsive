@@ -631,7 +631,7 @@ ul.art-hmenu, ul.art-hmenu ul
 
 ul.art-hmenu 
 {
-   display: inline-block;
+   display: none;
    vertical-align: bottom;
 }
 
@@ -664,8 +664,34 @@ ul.art-hmenu
 {
    margin:0 auto;
 }
+
+.responsive-nav-toggle {
+  background: #4383A3;
+  border: 0px;
+  border-radius: 3px;
+  color: #CCEAF5;
+  cursor: pointer;
+  display: table;
+  font-size: x-large;
+  margin: 4% auto;  
+  padding: 2%;
+}
+
 ul.art-hmenu>li {
    margin-left: 5px;
+   float: none;
+}
+@media screen and (min-width: 678px) {
+  ul.art-hmenu>li {
+     float: left;
+  }
+  ul.art-hmenu {
+     display: table !important;
+     margin: 0 auto;
+  }
+  .responsive-nav-toggle {
+    display: none;
+  }
 }
 ul.art-hmenu>li:first-child {
    margin-left: 5px;
@@ -4874,10 +4900,6 @@ div.forum-post-links ul.links.inline li {
 
 div.feed-icon img {
   border-style: none;
-}
-
-.responsive-nav-toggle {
-  display: none;
 }
 
 .header-inner {

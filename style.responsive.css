@@ -216,17 +216,16 @@
 }
 
 /* full width hmenu, instead of inline-block */
-.responsive ul.art-hmenu 
+/*.responsive ul.art-hmenu 
 {
-   display: none;
    float: none;
    text-align: center;
-}
+}*/
 
 /* elements on different lines */
 .responsive .responsive-nav ul.art-hmenu li
 {
-   float: none;
+   /*float: none;*/
 }
   
 /* horizontal margins */
@@ -417,15 +416,4 @@ div.views-slideshow-cycle-main-frame-row-item {
 
 .responsive .site-title-and-slogan {
   float: none;
-}
-.responsive .responsive-nav-toggle {
-  background: #4383A3;
-  border: 0px;
-  border-radius: 3px;
-  color: #CCEAF5;
-  cursor: pointer;
-  display: table;
-  font-size: x-large;
-  margin: 4% auto;  
-  padding: 2%;
 }
