@@ -23,14 +23,14 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
 <?php if (!empty($site_name)) : ?>
 <?php if (!$title) : ?>
 			<h1 class="art-headline" data-left="85.39%">
-			<a href="&lt;?php echo check_url($front_page); ?&gt;" title="&lt;?php echo $site_name; ?&gt;">
-<?php echo $site_name;  ?>
-			</a>
-		</h1>
+				<a href="<?php echo $GLOBALS['base_url']; ?>" title="<?php echo $site_name; ?>;">
+					<?php echo $site_name;  ?>
+				</a>
+			</h1>
 <?php else : ?>
 		<div class="art-headline">
-			<a href="&lt;?php echo check_url($front_page); ?&gt;" title="&lt;?php echo $site_name; ?&gt;">
-<?php echo $site_name;  ?>
+			<a href="<?php echo $GLOBALS['base_url']; ?>" title="<?php echo $site_name; ?>">
+				<?php echo $site_name;  ?>
 			</a>
 		</div>
 <?php endif; ?>
