@@ -51,9 +51,9 @@
 .responsive .art-responsive-embed 
 {
    position: relative;
-   padding-bottom: 56.25%;
+   /*padding-bottom: 56.25%;*/
    /* 16:9 */
-	height: 0;
+	 height: 0;
 }
 
 .responsive .art-responsive-embed iframe,
