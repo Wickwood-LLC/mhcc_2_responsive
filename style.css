@@ -4886,6 +4886,12 @@ div.feed-icon img {
   text-align: center;
 }
 
+.region-top,
+.region-bottom {
+  display: table;
+  width: 100%;
+}
+
 .region-top > *,
 .region-bottom > * {
   float: left;
@@ -4897,4 +4903,9 @@ div.feed-icon img {
     float: none;
     width: 100%;
   }
+}
+
+.adslist {
+  display: table;
+  margin: 0 auto;
 }
