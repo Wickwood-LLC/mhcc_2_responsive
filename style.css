@@ -400,13 +400,21 @@ li p, .art-postcontent li p, .art-blockcontent li p
 {
    /*position: absolute;*/
    display: block;
-   float: left;
+   float: none;
    top: 0;
    right: 0;
    bottom: 0;
    left: 0;
    overflow: hidden;
    z-index: 0;
+}
+.art-shapes img {
+  width: auto;
+}
+@media screen and (min-width: 521px) {
+  .art-shapes {
+    float: left;
+  }
 }
 
 .art-slider-inner {
