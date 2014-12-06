@@ -3874,7 +3874,7 @@ div.node-calendar-item div.group-right {
   -moz-border-radius:6px;
   border-radius:6px;
   border: 3px solid #9cc3d7;
-  margin-left: -8px;
+  /*margin-left: -8px;*/
   overflow: auto;
 }
 
