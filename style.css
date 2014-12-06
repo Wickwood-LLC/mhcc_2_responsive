@@ -4000,7 +4000,7 @@ div.view-display-id-page_3 div.views-row {
 div.region.region-top1 div.art-block,
 div.region.region-top2 div.art-block,
 div.region.region-top3 div.art-block {
-  height: 255px !important;
+  height: 255px;
   overflow: auto;
 }
 
@@ -4926,6 +4926,12 @@ div.feed-icon img {
   .region-bottom > * {
     float: none;
     width: 100%;
+  }
+
+  div.region.region-top1 div.art-block,
+  div.region.region-top2 div.art-block,
+  div.region.region-top3 div.art-block {
+    height: auto;
   }
 }
 
