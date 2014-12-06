@@ -3863,8 +3863,8 @@ div.user-profile.view-mode-mhcc_ride_event div.field.field-name-ds-user-picture.
 
 div.node-ride-event div.field-name-field-ride-leader,
 div.node-ride-event div.field-name-field-starting-location,
-div.node-calendar-item div.field-name-field-event-type,
-div.node-calendar-item div.field-name-field-event-location {
+div.node-calendar-item div.group-left,
+div.node-calendar-item div.group-right {
   background: #CCE0EA;
   padding: 5px;
   -webkit-background-origin: border !important;
