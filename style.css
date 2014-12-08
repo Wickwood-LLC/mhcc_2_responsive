@@ -3763,18 +3763,6 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
 
 /* Styling for the ds_2col_fluid-stacked template. */
 
-.art-article > .group-left {
-  float: left; /* LTR */
-  width: 45%;
-  margin-left: 2.5%;
-}
-
-.art-article > .group-right {
-  float: right; /* LTR */
-  width: 45%;
-  margin-right: 2.5%;
-}
-
 .art-article.group-one-column > .group-left,
 .art-article.group-one-column > .group-right {
   width: 100%;
@@ -3788,22 +3776,24 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
   margin-bottom: 1em;
 }
 
-.art-article > .group-left {
-  float: left; /* LTR */
-  width: 45%;
-  margin-left: 2.5%;
-}
-
+.art-article > .group-left,
 .art-article > .group-right {
-  float: right; /* LTR */
-  width: 45%;
-  margin-right: 2.5%;
-}
-
-.art-article.group-one-column > .group-left,
-.art-article.group-one-column > .group-right {
-  width: 100%;
   float: none;
+  margin-top: 0 auto;
+  margin-bottom: 2.5%;
+}
+@media screen and (min-width: 680px) {
+  .art-article > .group-left {
+    float: left; /* LTR */
+    width: 45%;
+    margin-left: 2.5%;
+  }
+
+  .art-article > .group-right {
+    float: right; /* LTR */
+    width: 45%;
+    margin-right: 2.5%;
+  }
 }
 
 .art-article > .group-footer {
@@ -4940,6 +4930,11 @@ div.feed-icon img {
   div.region.region-top2 div.art-block,
   div.region.region-top3 div.art-block {
     height: auto;
+  }
+
+  div.region.region-top1 div.art-blockcontent,
+  div.region.region-top2 div.art-blockcontent {
+    min-height: 0px;
   }
 }
 
