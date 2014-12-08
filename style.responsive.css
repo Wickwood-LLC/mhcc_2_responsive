@@ -278,7 +278,7 @@
    right: auto !important;
    top: auto !important;
    bottom: auto !important;
-   display: none !important;
+   display: none;
    position: relative !important;
    visibility: visible !important;
 }
