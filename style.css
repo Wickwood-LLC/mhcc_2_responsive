@@ -3786,13 +3786,13 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
   .art-article > .group-left {
     float: left; /* LTR */
     width: 45%;
-    margin-left: 2.5%;
+    margin: 0 2.5%;
   }
 
   .art-article > .group-right {
     float: right; /* LTR */
     width: 45%;
-    margin-right: 2.5%;
+    margin: 0 2.5%;
   }
 }
 
@@ -3828,6 +3828,7 @@ div.group-header div.field-name-field-canceled {
   position: absolute;
   top: 200px;
   left: 200px;
+  z-index: 1;
 }
 
 div.group-left div.field-name-field-canceled {
@@ -3866,6 +3867,7 @@ div.node-calendar-item div.group-right {
   border: 3px solid #9cc3d7;
   /*margin-left: -8px;*/
   overflow: auto;
+  box-sizing: border-box;
 }
 
 div.node-ride-event div.node-starting-location.view-mode-mhcc_ride_event {
