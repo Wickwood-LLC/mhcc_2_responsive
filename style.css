@@ -555,6 +555,7 @@ text-shadow: 3px 3px 2px rgba(245, 245, 245, 0.5);
 
 .art-header
 {
+  display: table;
    margin: 10px auto 0;
    height: 110px;
    /*background-image: url('images/object1769127921.png'), url('images/header.png');*/
@@ -682,6 +683,23 @@ ul.art-hmenu
   font-size: x-large;
   margin: 4% auto;  
   padding: 2%;
+}
+.mobile-nav ul.art-hmenu ul {
+   left: auto !important;
+   right: auto !important;
+   top: auto !important;
+   bottom: auto !important;
+   display: none;
+   position: relative !important;
+   visibility: visible !important;
+}
+.mobile-nav ul.art-hmenu li {
+  text-align: center;
+}
+.mobile-nav ul.art-hmenu li a {
+  color: white;
+  display: inline-table;
+  text-align: center !important;
 }
 
 ul.art-hmenu>li {
@@ -4086,6 +4104,8 @@ div.views-field-field-feature-image img {
 
 #widget_pager_bottom_front_page_slideshow-block img {
   margin: 0;
+  width: 100%;
+  height: auto;
 }
 
 div.views-slideshow-cycle-main-frame-row-item {
