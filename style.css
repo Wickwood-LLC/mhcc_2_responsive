@@ -593,6 +593,7 @@ ul.art-hmenu a, ul.art-hmenu a:link, ul.art-hmenu a:visited, ul.art-hmenu a:hove
    outline: none;
    position: relative;
    z-index: 11;
+   border: 1px solid transparent;
 }
 
 ul.art-hmenu, ul.art-hmenu ul
