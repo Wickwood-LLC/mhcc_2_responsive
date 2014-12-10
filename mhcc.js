@@ -7,7 +7,8 @@
 		});
 
 		//After loading and resizing events..
-		$(window).on('resize load',function(){
+		$(window).off("resize load");
+		$(window).on("resize load",function(){
 			//Check if the window width is less than the specified value
 			if ($(window).width() < 678) {
 				//Make sure this element doesn't already exist
@@ -24,9 +25,11 @@
 				$('.menu-has-child').remove();
 			}
 
-			$('.menu-has-child').click(function(){
-				$(this).siblings('.menu').slideToggle();
-			});
+			$(".menu-has-child").off("click");
+			$(".menu-has-child").on("click", function(){
+		            $(this).siblings('.menu').slideToggle();
+		        }
+		    );
 		});
 
     }
