@@ -333,7 +333,6 @@ body
 {
    padding: 0;
    margin:0;
-   min-width: 1020px;
    color: #152933;
 }
 
@@ -550,7 +549,7 @@ text-shadow: 3px 3px 2px rgba(245, 245, 245, 0.5);
    margin:0 auto;
    position:relative;
    cursor:auto;
-   width: 1020px;
+   max-width: 1020px;
    z-index: auto !important;
 }
 
