@@ -413,6 +413,13 @@ li p, .art-postcontent li p, .art-blockcontent li p
 @media screen and (min-width: 521px) {
   .art-shapes {
     float: left;
+    width: 20%;
+  }
+  .art-shapes img {
+    width: 100%;
+  }
+  .site-title-and-slogan {
+    width: 80%;
   }
 }
 
