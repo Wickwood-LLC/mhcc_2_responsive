@@ -311,10 +311,10 @@ jQuery(window).bind("resize", (function ($) {
     };
 })(jQuery));
 
-jQuery(function($) {
-    "use strict";
-    $('nav.art-nav').addClass("desktop-nav");
-});
+// jQuery(function($) {
+//     "use strict";
+//     $('nav.art-nav').addClass("desktop-nav");
+// });
 
 
 jQuery(function ($) {
