@@ -4625,7 +4625,6 @@ div.region.region-banner2 div.block {
 	-moz-border-radius:6px;
 	border-radius:6px;
 	background: #FFF url(images/notice-arrow.png) no-repeat;
-  background-size: 184px 100%;
 	margin: 5px auto;
 	-webkit-box-shadow: 0 2px 8px rgba(0,0,0,.5);
 	-moz-box-shadow: 0 2px 8px rgba(0,0,0,.5);
@@ -4636,7 +4635,7 @@ div.region.region-banner2 div.block {
   width: 98%;
 }
 div.region.region-banner2 div.block .content {
-  display: -webkit-box;
+/*  display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -4664,19 +4663,22 @@ div.region.region-banner2 div.block .content {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 45px;
+  min-height: 45px;*/
 }
 
 div.region.region-banner2 h3 {
   display: inline-block;
-  /*position: absolute;*/
+  /*position: absolute;
   top: 9px;
-  left: 45px;
+  left: 45px;*/
   font-size: 1.5em;
   color: white;
   text-align: center;
+  vertical-align: middle;
+  line-height: 45px;
+  width: 184px;
 
-  -webkit-box-ordinal-group: 1;
+  /*-webkit-box-ordinal-group: 1;
   -moz-box-ordinal-group: 1;
   -webkit-order: 0;
   -ms-flex-order: 0;
@@ -4688,7 +4690,7 @@ div.region.region-banner2 h3 {
   flex: 0 0 190px;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
-  align-self: auto;
+  align-self: auto;*/
 }
 
 div.region.region-banner2 div.views-row {
@@ -4715,6 +4717,8 @@ div.region.region-banner2 div.views-row {
 
 div.region.region-banner2 div.views-field {
   display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
 }
 
 div.region.region-banner2 h3 a {
