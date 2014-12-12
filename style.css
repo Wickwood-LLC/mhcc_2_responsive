@@ -3231,6 +3231,19 @@ fieldset, fieldset legend
 	display: block;
 }
 
+#user-register-form .form-item-field-mailing-address-und-0-administrative-area,
+#user-register-form .form-item-field-mailing-address-und-0-administrative-area select.form-select {
+  width: 100%;
+}
+@media all and (max-width: 599px){
+  #user-register-form .group-left,
+  #user-register-form .group-right {
+    float: none;
+    width: 100%;
+  }
+}
+
+
 .breadcrumb
 {
 	display: block;
