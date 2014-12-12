@@ -39,6 +39,6 @@ stylesheets[all][]= style.responsive.css
 stylesheets[undefined][]= favicon.ico
 
 scripts[]= script.js
-scripts[]= script.responsive.js
+;scripts[]= script.responsive.js
 scripts[]= mhcc.js
 
