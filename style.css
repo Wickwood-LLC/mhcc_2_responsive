@@ -684,6 +684,7 @@ ul.art-hmenu
   cursor: pointer;
   display: table;
   font-size: x-large;
+  font-weight: bold;
   margin: 15px 2% 0;
   padding: 2%;
   background: #7FCAE6;
@@ -731,7 +732,12 @@ ul.art-hmenu
   color: black;
   display: inline-table;
   text-align: center !important;
+  text-shadow: 0 0 0;
   white-space: normal;
+}
+.mobile-nav ul.art-hmenu li a:hover {
+  color: red;
+  text-decoration: underline;
 }
 
 ul.art-hmenu>li {
