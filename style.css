@@ -3243,7 +3243,9 @@ fieldset, fieldset legend
 }
 @media all and (max-width: 599px){
   #user-register-form .group-left,
-  #user-register-form .group-right {
+  #user-register-form .group-right,
+  .panel-2col-bricks .panel-col-first,
+  .panel-2col-bricks .panel-col-last {
     float: none;
     width: 100%;
   }
