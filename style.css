@@ -2,6 +2,7 @@
 	http://dev.1.mohawkhudsoncyclingclub.org/sites/dev.1.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mnwb7l
 	http://dev.2.mohawkhudsoncyclingclub.org/sites/dev.2.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mpc31s
 	http://a.dev.mohawkhudsoncyclingclub.org/sites/a.dev.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?mpwf0h
+	http://tmp.1.dev.mohawkhudsoncyclingclub.org/sites/tmp.dev.1.mohawkhudsoncyclingclub.org/themes/mhcc_2/style.css?obnaj1
 */
 
 /* Created by Artisteer v4.1.0.59782 */
@@ -4449,7 +4450,8 @@ div.field-name-field-refreshment-stops.field-label-inline .field-label {
   display: none;
 }
 
-.page-user div.field-name-field-public-email p {
+.page-user div.field-name-field-public-email p,
+.page-user div.field-name-field-private-email p {
   margin: 0;
 }
 
