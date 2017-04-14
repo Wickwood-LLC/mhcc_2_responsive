@@ -4156,12 +4156,6 @@ div.views-field-field-feature-image img {
   margin: 0;
 }
 
-#widget_pager_bottom_front_page_slideshow-block img {
-  margin: 0;
-  width: 100%;
-  height: auto;
-}
-
 div.views-slideshow-cycle-main-frame-row-item {
   position: absolute;
 }
@@ -5086,3 +5080,21 @@ div.feed-icon img {
   display: table;
   margin: 0 auto;
 }
+
+.view-id-front_page_slideshow .views-slideshow-pager-fields img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  margin-bottom: 8.5px;
+}
+
+.view-id-front_page_slideshow .views-slideshow-pager-fields div {
+  display: block;
+}
+
+.view-id-front_page_slideshow .views-slideshow-pager-fields .active img {
+  border: 2px solid #9cc3d7;
+}
+
