@@ -25,7 +25,7 @@ switch (get_drupal_major_version()) {
 
 /* Common methods */
 
-function get_drupal_major_version() {	
+function get_drupal_major_version() {
 	$tok = strtok(VERSION, '.');
 	//return first part of version number
 	return (int)$tok[0];
@@ -37,7 +37,7 @@ function get_page_language($language) {
 }
 
 function get_page_direction($language) {
-  if (isset($language) && isset($language->dir)) { 
+  if (isset($language) && isset($language->dir)) {
 	  return 'dir="'.$language->dir.'"';
   }
   return 'dir="'.ltr.'"';
@@ -64,7 +64,7 @@ if (!function_exists('render'))	{
 }
 
 class artx_view_drupal56 {
-	
+
 	function print_head($vars) {
 		foreach (array_keys($vars) as $name)
 			$$name = & $vars[$name];
@@ -89,9 +89,9 @@ class artx_view_drupal56 {
 
 <!--[if lte IE 7]><link rel="stylesheet" href="<?php echo base_path() . $directory; ?>/style.ie7.css" media="screen" /><![endif]-->
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Alike&amp;subset=latin">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alike&amp;subset=latin">
 
-  
+
 </head>
 
 <body <?php if (!empty($body_classes)) { echo 'class="'.$body_classes.'"'; } ?>>
@@ -115,7 +115,7 @@ class artx_view_drupal56 {
 <html lang="<?php echo get_page_language($language); ?>" <?php echo get_page_direction($language); ?> >
 <head>
   <?php echo $head; ?>
-  <title><?php if (isset($head_title )) { echo $head_title; } ?></title>  
+  <title><?php if (isset($head_title )) { echo $head_title; } ?></title>
   <?php echo $styles ?>
   <?php echo $scripts ?>
   <!-- Created by Artisteer v4.1.0.59782 -->
@@ -126,7 +126,7 @@ class artx_view_drupal56 {
 
 <!--[if lte IE 7]><link rel="stylesheet" href="<?php echo base_path() . $directory; ?>/style.ie7.css" media="screen" /><![endif]-->
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Alike&amp;subset=latin">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alike&amp;subset=latin">
 
 
 </head>
@@ -134,7 +134,7 @@ class artx_view_drupal56 {
 <body <?php if (!empty($body_classes)) { echo 'class="'.$body_classes.'"'; } ?>>
 <?php
 	}
-	
+
 	function print_comment($vars) {
 		foreach (array_keys($vars) as $name)
 		$$name = & $vars[$name];
@@ -200,7 +200,7 @@ class artx_view_drupal7 {
 	function print_head($vars) {
 		print render($vars['page']['header']);
 	}
-	
+
 	function print_closure($vars) {
 		return;
 	}
@@ -224,14 +224,14 @@ class artx_view_drupal7 {
 
 <!--[if lte IE 7]><link rel="stylesheet" href="<?php echo base_path() . $directory; ?>/style.ie7.css" media="screen" /><![endif]-->
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Alike&amp;subset=latin">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alike&amp;subset=latin">
 
 
 </head>
 <body class="<?php print $classes; ?>">
 <?php
 	}
-	
+
 	function print_comment($vars) {
 		foreach (array_keys($vars) as $name)
 			$$name = & $vars[$name];
@@ -315,4 +315,3 @@ class artx_view_drupal7 {
 		return '';
 	}
 }
-

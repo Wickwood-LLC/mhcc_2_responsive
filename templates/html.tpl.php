@@ -15,7 +15,7 @@
 
 <!--[if lte IE 7]><link rel="stylesheet" href="<?php echo base_path() . $directory; ?>/style.ie7.css" media="screen" /><![endif]-->
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Alike&amp;subset=latin">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alike&amp;subset=latin">
 
 
 </head>
