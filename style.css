@@ -5098,15 +5098,6 @@ div.feed-icon img {
   border: 2px solid #9cc3d7;
 }
 
-.page-about-mhcc-rides-starting-locations .views-submit-button {
-  display: inline-block;
-}
-.page-about-mhcc-rides-starting-locations .views-submit-button .form-submit {
-  float: left !important;
-}
-.page-about-mhcc-rides-starting-locations .views-submit-button .ajax-progress {
-  float: left;
-}
-.page-about-mhcc-rides-starting-locations .views-reset-button {
-  float: right;
+.views-exposed-widget .form-submit.active:hover{
+  margin-top: 1.6em;
 }
