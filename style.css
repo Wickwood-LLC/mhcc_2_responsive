@@ -5102,7 +5102,7 @@ div.feed-icon img {
   display: inline-block;
 }
 .page-about-mhcc-rides-starting-locations .views-submit-button .form-submit {
-  float: left;
+  float: left !important;
 }
 .page-about-mhcc-rides-starting-locations .views-submit-button .ajax-progress {
   float: left;
