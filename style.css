@@ -4823,7 +4823,7 @@ div.region.region-banner2 div.block {
     -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, .5);
     -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, .5);
     box-shadow: 0 2px 8px rgba(0, 0, 0, .5);
-    min-height: 45px;
+    min-height: 47px;
     position: relative;
     overflow: hidden;
     width: 98%;
@@ -4870,7 +4870,7 @@ div.region.region-banner2 h3 {
     color: white;
     text-align: center;
     vertical-align: middle;
-    line-height: 45px;
+    line-height: 47px;
     width: 184px;
 
     /*-webkit-box-ordinal-group: 1;
