@@ -4891,7 +4891,6 @@ div.region.region-banner2 h3 {
 div.region.region-banner2 div.views-row {
     display: inline-block;
     top: 12px;
-    /*position: absolute;*/
     left: 190px;
     font-size: 1.20em;
     font-variant: normal;
@@ -4903,7 +4902,6 @@ div.region.region-banner2 div.views-row {
 .page-calendar div.region.region-banner2 div.views-row {
     display: inline-block;
     top: 2px;
-    position: absolute;
     left: 190px;
     font-size: 1.20em;
     font-variant: normal;
