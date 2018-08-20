@@ -4889,12 +4889,11 @@ div.region.region-banner2 h3 {
   align-self: auto;*/
 }
 
-div.region.region-banner2 div.views-row {
-    display: inline-block;
-    top: 12px;
-    left: 190px;
+.notice-block {
+    display: inline;
+    vertical-align: middle;
+    padding: 5px;
     font-size: 1.20em;
-    font-variant: normal;
     overflow: hidden;
 }
 
@@ -4907,12 +4906,6 @@ div.region.region-banner2 div.views-row {
     font-size: 1.20em;
     font-variant: normal;
     overflow: hidden;
-}
-
-div.region.region-banner2 div.views-field {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 5px;
 }
 
 div.region.region-banner2 h3 a {
