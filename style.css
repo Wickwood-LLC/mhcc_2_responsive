@@ -835,12 +835,10 @@ ul.art-hmenu {
 ul.art-hmenu>li {
     margin-left: 5px;
     float: none;
+    display: inline-block;
 }
 
 @media screen and (min-width: 692px) {
-    ul.art-hmenu>li {
-        float: left;
-    }
     ul.art-hmenu {
         display: table !important;
         margin: 0 auto;
