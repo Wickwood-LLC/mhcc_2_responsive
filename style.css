@@ -4879,7 +4879,7 @@ div.region.region-banner2 div.block {
     width: 98%;
     background-size: auto;
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 678px) {
         background-size: 184px 100%;
     }
 }
@@ -4890,7 +4890,7 @@ div.region.region-banner2 div.block .content {
     align-items: center;
     min-height: 45px;
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 678px) {
         display: flex;
     }
 }
