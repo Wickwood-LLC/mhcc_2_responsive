@@ -89,6 +89,7 @@ li {
 }
 
 
+
 /* Reset buttons border. It's important for input and button tags. 
  * border-collapse should be separate for shadow in IE. 
  */
@@ -1370,6 +1371,7 @@ ul.art-hmenu>li.ext>.ext-off {
     display: table-cell;
     vertical-align: top;
 }
+
 
 
 /* need only for content layout in post content */
@@ -2684,6 +2686,7 @@ blockquote a:hover,
 }
 
 
+
 /* Override native 'p' margins*/
 
 blockquote p,
@@ -3142,6 +3145,7 @@ blockquote p,
 }
 
 
+
 /* Begin Additional CSS Styles */
 
 
@@ -3241,6 +3245,7 @@ fieldset {
     -moz-border-radius: 10px;
     border-radius: 10px;
 }
+
 
 
 /* Fix fieldset for IE8 and FFox */
@@ -3381,6 +3386,7 @@ tr.odd {
 }
 
 
+
 /* BEGIN Image Attach module fix */
 
 img.image {
@@ -3392,6 +3398,7 @@ img.image {
 }
 
 
+
 /* END Image Attach module fix */
 
 
@@ -3400,6 +3407,7 @@ img.image {
 img.imagefield {
     margin: 0;
 }
+
 
 
 /* END ImageField module fix */
@@ -3414,6 +3422,7 @@ img.imagefield {
 }
 
 
+
 /* END Support User picture */
 
 
@@ -3424,6 +3433,7 @@ img.imagefield {
 }
 
 
+
 /* END Support Nodeblock module */
 
 
@@ -3432,6 +3442,7 @@ img.imagefield {
 .panel-col-last {
     clear: right;
 }
+
 
 
 /* END Support floating panels in IE8 */
@@ -3456,14 +3467,14 @@ img.imagefield {
 }
 
 
+
 /* END Support FCKEditor text alignment */
 
 
 /* BEGIN Set background color for sticky table */
 
-table.sticky-header {
-    
-}
+table.sticky-header {}
+
 
 
 /* END Set background color for sticky table */
@@ -3476,6 +3487,7 @@ input.form-checkbox {
     margin: 0 0 2px;
     vertical-align: baseline;
 }
+
 
 
 /* END Set alignment for radio buttons*/
@@ -3493,6 +3505,7 @@ h2.with-tabs {
 }
 
 
+
 /* END Move bradcrumb from separate post */
 
 
@@ -3501,6 +3514,7 @@ h2.with-tabs {
 span.art-button-wrapper {
     margin: 0 5px 0 0;
 }
+
 
 
 /* END Increasing distance between buttons */
@@ -3521,6 +3535,7 @@ span.art-button-wrapper {
 }
 
 
+
 /* END Page validation fix */
 
 
@@ -3529,6 +3544,7 @@ span.art-button-wrapper {
 #switch_oFCK_1 {
     display: block !important;
 }
+
 
 
 /* END FckEditor bug with link disappearing fixed */
@@ -3558,6 +3574,7 @@ form.confirmation input[type="submit"] {
 }
 
 
+
 /* BEGIN Taxonomy terms Artisteer styles in Drupal 7 */
 
 .art-tags,
@@ -3579,6 +3596,7 @@ form.confirmation input[type="submit"] {
 }
 
 
+
 /* END Taxonomy terms Artisteer styles in Drupal 7 */
 
 
@@ -3595,6 +3613,7 @@ form.confirmation input[type="submit"] {
     line-height: 30px;
     padding-left: 15px;
 }
+
 
 
 /* END Action links support in Drupal7 */
@@ -3615,6 +3634,7 @@ form.confirmation input[type="submit"] {
 }
 
 
+
 /* END Overlay module support */
 
 
@@ -3623,6 +3643,7 @@ form.confirmation input[type="submit"] {
 #first-time ol {
     list-style-position: outside;
 }
+
 
 
 /* END Front page list view support */
@@ -3639,6 +3660,7 @@ form.confirmation input[type="submit"] {
 #toolbar ul li a {
     float: left;
 }
+
 
 
 /* END Rtl support in Admin menu */
@@ -3661,6 +3683,7 @@ ul.contextual-links li a {
 }
 
 
+
 /* END Contextual links styles support */
 
 
@@ -3669,6 +3692,7 @@ ul.contextual-links li a {
 a.contextual-links-trigger {
     text-indent: 90px !important;
 }
+
 
 
 /* END Rtl support for Contextual links */
@@ -3682,6 +3706,7 @@ a.contextual-links-trigger {
 }
 
 
+
 /* END Superfish support */
 
 .status,
@@ -3693,6 +3718,7 @@ a.contextual-links-trigger {
 .error ul li {
     color: #660000;
 }
+
 
 
 /* Begin Drupal Search style */
@@ -3714,6 +3740,7 @@ a.contextual-links-trigger {
 .art-postcontent .art-search .container-inline label {
     display: none;
 }
+
 
 
 /* End Drupal Search style */
@@ -3739,6 +3766,7 @@ a.contextual-links-trigger {
     margin: 0;
     padding: 0;
 }
+
 
 
 /* Styling for Calendar */
@@ -3794,6 +3822,7 @@ select#edit-field-ride-type-tid {
 }
 
 
+
 /* User Login Styling */
 
 form#user-login .form-item {
@@ -3832,6 +3861,7 @@ form#user-login input.art-button {
 }
 
 
+
 /*  Styling for Workbench information block. */
 
 div.workbench-info-block {
@@ -3850,6 +3880,7 @@ div.workbench-info-block {
     border: 3px solid #fedd9f;
     width: 97%;
 }
+
 
 
 /* Styling of Articles Pages */
@@ -3894,6 +3925,7 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
     line-height: 0;
     margin-left: -11px;
 }
+
 
 
 /* Styling for the ds_2col_fluid-stacked template. */
@@ -3945,6 +3977,7 @@ ul.menu.jquerymenu.jquerymenu-processed li ul li ul li.leaf.open:before {
 div.group-footer div.field-label {
     margin-top: 1em;
 }
+
 
 
 /* Styling for the Ride Events */
@@ -4039,6 +4072,7 @@ div.adr {
 }
 
 
+
 /* Styling for Ride Lists */
 
 div.view-display-id-page_1 h3 {
@@ -4088,6 +4122,7 @@ span.public-phone:after {
 }
 
 
+
 /* Styling for Event Lists */
 
 div.view-display-id-page_3 h3 {
@@ -4111,12 +4146,14 @@ div.view-display-id-page_3 div.views-row {
 
 
 
+
 /* Styling for Article Pages */
 
 .node-type-article div.art-article div.user-picture img {
     float: left;
     margin: .8em 1em .5em;
 }
+
 
 
 /* Styling for Unpublished Nodes */
@@ -4132,6 +4169,7 @@ div.view-display-id-page_3 div.views-row {
     border: 3px solid #fda9a9;
     margin-left: -8px;
 }
+
 
 
 /* Styling of Top and Bottom Blocks */
@@ -4163,6 +4201,7 @@ div.region.region-top2 div.art-blockcontent {
 div.region.region-top3 div.art-blockcontent {
     min-height: 245px;
 }
+
 
 
 
@@ -4208,6 +4247,7 @@ div.region.region-top3 div.art-blockcontent {
     content: '';
     margin-left: 0;
 }
+
 
 
 /* Home Page Feacture Slide Show Styling */
@@ -4303,6 +4343,7 @@ div#slideshow-title h2 a {
 }
 
 
+
 /* Styling for Data Tables */
 
 .art-article table,
@@ -4341,6 +4382,7 @@ th.active img {
     margin: 0 0 0 .5em;
     border-style: none;
 }
+
 
 
 /* Styling for Membership Lists */
@@ -4383,6 +4425,7 @@ td.views-field-field-number-of-bikeabout-copies {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 
 /* Styling for Ride Report Lists */
@@ -4454,6 +4497,7 @@ div.view-mhcc-ride-reports.view-id-mhcc_ride_reports .views-field-field-number-m
 div.view-mhcc-ride-reports.view-id-mhcc_ride_reports .views-field-field-distance {
     width: 12%;
 }
+
 
 
 /* Styling for Ride Report Pages */
@@ -4535,11 +4579,13 @@ div.field-name-field-refreshment-stops.field-label-inline .field-label {
 }
 
 
+
 /* Styling for User Pages */
 
 .page-user div.field-name-ds-user-picture img {
     float: left;
 }
+
 
 
 /* .page-user span.locality:after {
@@ -4554,6 +4600,7 @@ div.field-name-field-refreshment-stops.field-label-inline .field-label {
 .page-user div.field-name-field-private-email p {
     margin: 0;
 }
+
 
 
 /* Styling for User Edit Pages */
@@ -4691,6 +4738,7 @@ form#user-profile-form div#edit-actions--2.form-actions.form-wrapper input {
 }
 
 
+
 /* Styling for Contact Pages */
 
 form.contact-form {
@@ -4750,6 +4798,7 @@ form.contact-form input.form-submit.art-button {
 }
 
 
+
 /* Styling for Social Widgets */
 
 div#block-widgets-s-socialmedia-share-default div.widgets-element-horizontal {
@@ -4759,6 +4808,7 @@ div#block-widgets-s-socialmedia-share-default div.widgets-element-horizontal {
 #widgets-element-socialmedia_socialmedia-twitter-share-button {
     margin-left: 1%;
 }
+
 
 
 /* Styling of Cue Sheets Page */
@@ -4810,6 +4860,7 @@ div#block-widgets-s-socialmedia-share-default div.widgets-element-horizontal {
 }
 
 
+
 /* Style Blocks for Banner 2 Region */
 
 div.region.region-banner2 div.block {
@@ -4826,14 +4877,22 @@ div.region.region-banner2 div.block {
     position: relative;
     overflow: hidden;
     width: 98%;
-    background-size: 184px 100%;
+    background-size: auto;
+
+    @media screen and (min-width: 600px) {
+        background-size: 184px 100%;
+    }
 }
 
 div.region.region-banner2 div.block .content {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  min-height: 45px;
+    display: block;
+    flex-flow: row wrap;
+    align-items: center;
+    min-height: 45px;
+
+    @media screen and (min-width: 600px) {
+        display: flex;
+    }
 }
 
 div.region.region-banner2 h3 {
@@ -4895,6 +4954,7 @@ div.region.region-banner2 a {
 }
 
 
+
 /* Styling for MHCC Starting Locations */
 
 div.node-starting-location.view-mode-full div.field {
@@ -4911,6 +4971,7 @@ div.node-starting-location.view-mode-full div.field-label-inline div.field-label
 div.node-starting-location.view-mode-full div.location {
     margin-top: .35em;
 }
+
 
 
 /* Styling for Attached File Tables */
@@ -4931,6 +4992,7 @@ div.field-name-field-attached-files table td {
 }
 
 
+
 /* Styling for Articles and News */
 
 div.node-article div.user-picture {
@@ -4941,6 +5003,7 @@ div.node-news div.art-postheadericons.art-metadata-icons,
 div.node-article div.art-postheadericons.art-metadata-icons {
     margin-bottom: 1em;
 }
+
 
 
 /* Styling for MHCC Store and Checkout */
@@ -5038,6 +5101,7 @@ fieldset#edit-buttons.checkout-buttons.form-wrapper {
 }
 
 
+
 /* Styling for Classifed Ads */
 
 table.classified-term-list {
@@ -5055,6 +5119,7 @@ div.node-classified div.art-article {
     margin-right: auto;
     margin-left: auto;
 }
+
 
 
 /* Styling for Selecting other Users by Address View */
@@ -5078,6 +5143,7 @@ div.view-list-members-with-matching-address fieldset#edit-select.container-inlin
 }
 
 
+
 /* Styling for Simple Ads Review Page*/
 
 div.field-name-field-ad-image,
@@ -5088,6 +5154,7 @@ div.field-name-field-ad-extra-text {
 div.field-name-field-ad-image img {
     border-style: none;
 }
+
 
 
 /* Styling for SimpleAds Top Block */
@@ -5110,6 +5177,7 @@ div.simplead-container p {
     line-height: normal;
     font-size: .85em;
 }
+
 
 
 /*Styling for Forums */
