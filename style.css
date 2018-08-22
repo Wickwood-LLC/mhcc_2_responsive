@@ -837,7 +837,7 @@ ul.art-hmenu>li {
     float: none;
 }
 
-@media screen and (min-width: 678px) {
+@media screen and (min-width: 692px) {
     ul.art-hmenu>li {
         float: left;
     }
