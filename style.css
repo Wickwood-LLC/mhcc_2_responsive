@@ -838,7 +838,7 @@ ul.art-hmenu>li {
     display: inline-block;
 }
 
-@media screen and (min-width: 692px) {
+@media screen and (min-width: 693px) {
     ul.art-hmenu {
         display: table !important;
         margin: 0 auto;
