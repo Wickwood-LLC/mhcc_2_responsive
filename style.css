@@ -771,7 +771,7 @@ ul.art-hmenu {
     display: table;
     font-size: x-large;
     font-weight: bold;
-    margin: 15px 2% 0;
+    margin: 15px auto 0;
     padding: 2%;
     background: #7FCAE6;
     background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
@@ -784,7 +784,7 @@ ul.art-hmenu {
     -webkit-border-radius: 3px 3px 0 0;
     -moz-border-radius: 3px 3px 0 0;
     border-radius: 6px 6px 0 0;
-    width: 96%;
+    width: 98%;
     border: 7px solid #D7E7EF;
 }
 
@@ -797,12 +797,13 @@ ul.art-hmenu {
 }
 
 .art-nav.mobile-nav {
-    margin: 0 2%;
+    margin: 0 auto;
     padding: 0 7px 7px;
     background: #D7E7EF;
     -webkit-border-radius: 0 0 6px 6px;
     -moz-border-radius: 0 0 6px 6px;
     border-radius: 0 0 6px 6px;
+    width: 98%;
 }
 
 .mobile-nav ul.art-hmenu ul {
