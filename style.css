@@ -3132,28 +3132,28 @@ blockquote p,
 
 .art-content-layout .art-sidebar1 {
     margin: 0 auto;
-    flex: 1 1 200px;
-    min-width: 200px;
     order: -1;
 }
 
 .art-content-layout .art-content {
     margin: 0 auto;
-    flex: 4 1 555px;
-    min-width: 555px;
 }
 
 .art-content-layout .art-sidebar2 {
     margin: 0 auto;
-    flex: 1 1 200px;
-    min-width: 200px;
     order: -1;
 }
 
 @media screen and (min-width: 693px) {
+    .art-content-layout .art-content {
+        flex: 4 1 555px;
+        min-width: 555px;
+    }
     .art-content-layout .art-sidebar1,
     .art-content-layout .art-sidebar2 {
         order: 0;
+        flex: 1 1 200px;
+        min-width: 200px;
     }
 }
 
