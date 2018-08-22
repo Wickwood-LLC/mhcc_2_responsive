@@ -4847,6 +4847,7 @@ div.region.region-banner2 h3 {
     vertical-align: middle;
     line-height: 47px;
     width: 184px;
+    flex: 0 0 184px;
 
     /*-webkit-box-ordinal-group: 1;
   -moz-box-ordinal-group: 1;
@@ -4869,7 +4870,7 @@ div.region.region-banner2 h3 {
     padding: 5px;
     font-size: 1.20em;
     overflow: hidden;
-    flex: 0 0 184px;
+    flex: 1;
 }
 
 .node-type-membership-product-display div.region.region-banner2 div.views-row,
