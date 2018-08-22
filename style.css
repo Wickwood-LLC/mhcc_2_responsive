@@ -3801,7 +3801,7 @@ select#edit-field-ride-type-tid {
 
 form#user-login .form-item {
     margin: 1em auto;
-    width: 40%;
+    width: 50%;
 }
 
 form#user-login label {
@@ -3812,13 +3812,13 @@ form#user-login label {
 }
 
 form#user-login input {
-    width: 100%;
+    width: calc(100% - 135px);
     max-width: 400px;
     float: none;
 }
 
 form#user-login fieldset {
-    width: 80%;
+    width: 50%;
     margin-right: auto;
     margin-left: auto;
 }
