@@ -1364,11 +1364,12 @@ ul.art-hmenu>li.ext>.ext-off {
 }
 
 .art-content-layout-row {
-    display: table-row;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .art-layout-cell {
-    display: table-cell;
+    display: table-block;
     vertical-align: top;
 }
 
@@ -3132,16 +3133,20 @@ blockquote p,
 
 .art-content-layout .art-sidebar1 {
     margin: 0 auto;
-    width: 20%;
+    flex: 1 1 200px;
+    min-width: 200px;
 }
 
 .art-content-layout .art-content {
     margin: 0 auto;
+    flex: 4 1 555px;
+    min-width: 555px;
 }
 
 .art-content-layout .art-sidebar2 {
     margin: 0 auto;
-    width: 20%;
+    flex: 1 1 200px;
+    min-width: 200px;
 }
 
 
