@@ -4878,10 +4878,6 @@ div.region.region-banner2 div.block {
     overflow: hidden;
     width: 98%;
     background-size: auto;
-
-    @media screen and (min-width: 678px) {
-        background-size: 184px 100%;
-    }
 }
 
 div.region.region-banner2 div.block .content {
@@ -4889,8 +4885,14 @@ div.region.region-banner2 div.block .content {
     flex-flow: row wrap;
     align-items: center;
     min-height: 45px;
+}
 
-    @media screen and (min-width: 678px) {
+@media screen and (min-width: 678px) {
+    div.region.region-banner2 div.block {
+        background-size: 184px 100%;
+    }
+
+    div.region.region-banner2 div.block .content {
         display: flex;
     }
 }
