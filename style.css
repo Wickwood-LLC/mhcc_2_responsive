@@ -3146,7 +3146,7 @@ blockquote p,
 
 @media screen and (min-width: 693px) {
     .art-content-layout .art-content {
-        flex: 1 1 474px;
+        flex: 4 1 474px;
         min-width: 474px;
     }
     .art-content-layout .art-sidebar1,
