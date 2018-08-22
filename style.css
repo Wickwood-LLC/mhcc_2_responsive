@@ -847,9 +847,6 @@ ul.art-hmenu>li {
     .responsive-nav-toggle {
         display: none;
     }
-    .art-content-layout .art-sidebar2 {
-        order: 0;
-    }
 }
 
 ul.art-hmenu>li:first-child {
@@ -3137,6 +3134,7 @@ blockquote p,
     margin: 0 auto;
     flex: 1 1 200px;
     min-width: 200px;
+    order: -1;
 }
 
 .art-content-layout .art-content {
@@ -3150,6 +3148,13 @@ blockquote p,
     flex: 1 1 200px;
     min-width: 200px;
     order: -1;
+}
+
+@media screen and (min-width: 693px) {
+    .art-content-layout .art-sidebar1,
+    .art-content-layout .art-sidebar2 {
+        order: 0;
+    }
 }
 
 
