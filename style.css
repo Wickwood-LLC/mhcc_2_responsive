@@ -4885,6 +4885,7 @@ div.region.region-banner2 div.block .content {
     flex-flow: row wrap;
     align-items: center;
     min-height: 45px;
+    padding: 0 0.5em;
 }
 
 @media screen and (min-width: 678px) {
