@@ -2,7 +2,7 @@
 name = mhcc_2
 description = Artisteer-generated theme for the Mohawk-Hudson Cycling Club designed by Wickwood Marketing.
 screenshot = screenshot.png
-version = 1.0
+version = 3.x
 core = 7.x
 engine = phptemplate
 regions[sidebar_left] =  First sidebar
