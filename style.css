@@ -4913,9 +4913,6 @@ div.region.region-banner2 div.block .content {
 
 div.region.region-banner2 h3 {
     display: inline-block;
-    /*position: absolute;
-  top: 9px;
-  left: 45px;*/
     font-size: 1.5em;
     color: white;
     text-align: center;
@@ -4923,24 +4920,11 @@ div.region.region-banner2 h3 {
     line-height: 47px;
     width: 184px;
     flex: 0 0 184px;
-
-    /*-webkit-box-ordinal-group: 1;
-  -moz-box-ordinal-group: 1;
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  -webkit-box-flex: 0;
-  -moz-box-flex: 0;
-  -webkit-flex: 0 0 190px;
-  -ms-flex: 0 0 190px;
-  flex: 0 0 190px;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
-  align-self: auto;*/
 }
 
-.notice-block {
-    display: inline;
+.notice-block,
+div.region.region-banner2 div.views-row {
+    display: inline-block;
     vertical-align: middle;
     padding: 5px;
     font-size: 1.20em;
@@ -4948,7 +4932,7 @@ div.region.region-banner2 h3 {
     flex: 1;
 }
 
-.node-type-membership-product-display div.region.region-banner2 div.views-row,
+/*.node-type-membership-product-display div.region.region-banner2 div.views-row,
 .page-checkout div.region.region-banner2 div.views-row,
 .page-calendar div.region.region-banner2 div.views-row {
     display: inline-block;
@@ -4957,7 +4941,7 @@ div.region.region-banner2 h3 {
     font-size: 1.20em;
     font-variant: normal;
     overflow: hidden;
-}
+}*/
 
 div.region.region-banner2 h3 a {
     color: white;
