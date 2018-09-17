@@ -4906,8 +4906,7 @@ div.region.region-banner2 div.block .content {
         background-size: 184px 100%;
     }
 
-    div.region.region-banner2 div.block .content,
-    div.region.region-banner2 div.block .view-content {
+    div.region.region-banner2 div.block .content {
         display: flex;
     }
 
