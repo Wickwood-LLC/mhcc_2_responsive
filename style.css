@@ -5290,3 +5290,14 @@ div.feed-icon img {
     margin: auto;
     display: table;
 }
+
+.mce-align-left {
+    float: left;
+}
+.mce-align-right {
+    float: right;
+}
+.mce-align-center {
+    display: table;
+    margin: 1em auto;
+}
