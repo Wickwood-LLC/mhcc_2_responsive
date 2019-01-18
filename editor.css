@@ -1,17 +1,5 @@
-body
-{
-    background: #96C8DE url('images/page.png') no-repeat fixed;
-    background: linear-gradient(top, rgba(164, 208, 226, 0.26) 0, rgba(164, 208, 226, 0.26) 420px, rgba(83, 165, 201, 0.15) 1050px) no-repeat, url('images/page.png') no-repeat, linear-gradient(top, #96C8DE 0, #96C8DE 420px, #60ACCD 1050px) no-repeat;
-    background: -webkit-linear-gradient(top, rgba(164, 208, 226, 0.26) 0, rgba(164, 208, 226, 0.26) 420px, rgba(83, 165, 201, 0.15) 1050px) no-repeat, url('images/page.png') no-repeat, -webkit-linear-gradient(top, #96C8DE 0, #96C8DE 420px, #60ACCD 1050px) no-repeat;
-    background: -moz-linear-gradient(top, rgba(164, 208, 226, 0.26) 0, rgba(164, 208, 226, 0.26) 420px, rgba(83, 165, 201, 0.15) 1050px) no-repeat, url('images/page.png') no-repeat, -moz-linear-gradient(top, #96C8DE 0, #96C8DE 420px, #60ACCD 1050px) no-repeat;
-    background: -o-linear-gradient(top, rgba(164, 208, 226, 0.26) 0, rgba(164, 208, 226, 0.26) 420px, rgba(83, 165, 201, 0.15) 1050px) no-repeat, url('images/page.png') no-repeat, -o-linear-gradient(top, #96C8DE 0, #96C8DE 420px, #60ACCD 1050px) no-repeat;
-    background: -ms-linear-gradient(top, rgba(164, 208, 226, 0.26) 0, rgba(164, 208, 226, 0.26) 420px, rgba(83, 165, 201, 0.15) 1050px) no-repeat, url('images/page.png') no-repeat, -ms-linear-gradient(top, #96C8DE 0, #96C8DE 420px, #60ACCD 1050px) no-repeat;
-    background: linear-gradient(top, rgba(164, 208, 226, 0.26) 0, rgba(164, 208, 226, 0.26) 420px, rgba(83, 165, 201, 0.15) 1050px) no-repeat, url('images/page.png') no-repeat, linear-gradient(top, #96C8DE 0, #96C8DE 420px, #60ACCD 1050px) no-repeat;
-    -svg-background: linear-gradient(top, rgba(164, 208, 226, 0.26) 0, rgba(164, 208, 226, 0.26) 420px, rgba(83, 165, 201, 0.15) 1050px) no-repeat, url('images/page.png') no-repeat, linear-gradient(top, #96C8DE 0, #96C8DE 420px, #60ACCD 1050px) no-repeat;
-    background-attachment: fixed, fixed, fixed !important;
+body {
     margin: 0 auto;
-    font-size: 17px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: normal;
     font-style: normal;
     position: relative;
@@ -23,259 +11,289 @@ body
     overflow: hidden;
 }
 
-table
-{
-    font-size: 17px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+table {
     font-weight: normal;
     font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
-{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li {
     margin: 0;
     padding: 0;
 }
 
-body
-{
+body {
     text-align: left;
 }
 
-body, li, table, a, a:link, a:visited, a.visited, a:hover, a.hovered
-{
+body,
+li,
+table,
+a,
+a:link,
+a:visited,
+a.visited,
+a:hover,
+a.hovered {
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     line-height: 175%;
 }
 
-p
-{
+p {
     margin: 13px 0;
 }
 
-h1, h1 a, h1 a:link, h1 a:visited, h1 a:hover, h2, h2 a, h2 a:link, h2 a:visited, h2 a:hover, h3, h3 a, h3 a:link, h3 a:visited, h3 a:hover, h4, h4 a, h4 a:link, h4 a:visited, h4 a:hover, h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover, h6, h6 a, h6 a:link, h6 a:visited, h6 a:hover
-{
-    font-size: 29px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+h1,
+h1 a,
+h1 a:link,
+h1 a:visited,
+h1 a:hover,
+h2,
+h2 a,
+h2 a:link,
+h2 a:visited,
+h2 a:hover,
+h3,
+h3 a,
+h3 a:link,
+h3 a:visited,
+h3 a:hover,
+h4,
+h4 a,
+h4 a:link,
+h4 a:visited,
+h4 a:hover,
+h5,
+h5 a,
+h5 a:link,
+h5 a:visited,
+h5 a:hover,
+h6,
+h6 a,
+h6 a:link,
+h6 a:visited,
+h6 a:hover {
     font-weight: normal;
     font-style: normal;
     line-height: 120%;
 }
 
-a, a:link
-{
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+a,
+a:link {
     text-decoration: underline;
     color: #279AC4;
 }
 
-a:visited, a.visited
-{
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+a:visited,
+a.visited {
     text-decoration: none;
     color: #63A1BF;
 }
 
-a:hover, a.hover
-{
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+a:hover,
+a.hover {
     text-decoration: underline;
     color: #09C1E1;
 }
 
-h1
-{
+h1 {
     color: #48B4DB;
     margin: 10px 0 0;
     font-size: 34px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
-h1 a, h1 a:link, h1 a:hover, h1 a:visited
-{
+h1 a,
+h1 a:link,
+h1 a:hover,
+h1 a:visited {
     font-size: 34px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
-h2
-{
+h2 {
     color: #48B4DB;
     margin: 10px 0 0;
     font-size: 29px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
-h2 a, h2 a:link, h2 a:hover, h2 a:visited
-{
+h2 a,
+h2 a:link,
+h2 a:hover,
+h2 a:visited {
     font-size: 29px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
-h3
-{
+h3 {
     color: #80B2CB;
     margin: 10px 0 0;
     font-size: 26px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
-h3 a, h3 a:link, h3 a:hover, h3 a:visited
-{
+h3 a,
+h3 a:link,
+h3 a:hover,
+h3 a:visited {
     font-size: 26px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
-h4
-{
+h4 {
     color: #152933;
     margin: 10px 0 0;
     font-size: 23px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
-h4 a, h4 a:link, h4 a:hover, h4 a:visited
-{
+h4 a,
+h4 a:link,
+h4 a:hover,
+h4 a:visited {
     font-size: 23px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
-h5
-{
+h5 {
     color: #152933;
     margin: 10px 0 0;
     font-size: 19px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+
 }
 
-h5 a, h5 a:link, h5 a:hover, h5 a:visited
-{
+h5 a,
+h5 a:link,
+h5 a:hover,
+h5 a:visited {
     font-size: 19px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+
 }
 
-h6
-{
+h6 {
     color: #356982;
     margin: 10px 0 0;
     font-size: 17px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+
 }
 
-h6 a, h6 a:link, h6 a:hover, h6 a:visited
-{
+h6 a,
+h6 a:link,
+h6 a:hover,
+h6 a:visited {
     font-size: 17px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+
 }
 
-header, footer, nav
-{
+header,
+footer,
+nav {
     -webkit-background-origin: border !important;
     -moz-background-origin: border !important;
     background-origin: border-box !important;
 }
 
-header, footer, nav
-{
+header,
+footer,
+nav {
     display: block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-ul
-{
+ul {
     list-style-type: none;
 }
 
-ol
-{
+ol {
     list-style-position: inside;
 }
 
-html, body
-{
+html,
+body {
     height: 100%;
 }
 
-body
-{
+body {
     padding: 0;
     margin: 0;
     min-width: 1020px;
     color: #152933;
 }
 
-.clearfix:before, .clearfix:after
-{
+.clearfix:before,
+.clearfix:after {
     width: 100%;
     content: " ";
     display: table;
 }
 
-.clearfix:after
-{
+.clearfix:after {
     clear: both;
 }
 
-form
-{
+form {
     padding: 0 !important;
     margin: 0 !important;
 }
 
-table.position
-{
+table.position {
     position: relative;
     width: 100%;
     table-layout: fixed;
 }
 
-li h1, li h1
-{
+li h1,
+li h1 {
     margin: 1px;
 }
 
-li h2, li h2
-{
+li h2,
+li h2 {
     margin: 1px;
 }
 
-li h3, li h3
-{
+li h3,
+li h3 {
     margin: 1px;
 }
 
-li h4, li h4
-{
+li h4,
+li h4 {
     margin: 1px;
 }
 
-li h5, li h5
-{
+li h5,
+li h5 {
     margin: 1px;
 }
 
-li h6, li h6
-{
+li h6,
+li h6 {
     margin: 1px;
 }
 
-li p, li p
-{
+li p,
+li p {
     margin: 1px;
 }
 
-input, select, textarea
-{
+input,
+select,
+textarea {
     vertical-align: middle;
-    font-size: 17px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: normal;
     font-style: normal;
 }
 
-input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
-{
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+textarea {
     background: #FFFFFF;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -284,79 +302,71 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
     margin: 0 auto;
 }
 
-input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
-{
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+textarea {
     width: 100%;
     padding: 4px 0;
     color: #182F3A !important;
-    font-size: 17px;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: normal;
     font-style: normal;
     text-shadow: none;
 }
 
-a img
-{
+a img {
     border: 0;
 }
 
-body img
-{
+body img {
     margin: 7px 7px 7px 7px;
 }
 
-body table
-{
+body table {
     border-collapse: collapse;
     margin: 1px;
 }
 
-body th, body td
-{
+body th,
+body td {
     padding: 2px;
     vertical-align: top;
     text-align: left;
 }
 
-body th
-{
+body th {
     text-align: center;
     vertical-align: middle;
     padding: 7px;
 }
 
-pre
-{
+pre {
     overflow: auto;
     padding: 0.1em;
 }
 
-.image-caption-wrapper
-{
+.image-caption-wrapper {
     padding: 7px 7px 7px 7px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-.image-caption-wrapper img
-{
+.image-caption-wrapper img {
     margin: 0 !important;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-.image-caption-wrapper p
-{
+.image-caption-wrapper p {
     font-size: 80%;
     text-align: right;
     margin: 0;
 }
 
-ul>li:before
-{
+ul>li:before {
     content: url('images/postbullets.png');
     margin-right: 10px;
     bottom: 2px;
@@ -367,66 +377,56 @@ ul>li:before
     line-height: 0;
 }
 
-.opera  ul>li:before
-{
+.opera ul>li:before {
     bottom: 0;
 }
 
-li
-{
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+li {
     color: #06171E;
     margin: 3px 0 0 11px;
 }
 
-ul>li, ol
-{
+ul>li,
+ol {
     padding: 0;
 }
 
-ul>li
-{
+ul>li {
     padding-left: 17px;
 }
 
-ul>li:before
-{
+ul>li:before {
     margin-left: -17px;
 }
 
-ol, ul
-{
+ol,
+ul {
     margin: 1em 0 1em 11px;
 }
 
-li ol, li ul
-{
+li ol,
+li ul {
     margin: 0.5em 0 0.5em 11px;
 }
 
-li
-{
+li {
     margin: 3px 0 0 0;
 }
 
-ol>li
-{
+ol>li {
     overflow: visible;
 }
 
-ul>li
-{
+ul>li {
     overflow-x: visible;
     overflow-y: hidden;
 }
 
-blockquote
-{
+blockquote {
     background: #CCE0EA url('images/postquote.png') no-repeat scroll;
     padding: 10px 10px 10px 34px;
     margin: 10px 0 0 25px;
     color: #091116;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: normal;
     font-style: italic;
     text-align: left;
@@ -434,23 +434,27 @@ blockquote
     clear: both;
 }
 
-blockquote a, blockquote a, blockquote a:link, blockquote a:link, blockquote a:visited, blockquote a:visited, blockquote a:hover, blockquote a:hover
-{
+blockquote a,
+blockquote a,
+blockquote a:link,
+blockquote a:link,
+blockquote a:visited,
+blockquote a:visited,
+blockquote a:hover,
+blockquote a:hover {
     color: #091116;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: normal;
     font-style: italic;
     text-align: left;
 }
 
-blockquote p, blockquote p
-{
+blockquote p,
+blockquote p {
     margin: 0;
     margin: 5px 0;
 }
 
-.Sorter img
-{
+.Sorter img {
     border: 0;
     vertical-align: middle;
     padding: 0;
@@ -461,50 +465,39 @@ blockquote p, blockquote p
     height: 6px;
 }
 
-.Sorter a
-{
+.Sorter a {
     position: relative;
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     color: #238DB3;
 }
 
-.Sorter a:link
-{
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+.Sorter a:link {
     color: #238DB3;
 }
 
-.Sorter a:visited, .Sorter a.visited
-{
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+.Sorter a:visited,
+.Sorter a.visited {
     color: #238DB3;
 }
 
-.Sorter a:hover, .Sorter a.hover
-{
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+.Sorter a:hover,
+.Sorter a.hover {
     color: #1A6884;
 }
 
-.Sorter
-{
-    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+.Sorter {
     color: #124659;
 }
 
-body
-{
+body {
     overflow: auto !important;
 }
 
-li.cke_panel_listItem
-{
-	padding-left: 0;
+li.cke_panel_listItem {
+    padding-left: 0;
 }
 
-li.cke_panel_listItem:before
-{
-	content: none;
+li.cke_panel_listItem:before {
+    content: none;
 }
 
 .mce-responsive {
