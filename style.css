@@ -5291,13 +5291,13 @@ div.feed-icon img {
     display: table;
 }
 
-.mce-align-left {
+.media-element.mce-align-left {
     float: left;
 }
-.mce-align-right {
+.media-element.mce-align-right {
     float: right;
 }
-.mce-align-center {
+.media-element.mce-align-center {
     display: table;
     margin: 1em auto;
 }
