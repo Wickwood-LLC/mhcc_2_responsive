@@ -506,3 +506,7 @@ li.cke_panel_listItem:before
 {
 	content: none;
 }
+
+.mce-responsive {
+    clear: both;
+}
