@@ -47,7 +47,6 @@ a.visited,
 a:hover,
 a.hovered {
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-    line-height: 175%;
 }
 
 p {
