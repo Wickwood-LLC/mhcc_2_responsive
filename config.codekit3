@@ -55,9 +55,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/editor-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/favicon.ico": {
