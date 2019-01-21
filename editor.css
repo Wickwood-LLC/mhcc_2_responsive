@@ -503,4 +503,5 @@ li.cke_panel_listItem:before {
 
 .mce-responsive {
     clear: both;
+    text-align: center;
 }
