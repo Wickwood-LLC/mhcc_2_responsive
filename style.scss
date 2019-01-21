@@ -5315,6 +5315,11 @@ div.feed-icon img {
         height: 100%;
     }
 }
+img.media-element {
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+}
 
 .media-element-container.mce-responsive {
     margin: auto;
