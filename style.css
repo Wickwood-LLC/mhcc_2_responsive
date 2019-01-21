@@ -4953,4 +4953,12 @@ img.media-element {
 .media-element-container.mce-responsive.media-scale_240x135, .media-element-container.mce-responsive.media-scale_240x180 {
   max-width: 240px;
 }
+
+.field-name-field-attached-files {
+  margin: 0 2.5%;
+}
+
+.field-name-field-attached-files .field-items {
+  margin-left: 1em;
+}
 /*# sourceMappingURL=style.css.map */
