@@ -4923,6 +4923,7 @@ img.media-element {
   max-width: 100%;
   min-width: 0;
   height: auto;
+  box-sizing: border-box;
 }
 
 .media-element-container.mce-responsive {
