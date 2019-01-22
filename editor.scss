@@ -506,26 +506,26 @@ li.cke_panel_listItem:before {
     clear: both;
     text-align: center;
 
-    &.file-scale_640x360,
-    &.file-scale_640x480 {
+    &.file-scale-640x360,
+    &.file-scale-640x480 {
         max-width: 640px;
     }
-    &.file-scale_560x315 {
+    &.file-scale-560x315 {
         max-width: 560px;
     }
-    &.file-scale_480x270,
-    &.file-scale_480x360 {
+    &.file-scale-480x270,
+    &.file-scale-480x360 {
         max-width: 480px;
     }
-    &.file-scale_360x270 {
+    &.file-scale-360x270 {
         max-width: 360px;
     }
-    &.file-scale_320x180,
-    &.file-scale_320x240 {
+    &.file-scale-320x180,
+    &.file-scale-320x240 {
         max-width: 320px;
     }
-    &.file-scale_240x135,
-    &.file-scale_240x180 {
+    &.file-scale-240x135,
+    &.file-scale-240x180 {
         max-width: 240px;
     }
 }
