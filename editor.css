@@ -487,33 +487,33 @@ li.cke_panel_listItem:before {
   content: none;
 }
 
-.media-element-container.mce-responsive {
+.media-element.mce-responsive {
   margin: auto;
   clear: both;
   text-align: center;
 }
 
-.media-element-container.mce-responsive.file-scale_640x360, .media-element-container.mce-responsive.file-scale_640x480 {
+.media-element.mce-responsive.file-scale_640x360, .media-element.mce-responsive.file-scale_640x480 {
   max-width: 640px;
 }
 
-.media-element-container.mce-responsive.file-scale_560x315 {
+.media-element.mce-responsive.file-scale_560x315 {
   max-width: 560px;
 }
 
-.media-element-container.mce-responsive.file-scale_480x270, .media-element-container.mce-responsive.file-scale_480x360 {
+.media-element.mce-responsive.file-scale_480x270, .media-element.mce-responsive.file-scale_480x360 {
   max-width: 480px;
 }
 
-.media-element-container.mce-responsive.file-scale_360x270 {
+.media-element.mce-responsive.file-scale_360x270 {
   max-width: 360px;
 }
 
-.media-element-container.mce-responsive.file-scale_320x180, .media-element-container.mce-responsive.file-scale_320x240 {
+.media-element.mce-responsive.file-scale_320x180, .media-element.mce-responsive.file-scale_320x240 {
   max-width: 320px;
 }
 
-.media-element-container.mce-responsive.file-scale_240x135, .media-element-container.mce-responsive.file-scale_240x180 {
+.media-element.mce-responsive.file-scale_240x135, .media-element.mce-responsive.file-scale_240x180 {
   max-width: 240px;
 }
 /*# sourceMappingURL=editor.css.map */
