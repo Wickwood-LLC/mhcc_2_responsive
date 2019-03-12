@@ -20,7 +20,7 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
                 <div class="header-inner">
                     <?php if (!empty($art_header)) { echo render($art_header); } ?>
                     <div class="art-shapes">
-                        <img src="<?php echo $GLOBALS['base_url'] . '/' . path_to_theme('mhcc_2', 'mhcc_2'); ?>/images/object1769127921.png" />
+                        <img src="<?php echo $GLOBALS['base_url'] . '/' . path_to_theme('mhcc_2', 'mhcc_2'); ?>/images/logo.png" />
                     </div>
                     <div class="site-title-and-slogan">
                         <?php if (!empty($site_name)) : ?>
