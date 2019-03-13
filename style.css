@@ -461,7 +461,7 @@ li p,
 
 @media screen and (min-width: 521px) {
   .art-shapes {
-    float: left;
+    display: inline-block;
     width: 20%;
   }
   .art-shapes img {
@@ -491,7 +491,7 @@ li p,
 }
 
 .site-title-and-slogan {
-  float: left;
+  display: inline-block;
   text-align: center;
 }
 
@@ -517,7 +517,7 @@ li p,
 .art-headline a:visited,
 .art-headline a:hover {
   font-size: 36px;
-  font-family: Alike, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-family: Tahoma, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
@@ -561,7 +561,7 @@ li p,
 .art-slogan a:visited,
 .art-slogan a:hover {
   font-size: 12px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
   font-weight: bold;
   font-style: italic;
   text-decoration: none;
