@@ -493,24 +493,24 @@ li p,
 
 
 .art-shapes {
-    /*position: absolute;*/
-    display: block;
+    display: inline-block;
     float: none;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     overflow: hidden;
+    vertical-align: top;
     z-index: 0;
 }
 
 .art-shapes img {
     width: auto;
+    max-width: 100%;
 }
 
 @media screen and (min-width: 521px) {
     .art-shapes {
-        display: inline-block;
         width: 20%;
     }
     .art-shapes img {
@@ -541,22 +541,13 @@ li p,
 
 .site-title-and-slogan {
     display: inline-block;
-    text-align: center
+    text-align: center;
+    vertical-align: top;
 }
 
 .art-headline {
-    /*display: inline-block;*/
-    /*position: absolute;*/
     min-width: 50px;
-    /*top: 8px;*/
-    /*left: 85.39%;*/
     line-height: 100%;
-    /*margin-left: -572px !important;*/
-    /*  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);*/
     z-index: 101;
 }
 
@@ -588,19 +579,9 @@ li p,
 }
 
 .art-slogan {
-    /*display: inline-block;*/
-    /*position: absolute;*/
     min-width: 50px;
-    /*top: 73px;
-  left: 84.57%;*/
     line-height: 100%;
     margin: 0 auto !important;
-    /*-webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  z-index: 102;*/
     width: 500px;
 }
 
@@ -611,8 +592,6 @@ li p,
 .art-slogan a:hover {
     font-size: 12px;
     font-family: Tahoma, Arial, Helvetica, Sans-Serif;
-    font-weight: bold;
-    font-style: italic;
     text-decoration: none;
     text-align: center;
     padding: 0;
