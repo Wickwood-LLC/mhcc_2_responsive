@@ -596,23 +596,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/style.css.map",
-		"oF": 0
-		},
 	"/style.ie7.css": {
 		"aP": 1,
 		"bl": 0,
@@ -632,19 +615,6 @@
 		"oAP": "/style.responsive-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"/style.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "/style.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
 		},
 	"/template.php": {
 		"cB": 0,
