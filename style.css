@@ -6,6 +6,7 @@
 */
 /* Created by Artisteer v4.1.0.59782 */
 /* Modified by Wickwood Marketing */
+/* Fluid Typography */
 #art-main {
   /* CSS2 browsers */
   background: #87ceeb left bottom repeat-x url("images/mhcc-cyclists-silhouettes.png") fixed;
@@ -524,7 +525,7 @@ li p,
   .art-headline a:link,
   .art-headline a:visited,
   .art-headline a:hover {
-    font-size: calc(36px + strip-unit(12px) * ((100vw - 632px) / strip-unit(388px)));
+    font-size: calc(36px + 12 * ((100vw - 632px) / 388));
   }
 }
 
@@ -576,7 +577,7 @@ li p,
   .art-slogan a:link,
   .art-slogan a:visited,
   .art-slogan a:hover {
-    font-size: calc(12px + strip-unit(4px) * ((100vw - 632px) / strip-unit(388px)));
+    font-size: calc(12px + 4 * ((100vw - 632px) / 388));
   }
 }
 
