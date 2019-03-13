@@ -582,6 +582,7 @@ li p,
 .art-headline a:link,
 .art-headline a:visited,
 .art-headline a:hover {
+    font-size: 36px; // backup size
     @include fluid-type(632px, 1020px, 36px, 48px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     font-family: Tahoma, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: normal;
@@ -592,17 +593,6 @@ li p,
     padding: 0;
     margin: 0;
     color: #000000 !important;
-}
-
-@media screen and (min-width: 690px) {
-
-    .art-headline,
-    .art-headline a,
-    .art-headline a:link,
-    .art-headline a:visited,
-    .art-headline a:hover {
-        font-size: 48px;
-    }
 }
 
 .art-slogan {
@@ -617,6 +607,7 @@ li p,
 .art-slogan a:link,
 .art-slogan a:visited,
 .art-slogan a:hover {
+    font-size: 12px; // backup size
     @include fluid-type(632px, 1020px, 12px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     font-family: Tahoma, Arial, Helvetica, Sans-Serif;
     text-decoration: none;

@@ -508,6 +508,7 @@ li p,
 .art-headline a:link,
 .art-headline a:visited,
 .art-headline a:hover {
+  font-size: 36px;
   font-family: Tahoma, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
   font-weight: normal;
   font-style: normal;
@@ -539,16 +540,6 @@ li p,
   }
 }
 
-@media screen and (min-width: 690px) {
-  .art-headline,
-  .art-headline a,
-  .art-headline a:link,
-  .art-headline a:visited,
-  .art-headline a:hover {
-    font-size: 48px;
-  }
-}
-
 .art-slogan {
   min-width: 50px;
   line-height: 100%;
@@ -561,6 +552,7 @@ li p,
 .art-slogan a:link,
 .art-slogan a:visited,
 .art-slogan a:hover {
+  font-size: 12px;
   font-family: Tahoma, Arial, Helvetica, Sans-Serif;
   text-decoration: none;
   text-align: center;
