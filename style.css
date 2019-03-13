@@ -457,16 +457,13 @@ li p,
 }
 
 .art-shapes img {
-  width: auto;
-  max-width: 100%;
+  width: 100%;
+  max-width: 200px;
 }
 
 @media screen and (min-width: 521px) {
   .art-shapes {
     width: 20%;
-  }
-  .art-shapes img {
-    width: 100%;
   }
   .site-title-and-slogan {
     width: 80%;
