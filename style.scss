@@ -575,7 +575,7 @@ li p,
 .art-headline a:visited,
 .art-headline a:hover {
     font-size: 36px; // backup size
-    @include fluid-type(632px, 1020px, 36px, 48px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(632px, 1020px, 36px, 58px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     font-family: Tahoma, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: normal;
     font-style: normal;
@@ -601,6 +601,7 @@ li p,
 .art-slogan a:hover {
     font-size: 12px; // backup size
     @include fluid-type(632px, 1020px, 12px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    font-weight: bold;
     font-family: Tahoma, Arial, Helvetica, Sans-Serif;
     text-decoration: none;
     text-align: center;
