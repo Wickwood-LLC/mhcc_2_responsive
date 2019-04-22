@@ -207,17 +207,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/logo.png": {
-		"ft": 32768,
-		"iS": 107035,
-		"oA": 0,
-		"oAP": "/images/logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/mhcc-cyclists-silhouettes.png": {
 		"ft": 32768,
 		"iS": 67772,
@@ -634,16 +623,16 @@
 		"oS": 3
 		},
 	"/style.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"/template.php": {
