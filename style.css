@@ -4982,4 +4982,25 @@ img.media-element {
 .field-name-field-attached-files .field-items {
   margin-left: 1em;
 }
+
+#mini-panel-banner_1_mini_panel {
+  display: flex;
+  width: 100%;
+}
+
+#mini-panel-banner_1_mini_panel .panel-panel .inside {
+  margin: 0;
+}
+
+#mini-panel-banner_1_mini_panel .panel-col-first {
+  flex: 1 0 20%;
+}
+
+#mini-panel-banner_1_mini_panel .panel-col {
+  flex: 2 0 40%;
+}
+
+#mini-panel-banner_1_mini_panel .panel-col-last {
+  flex: 2 0 40%;
+}
 /*# sourceMappingURL=style.css.map */

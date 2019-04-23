@@ -5376,3 +5376,22 @@ img.media-element {
         margin-left: 1em;
     }
 }
+
+#mini-panel-banner_1_mini_panel {
+    display: flex;
+    width: 100%;
+
+    .panel-panel .inside {
+        margin: 0;
+    }
+
+    .panel-col-first {
+        flex: 1 0 20%;
+    }
+    .panel-col {
+        flex: 2 0 40%;
+    }
+    .panel-col-last {
+        flex: 2 0 40%;
+    }
+}
