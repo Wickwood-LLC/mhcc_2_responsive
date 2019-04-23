@@ -207,6 +207,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/logo.png": {
+		"ft": 32768,
+		"iS": 99864,
+		"oA": 0,
+		"oAP": "/images/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/mhcc-cyclists-silhouettes.png": {
 		"ft": 32768,
 		"iS": 67772,
