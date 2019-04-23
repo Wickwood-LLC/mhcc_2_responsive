@@ -3633,12 +3633,12 @@ ul > li:before.closed {
   line-height: 175%;
 }
 
-.art-block .view-header {
+.art-block .view .view-header {
   text-align: center;
   font-weight: bold;
 }
 
-.art-block .view-header a {
+.art-block .view .view-header a {
   color: red;
 }
 
