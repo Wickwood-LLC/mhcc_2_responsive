@@ -4824,6 +4824,10 @@ div.simplead-container p {
   font-size: .85em;
 }
 
+.view-simpleads-block {
+  max-width: 375px;
+}
+
 /*Styling for Forums */
 tr.even td.forum-list-icon-default .forum-list-icon-wrapper span,
 tr.odd td.forum-list-icon-default .forum-list-icon-wrapper span,
