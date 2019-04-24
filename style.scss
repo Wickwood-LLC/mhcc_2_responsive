@@ -11,6 +11,8 @@
 
 /* Modified by Wickwood Marketing */
 
+@import "bower_components/breakpoint-sass/stylesheets/breakpoint";
+
 /* Fluid Typography */
 @function strip-unit($value) {
   @return $value / ($value * 0 + 1);
@@ -5379,6 +5381,7 @@ img.media-element {
 
 #mini-panel-banner_1_mini_panel {
     display: flex;
+    flex-flow: row wrap;
     width: 100%;
 
     .art-block {
@@ -5403,13 +5406,13 @@ img.media-element {
     }
 
     .panel-col-first {
-        flex: 1 0 20%;
+        flex: 1 2 20%;
     }
     .panel-col {
-        flex: 2 0 40%;
+        flex: 2 1 40%;
     }
     .panel-col-last {
-        flex: 2 0 40%;
+        flex: 2 1 40%;
 
         .inside > div {
             height: 100%;
@@ -5417,6 +5420,12 @@ img.media-element {
             > div {
                 height: inherit;
             }
+        }
+    }
+
+    @include breakpoint(0px 530px) {
+        .panel-panel {
+            flex: 1 100%;
         }
     }
 }

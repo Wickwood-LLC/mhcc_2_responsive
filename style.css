@@ -4985,6 +4985,7 @@ img.media-element {
 
 #mini-panel-banner_1_mini_panel {
   display: flex;
+  flex-flow: row wrap;
   width: 100%;
 }
 
@@ -5010,15 +5011,15 @@ img.media-element {
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-first {
-  flex: 1 0 20%;
+  flex: 1 2 20%;
 }
 
 #mini-panel-banner_1_mini_panel .panel-col {
-  flex: 2 0 40%;
+  flex: 2 1 40%;
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-last {
-  flex: 2 0 40%;
+  flex: 2 1 40%;
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-last .inside > div {
@@ -5027,5 +5028,11 @@ img.media-element {
 
 #mini-panel-banner_1_mini_panel .panel-col-last .inside > div > div {
   height: inherit;
+}
+
+@media (min-width: 0px) and (max-width: 530px) {
+  #mini-panel-banner_1_mini_panel .panel-panel {
+    flex: 1 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
