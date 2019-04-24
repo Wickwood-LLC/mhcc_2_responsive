@@ -5022,10 +5022,7 @@ img.media-element {
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-last .inside > div {
-  height: calc(100% - 10px);
-  box-sizing: border-box;
-  display: flex;
-  flex-flow: column;
+  height: 100%;
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-last .inside > div > div {

@@ -5412,10 +5412,7 @@ img.media-element {
         flex: 2 0 40%;
 
         .inside > div {
-            height: calc(100% - 10px);
-            box-sizing: border-box;
-            display: flex;
-            flex-flow: column;
+            height: 100%;
 
             > div {
                 height: inherit;
