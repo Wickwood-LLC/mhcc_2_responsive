@@ -5407,6 +5407,10 @@ img.media-element {
 
     .panel-col-first {
         flex: 1 2 20%;
+
+        .menu {
+            column-width: 150px;
+        }
     }
     .panel-col {
         flex: 2 1 40%;

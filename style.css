@@ -5014,6 +5014,11 @@ img.media-element {
   flex: 1 2 20%;
 }
 
+#mini-panel-banner_1_mini_panel .panel-col-first .menu {
+  -webkit-column-width: 150px;
+          column-width: 150px;
+}
+
 #mini-panel-banner_1_mini_panel .panel-col {
   flex: 2 1 40%;
 }
