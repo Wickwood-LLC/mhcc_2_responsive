@@ -5386,7 +5386,7 @@ img.media-element {
         box-sizing: border-box;
         display: flex;
         flex-flow: column;
-        
+
         .menu,
         .view,
         .block-content,
@@ -5400,13 +5400,6 @@ img.media-element {
     .panel-panel .inside {
         margin: 0;
         height: 100%;
-
-        > div {
-            height: calc(100% - 10px);
-            box-sizing: border-box;
-            display: flex;
-            flex-flow: column;
-        }
     }
 
     .panel-col-first {
@@ -5417,5 +5410,16 @@ img.media-element {
     }
     .panel-col-last {
         flex: 2 0 40%;
+
+        .inside > div {
+            height: calc(100% - 10px);
+            box-sizing: border-box;
+            display: flex;
+            flex-flow: column;
+
+            > div {
+                height: inherit;
+            }
+        }
     }
 }

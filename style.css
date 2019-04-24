@@ -5009,13 +5009,6 @@ img.media-element {
   height: 100%;
 }
 
-#mini-panel-banner_1_mini_panel .panel-panel .inside > div {
-  height: calc(100% - 10px);
-  box-sizing: border-box;
-  display: flex;
-  flex-flow: column;
-}
-
 #mini-panel-banner_1_mini_panel .panel-col-first {
   flex: 1 0 20%;
 }
@@ -5026,5 +5019,16 @@ img.media-element {
 
 #mini-panel-banner_1_mini_panel .panel-col-last {
   flex: 2 0 40%;
+}
+
+#mini-panel-banner_1_mini_panel .panel-col-last .inside > div {
+  height: calc(100% - 10px);
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+}
+
+#mini-panel-banner_1_mini_panel .panel-col-last .inside > div > div {
+  height: inherit;
 }
 /*# sourceMappingURL=style.css.map */
