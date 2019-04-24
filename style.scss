@@ -5381,6 +5381,21 @@ img.media-element {
     display: flex;
     width: 100%;
 
+    .art-block {
+        height: calc(100% - 10px);
+        box-sizing: border-box;
+        flex-flow: column;
+
+        .menu,
+        .view,
+        .block-content,
+        .pane-content {
+            height: 100%;
+            box-sizing: border-box;
+            width: 100%;
+        }
+    }
+
     .panel-panel .inside {
         margin: 0;
     }

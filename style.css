@@ -4988,6 +4988,21 @@ img.media-element {
   width: 100%;
 }
 
+#mini-panel-banner_1_mini_panel .art-block {
+  height: calc(100% - 10px);
+  box-sizing: border-box;
+  flex-flow: column;
+}
+
+#mini-panel-banner_1_mini_panel .art-block .menu,
+#mini-panel-banner_1_mini_panel .art-block .view,
+#mini-panel-banner_1_mini_panel .art-block .block-content,
+#mini-panel-banner_1_mini_panel .art-block .pane-content {
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 #mini-panel-banner_1_mini_panel .panel-panel .inside {
   margin: 0;
 }
