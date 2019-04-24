@@ -4991,6 +4991,7 @@ img.media-element {
 #mini-panel-banner_1_mini_panel .art-block {
   height: calc(100% - 10px);
   box-sizing: border-box;
+  display: flex;
   flex-flow: column;
 }
 
@@ -5005,6 +5006,14 @@ img.media-element {
 
 #mini-panel-banner_1_mini_panel .panel-panel .inside {
   margin: 0;
+  height: 100%;
+}
+
+#mini-panel-banner_1_mini_panel .panel-panel .inside > div {
+  height: calc(100% - 10px);
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-first {

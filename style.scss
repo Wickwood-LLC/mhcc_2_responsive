@@ -5384,8 +5384,9 @@ img.media-element {
     .art-block {
         height: calc(100% - 10px);
         box-sizing: border-box;
+        display: flex;
         flex-flow: column;
-
+        
         .menu,
         .view,
         .block-content,
@@ -5398,6 +5399,14 @@ img.media-element {
 
     .panel-panel .inside {
         margin: 0;
+        height: 100%;
+
+        > div {
+            height: calc(100% - 10px);
+            box-sizing: border-box;
+            display: flex;
+            flex-flow: column;
+        }
     }
 
     .panel-col-first {
