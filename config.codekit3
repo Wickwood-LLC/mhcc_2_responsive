@@ -740,7 +740,7 @@
 		},
 	"/images/logo.png": {
 		"ft": 32768,
-		"iS": 99864,
+		"iS": 107035,
 		"oA": 0,
 		"oAP": "/images/logo.png",
 		"oF": 0,
@@ -1076,9 +1076,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/mhcc-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
