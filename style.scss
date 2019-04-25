@@ -11,6 +11,8 @@
 
 /* Modified by Wickwood Marketing */
 
+@import "bower_components/breakpoint-sass/stylesheets/breakpoint";
+
 /* Fluid Typography */
 @function strip-unit($value) {
   @return $value / ($value * 0 + 1);
@@ -533,7 +535,7 @@ li p,
     max-width: 200px;
 }
 
-@media screen and (min-width: 521px) {
+@media screen and (min-width: 768px) {
     .art-shapes {
         width: 20%;
     }
@@ -575,7 +577,7 @@ li p,
 .art-headline a:visited,
 .art-headline a:hover {
     font-size: 36px; // backup size
-    @include fluid-type(632px, 1020px, 36px, 48px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(632px, 1020px, 36px, 58px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     font-family: Tahoma, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: normal;
     font-style: normal;
@@ -601,6 +603,7 @@ li p,
 .art-slogan a:hover {
     font-size: 12px; // backup size
     @include fluid-type(632px, 1020px, 12px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    font-weight: bold;
     font-family: Tahoma, Arial, Helvetica, Sans-Serif;
     text-decoration: none;
     text-align: center;
@@ -3116,6 +3119,7 @@ blockquote p,
 
 .art-content-layout .art-content {
     margin: 0 auto;
+    flex: 1;
 }
 
 .art-content-layout .art-sidebar2 {
@@ -3882,6 +3886,47 @@ div.workbench-info-block {
 ul>li:before.open,
 ul>li:before.closed {
     content: none;
+}
+
+.art-block {
+    .pane-title, .block-title {
+        background: #7FCAE6;
+        border-radius: 3px 3px 0 0;
+        padding: 6px 5px;
+        margin: 0;
+        text-align: center;
+    }
+    .menu,
+    .view,
+    .block-content,
+    .pane-content {
+        background: #E2EDF3;
+        border-radius: 0 0 3px 3px;
+        padding: 5px;
+        margin: 0 auto;
+        color: #152933;
+        font-size: 16px;
+        font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+        line-height: 175%;
+    }
+    .view .view-header {
+        text-align: center;
+        font-weight: bold;
+
+        a {
+            color: red;
+        }
+    }
+
+    a,
+    a:visited {
+        color: #000000;
+        text-decoration: none;
+    }
+    a:hover {
+        color: red;
+        text-decoration: underline;
+    }
 }
 
 .art-block ul>li.open:before {
@@ -5165,6 +5210,10 @@ div.simplead-container p {
     font-size: .85em;
 }
 
+.view-simpleads-block {
+    max-width: 375px;
+}
+
 
 
 /*Styling for Forums */
@@ -5331,5 +5380,60 @@ img.media-element {
 
     .field-items {
         margin-left: 1em;
+    }
+}
+
+#mini-panel-banner_1_mini_panel {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+
+    .art-block {
+        height: calc(100% - 10px);
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column;
+
+        .menu,
+        .view,
+        .block-content,
+        .pane-content {
+            height: 100%;
+            box-sizing: border-box;
+            width: 100%;
+        }
+    }
+
+    .panel-panel .inside {
+        margin: 0;
+        height: 100%;
+    }
+
+    .panel-col-first {
+        flex: 1 2 20%;
+
+        .menu {
+            column-width: 150px;
+        }
+    }
+    .panel-col {
+        flex: 2 1 40%;
+    }
+    .panel-col-last {
+        flex: 2 1 40%;
+
+        .inside > div {
+            height: 100%;
+
+            > div {
+                height: inherit;
+            }
+        }
+    }
+
+    @include breakpoint(0px 530px) {
+        .panel-panel {
+            flex: 1 100%;
+        }
     }
 }
