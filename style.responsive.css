@@ -366,6 +366,9 @@ div#views_slideshow_cycle_teaser_section_front_page_slideshow-block.views-slides
     display: inline-block;
     width: 80% !important;
 }
+#views_slideshow_cycle_teaser_section_front_page_slideshow-block_1 {
+    width: 100%;
+}
 
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
     height: auto !important;
