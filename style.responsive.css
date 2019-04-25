@@ -368,7 +368,7 @@
 }
 
 /* Home Page Feature Slide Show Styling */
-/*#block-views-front-page-slideshow-block {
+#block-views-front-page-slideshow-block {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
@@ -413,7 +413,7 @@ div.views-slideshow-cycle-main-frame-row-item {
 
 #widget_pager_bottom_front_page_slideshow-block_1 {
    width: 18%;
-}*/
+}
 
 .responsive .site-title-and-slogan {
   float: none;
