@@ -373,7 +373,7 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 1em;
-  height: auto;
+  /*height: auto;*/
 }
 
 #views_slideshow_cycle_main_front_page_slideshow-block {
@@ -386,12 +386,13 @@ div#views_slideshow_cycle_teaser_section_front_page_slideshow-block.views-slides
   float: left;
   display: block;
   width: 100% !important;
-  height: auto;
+  /*height: auto;*/
   position: relative;
 }
 
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
   width: 100% !important;
+  /*height: auto;*/
 }
 
 div.views-slideshow-cycle-main-frame-row-item {
@@ -404,7 +405,7 @@ div.views-slideshow-cycle-main-frame-row-item {
 
 .views_slideshow_cycle_main .field-content img {
   width: 100%;
-  height: auto;
+  /*height: auto;*/
   margin: 0;
   padding: 0;
   border: solid 1px;
