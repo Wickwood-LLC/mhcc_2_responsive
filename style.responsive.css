@@ -390,13 +390,15 @@ div#views_slideshow_cycle_teaser_section_front_page_slideshow-block.views-slides
   position: relative;
 }
 
+#views_slideshow_cycle_main_front_page_slideshow-block_1 {
+  display: inline-block;
+  width: 80% !important;
+}
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
-  width: 100% !important;
   height: auto;
 }
 
 div.views-slideshow-cycle-main-frame-row-item {
-   width: 80%;
 }
 
 .views_slideshow_cycle_main .field-content {
@@ -411,6 +413,10 @@ div.views-slideshow-cycle-main-frame-row-item {
   border: solid 1px;
 }
 
+.views-slideshow-controls-bottom {
+  display: inline-block;
+  float: right;
+}
 #widget_pager_bottom_front_page_slideshow-block_1 {
    width: 18%;
 }
