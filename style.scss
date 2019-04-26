@@ -4314,6 +4314,9 @@ div#views_slideshow_cycle_teaser_section_front_page_slideshow-block.views-slides
 
 #widget_pager_bottom_front_page_slideshow-block_1 {
     text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 div.views-field-field-feature-image img {
@@ -5307,8 +5310,13 @@ div.feed-icon img {
     margin-bottom: 8.5px;
 }
 
-.view-id-front_page_slideshow .views-slideshow-pager-fields div {
+.view-id-front_page_slideshow .views-slideshow-pager-fields > div {
     display: inline-block;
+    flex: 1 1 20%;
+
+    @include breakpoint(693px){
+        flex: 1 1 100%;
+    }
 }
 
 .view-id-front_page_slideshow .views-slideshow-pager-fields .active img {

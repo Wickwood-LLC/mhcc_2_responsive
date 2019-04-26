@@ -3434,7 +3434,10 @@ div#views_slideshow_cycle_teaser_section_front_page_slideshow-block.views-slides
   width: 85%; }
 
 #widget_pager_bottom_front_page_slideshow-block_1 {
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
 
 div.views-field-field-feature-image img {
   margin: 0; }
@@ -4183,8 +4186,12 @@ div.feed-icon img {
   height: auto;
   margin-bottom: 8.5px; }
 
-.view-id-front_page_slideshow .views-slideshow-pager-fields div {
-  display: inline-block; }
+.view-id-front_page_slideshow .views-slideshow-pager-fields > div {
+  display: inline-block;
+  flex: 1 1 20%; }
+  @media (min-width: 693px) {
+    .view-id-front_page_slideshow .views-slideshow-pager-fields > div {
+      flex: 1 1 100%; } }
 
 .view-id-front_page_slideshow .views-slideshow-pager-fields .active img {
   border: 2px solid #9cc3d7; }
