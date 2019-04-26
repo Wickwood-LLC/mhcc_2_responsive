@@ -299,11 +299,11 @@ div#views_slideshow_cycle_teaser_section_front_page_slideshow-block.views-slides
       width: 80% !important; } }
 
 #views_slideshow_cycle_teaser_section_front_page_slideshow-block_1 {
-  height: 46vw !important;
+  height: 57vw !important;
   width: 100% !important; }
   @media (min-width: 693px) {
     #views_slideshow_cycle_teaser_section_front_page_slideshow-block_1 {
-      height: 57vw !important; } }
+      height: 46vw !important; } }
 
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
   height: auto !important;
