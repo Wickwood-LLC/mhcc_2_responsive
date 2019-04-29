@@ -5402,6 +5402,7 @@ img.media-element {
         box-sizing: border-box;
         display: flex;
         flex-flow: column;
+        height: 255px;
 
         .menu,
         .view,
@@ -5420,6 +5421,8 @@ img.media-element {
 
     .panel-col-first {
         flex: 1 2 20%;
+        overflow-y: scroll;
+        overflow-x: hidden;
 
         .menu {
             column-width: 150px;
@@ -5437,6 +5440,12 @@ img.media-element {
             > div {
                 height: inherit;
             }
+        }
+
+        .art-block .pane-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 

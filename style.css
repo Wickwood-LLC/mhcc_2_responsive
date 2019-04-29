@@ -4247,7 +4247,8 @@ img.media-element {
     height: calc(100% - 10px);
     box-sizing: border-box;
     display: flex;
-    flex-flow: column; }
+    flex-flow: column;
+    height: 255px; }
     #mini-panel-banner_1_mini_panel .art-block .menu,
     #mini-panel-banner_1_mini_panel .art-block .view,
     #mini-panel-banner_1_mini_panel .art-block .block-content,
@@ -4259,7 +4260,9 @@ img.media-element {
     margin: 0;
     height: 100%; }
   #mini-panel-banner_1_mini_panel .panel-col-first {
-    flex: 1 2 20%; }
+    flex: 1 2 20%;
+    overflow-y: scroll;
+    overflow-x: hidden; }
     #mini-panel-banner_1_mini_panel .panel-col-first .menu {
       -webkit-column-width: 150px;
               column-width: 150px; }
@@ -4271,6 +4274,10 @@ img.media-element {
       height: 100%; }
       #mini-panel-banner_1_mini_panel .panel-col-last .inside > div > div {
         height: inherit; }
+    #mini-panel-banner_1_mini_panel .panel-col-last .art-block .pane-content {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
   @media (min-width: 0px) and (max-width: 530px) {
     #mini-panel-banner_1_mini_panel .panel-panel {
       flex: 1 100%; } }
