@@ -5312,10 +5312,19 @@ div.feed-icon img {
 
 .view-id-front_page_slideshow .views-slideshow-pager-fields > div {
     display: inline-block;
-    flex: 1 1 20%;
+    flex: 1 1 40%;
+    padding: 0 5px;
+
+    @include breakpoint(481px){
+        flex: 1 1 20%;
+    }
 
     @include breakpoint(693px){
         flex: 1 1 100%;
+
+        &:first-child {
+            padding: 0;
+        }
     }
 }
 
