@@ -4195,9 +4195,7 @@ div.feed-icon img {
       flex: 1 1 20%; } }
   @media (min-width: 693px) {
     .view-id-front_page_slideshow .views-slideshow-pager-fields > div {
-      flex: 1 1 100%; }
-      .view-id-front_page_slideshow .views-slideshow-pager-fields > div:first-child {
-        padding: 0; } }
+      flex: 1 1 100%; } }
 
 .view-id-front_page_slideshow .views-slideshow-pager-fields .active img {
   border: 2px solid #9cc3d7; }
@@ -4266,12 +4264,13 @@ img.media-element {
     margin: 0;
     height: 100%; }
   #mini-panel-banner_1_mini_panel .panel-col-first {
-    flex: 1 2 20%;
-    overflow-y: scroll;
-    overflow-x: hidden; }
+    flex: 1 2 20%; }
     #mini-panel-banner_1_mini_panel .panel-col-first .menu {
       -webkit-column-width: 150px;
               column-width: 150px; }
+    #mini-panel-banner_1_mini_panel .panel-col-first .art-block {
+      overflow-y: scroll;
+      overflow-x: hidden; }
   #mini-panel-banner_1_mini_panel .panel-col {
     flex: 2 1 40%; }
   #mini-panel-banner_1_mini_panel .panel-col-last {

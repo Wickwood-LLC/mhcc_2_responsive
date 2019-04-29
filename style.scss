@@ -5321,10 +5321,6 @@ div.feed-icon img {
 
     @include breakpoint(693px){
         flex: 1 1 100%;
-
-        &:first-child {
-            padding: 0;
-        }
     }
 }
 
@@ -5430,11 +5426,13 @@ img.media-element {
 
     .panel-col-first {
         flex: 1 2 20%;
-        overflow-y: scroll;
-        overflow-x: hidden;
 
         .menu {
             column-width: 150px;
+        }
+        .art-block {
+            overflow-y: scroll;
+            overflow-x: hidden;
         }
     }
     .panel-col {
