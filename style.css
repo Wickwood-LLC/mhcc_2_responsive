@@ -4275,10 +4275,8 @@ img.media-element {
     flex: 2 1 40%; }
   #mini-panel-banner_1_mini_panel .panel-col-last {
     flex: 2 1 40%; }
-    #mini-panel-banner_1_mini_panel .panel-col-last .inside > div {
-      height: 100%; }
-      #mini-panel-banner_1_mini_panel .panel-col-last .inside > div > div {
-        height: inherit; }
+    #mini-panel-banner_1_mini_panel .panel-col-last .inside > div > div {
+      height: inherit; }
     #mini-panel-banner_1_mini_panel .panel-col-last .art-block .pane-content {
       display: flex;
       justify-content: center;
