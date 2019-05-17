@@ -4105,6 +4105,8 @@ div.simplead-container {
   width: 100%;
   overflow: hidden;
   display: table-cell; }
+  div.simplead-container a {
+    display: flex; }
 
 div.simplead-container img {
   width: 100%; }
