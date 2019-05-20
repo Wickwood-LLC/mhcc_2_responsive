@@ -41,41 +41,11 @@
     /* CSS2 browsers */
     background: #87ceeb left bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed;
     /* CSS3 browsers */
-    background: linear-gradient(top, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat fixed,
+    background: linear-gradient(to bottom, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat fixed,
         -450px bottom repeat-x url('images/trees.png') fixed,
         left bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
         75px bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        linear-gradient(top, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
-    background: -webkit-linear-gradient(top, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat fixed,
-        -450px bottom repeat-x url('images/trees.png') fixed,
-        left bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        75px bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        -webkit-linear-gradient(top, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
-    background: -moz-linear-gradient(top, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat fixed,
-        -450px bottom repeat-x url('images/trees.png') fixed,
-        left bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        75px bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        -moz-linear-gradient(top, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
-    background: -o-linear-gradient(top, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat fixed,
-        -450px bottom repeat-x url('images/trees.png') fixed,
-        left bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        75px bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        -o-linear-gradient(top, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
-    background: -ms-linear-gradient(top, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat fixed,
-        -450px bottom repeat-x url('images/trees.png') fixed,
-        left bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        75px bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        -ms-linear-gradient(top, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
-    background: linear-gradient(top, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat fixed,
-        -450px bottom repeat-x url('images/trees.png') fixed,
-        left bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        75px bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        linear-gradient(top, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
-    -svg-background: linear-gradient(top, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat fixed,
-        -450px bottom repeat-x url('images/trees.png') fixed,
-        left bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        75px bottom repeat-x url('images/mhcc-cyclists-silhouettes.png') fixed,
-        linear-gradient(top, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
+        linear-gradient(to bottom, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
     background-size: auto, auto 82%, auto 16%, auto 18%, auto;
     margin: 0 auto;
     font-size: 16px;
@@ -123,12 +93,8 @@ li {
 .art-button {
     border: 0;
     border-collapse: separate;
-    -webkit-background-origin: border !important;
-    -moz-background-origin: border !important;
     background-origin: border-box !important;
     background: #4383A3;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     border-width: 0;
     padding: 0 10px;
@@ -409,8 +375,6 @@ nav,
 .art-slidenavigator>a,
 .art-checkbox:before,
 .art-radiobutton:before {
-    -webkit-background-origin: border !important;
-    -moz-background-origin: border !important;
     background-origin: border-box !important;
 }
 
@@ -424,8 +388,6 @@ nav,
 .art-checkbox:before,
 .art-radiobutton:before {
     display: block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -755,15 +717,7 @@ ul.art-hmenu {
     margin: 15px auto 0;
     padding: 2%;
     background: #7FCAE6;
-    background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    background: -webkit-linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    background: -moz-linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    background: -o-linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    background: -ms-linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    -svg-background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    -webkit-border-radius: 3px 3px 0 0;
-    -moz-border-radius: 3px 3px 0 0;
+    background: linear-gradient(to bottom, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
     border-radius: 6px 6px 0 0;
     width: 98%;
     border: 7px solid #D7E7EF;
@@ -772,8 +726,6 @@ ul.art-hmenu {
 .mobile-nav .art-hmenu {
     background: #E2EDF3;
     padding-top: 5px;
-    -webkit-border-radius: 0 0 3px 3px;
-    -moz-border-radius: 0 0 3px 3px;
     border-radius: 0 0 3px 3px;
 }
 
@@ -781,8 +733,6 @@ ul.art-hmenu {
     margin: 0 auto;
     padding: 0 7px 7px;
     background: #D7E7EF;
-    -webkit-border-radius: 0 0 6px 6px;
-    -moz-border-radius: 0 0 6px 6px;
     border-radius: 0 0 6px 6px;
     width: 98%;
 }
@@ -842,8 +792,6 @@ ul.art-hmenu>li.last-child {
 }
 
 ul.art-hmenu>li>a {
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     padding: 0 10px;
     margin: 0 auto;
@@ -874,8 +822,6 @@ ul.art-hmenu>li>a {
 
 ul.art-hmenu>li>a.active {
     background: #264C5E;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     padding: 0 10px;
     margin: 0 auto;
@@ -898,8 +844,6 @@ ul.art-hmenu>li:hover>a {
 
 ul.art-hmenu>li>a:hover,
 .desktop ul.art-hmenu>li:hover>a {
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     padding: 0 10px;
     margin: 0 auto;
@@ -919,8 +863,6 @@ ul.art-hmenu>li>a.active:hover {
 ul.art-hmenu li li a {
     background: #BBE3F2;
     background: transparent;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     padding: 0 10px;
     margin: 0 auto;
@@ -991,8 +933,6 @@ ul.art-hmenu ul li a:hover,
 .desktop ul.art-hmenu ul li:hover>a {
     background: #7FCAE6;
     background: transparent;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     margin: 0 auto;
 }
@@ -1011,8 +951,6 @@ ul.art-hmenu ul li a:hover,
 
 ul.art-hmenu ul:before {
     background: #96C8DE;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     border: 1px dotted rgba(40, 161, 204, 0.9);
     margin: 0 auto;
@@ -1190,8 +1128,6 @@ ul.art-hmenu>li.ext>.ext-m,
 ul.art-hmenu>li.ext>.ext-off {
     display: none;
     z-index: 12;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -1365,8 +1301,6 @@ ul.art-hmenu>li.ext>.ext-off {
 
 .art-vmenublock {
     background: #D7E7EF;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
     padding: 7px;
     margin: 5px;
@@ -1378,15 +1312,7 @@ div.art-vmenublock img {
 
 .art-vmenublockheader {
     background: #28A1CC;
-    background: linear-gradient(top, #3FB0D9 0, #2AA7D5 36%, #2389AF 100%) no-repeat;
-    background: -webkit-linear-gradient(top, #3FB0D9 0, #2AA7D5 36%, #2389AF 100%) no-repeat;
-    background: -moz-linear-gradient(top, #3FB0D9 0, #2AA7D5 36%, #2389AF 100%) no-repeat;
-    background: -o-linear-gradient(top, #3FB0D9 0, #2AA7D5 36%, #2389AF 100%) no-repeat;
-    background: -ms-linear-gradient(top, #3FB0D9 0, #2AA7D5 36%, #2389AF 100%) no-repeat;
-    background: linear-gradient(top, #3FB0D9 0, #2AA7D5 36%, #2389AF 100%) no-repeat;
-    -svg-background: linear-gradient(top, #3FB0D9 0, #2AA7D5 36%, #2389AF 100%) no-repeat;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
+    background: linear-gradient(to bottom, #3FB0D9 0, #2AA7D5 36%, #2389AF 100%) no-repeat;
     border-radius: 3px;
     padding: 10px 0;
     margin: 0 auto 7px;
@@ -1673,8 +1599,6 @@ ul.art-vmenu ul a.active:hover {
 
 .art-block {
     background: #D7E7EF;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
     padding: 7px;
     margin: 5px;
@@ -1687,15 +1611,7 @@ div.art-block img {
 
 .art-blockheader {
     background: #7FCAE6;
-    background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    background: -webkit-linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    background: -moz-linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    background: -o-linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    background: -ms-linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    -svg-background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-    -webkit-border-radius: 3px 3px 0 0;
-    -moz-border-radius: 3px 3px 0 0;
+    background: linear-gradient(to bottom, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
     border-radius: 3px 3px 0 0;
     padding: 6px 5px;
     margin: 0 auto 2px;
@@ -1714,8 +1630,6 @@ div.art-block img {
 
 .art-blockcontent {
     background: #E2EDF3;
-    -webkit-border-radius: 0 0 3px 3px;
-    -moz-border-radius: 0 0 3px 3px;
     border-radius: 0 0 3px 3px;
     padding: 5px;
     margin: 0 auto;
@@ -1819,8 +1733,6 @@ button.art-button {
     overflow: visible;
     cursor: pointer;
     text-indent: 0;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
     box-sizing: content-box;
     font: normal normal 16px/27px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
@@ -1857,8 +1769,6 @@ input.art-button {
 .art-button.active,
 .art-button.active:hover {
     background: #28A1CC;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     border-width: 0;
     padding: 0 10px;
@@ -1873,8 +1783,6 @@ input.art-button {
 .art-button.hover,
 .art-button:hover {
     background: #50B7DC;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     border-width: 0;
     padding: 0 10px;
@@ -1892,8 +1800,6 @@ input[type="email"],
 input[type="url"],
 textarea {
     background: #FFFFFF;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     border: 1px solid #7DB0CA;
     margin: 0 auto;
@@ -1932,15 +1838,11 @@ textarea.art-error {
 
 form.art-search input[type="text"] {
     background: #FFFFFF;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     border: 1px solid #7DB0CA;
     margin: 0 auto;
     width: 100%;
     padding: 4px 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     color: #182F3A !important;
     font-size: 16px;
@@ -2001,8 +1903,6 @@ a.art-search-button span.art-search-button-text {
 
 label.art-checkbox:before {
     background: #FFFFFF;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
     border-radius: 1px;
     border-width: 0;
     margin: 0 auto;
@@ -2027,8 +1927,6 @@ label.art-checkbox {
 
 label.art-checkbox.active:before {
     background: #7FCAE6;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
     border-radius: 1px;
     border-width: 0;
     margin: 0 auto;
@@ -2039,8 +1937,6 @@ label.art-checkbox.active:before {
 
 label.art-checkbox.hovered:before {
     background: #BBE3F2;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
     border-radius: 1px;
     border-width: 0;
     margin: 0 auto;
@@ -2051,8 +1947,6 @@ label.art-checkbox.hovered:before {
 
 label.art-radiobutton:before {
     background: #FFFFFF;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     border-width: 0;
     margin: 0 auto;
@@ -2078,8 +1972,6 @@ label.art-radiobutton {
 
 label.art-radiobutton.active:before {
     background: #7FCAE6;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     border-width: 0;
     margin: 0 auto;
@@ -2090,8 +1982,6 @@ label.art-radiobutton.active:before {
 
 label.art-radiobutton.hovered:before {
     background: #BBE3F2;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     border-width: 0;
     margin: 0 auto;
@@ -2111,8 +2001,6 @@ label.art-radiobutton.hovered:before {
 }
 
 .art-comment-inner {
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
     border-radius: 2px;
     padding: 5px;
     margin: 0 auto;
@@ -2211,8 +2099,6 @@ label.art-radiobutton.hovered:before {
 }
 
 .art-pager {
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     padding: 6px;
     margin: 2px;
@@ -2229,8 +2115,6 @@ label.art-radiobutton.hovered:before {
 
 .art-pager>* {
     background: #BBE3F2;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     padding: 10px;
     margin: 0 4px 0 auto;
@@ -2314,8 +2198,6 @@ label.art-radiobutton.hovered:before {
 .art-commentsform input:not([type=submit]),
 .art-commentsform textarea {
     box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     width: 100%;
     max-width: 100%;
 }
@@ -2326,8 +2208,6 @@ label.art-radiobutton.hovered:before {
 
 .art-post {
     background: #E2EDF3;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
     border-radius: 10px;
     border: 3px solid #9DC4D7;
     padding: 5px;
@@ -2391,22 +2271,16 @@ pre {
 
 .image-caption-wrapper {
     padding: 7px 7px 7px 7px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 .image-caption-wrapper img {
     margin: 0 !important;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 .image-caption-wrapper div.art-collage {
     margin: 0 !important;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -2418,8 +2292,6 @@ pre {
 
 .art-postmetadataheader {
     background: #BBE3F2;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     border: 1px solid #9DC4D7;
     margin: 0 auto;
@@ -3072,26 +2944,10 @@ blockquote p,
 
 .art-lightbox-wrapper .cw {
     transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    /* IE 9 */
-    -webkit-transform: rotate(45deg);
-    /* Safari and Chrome */
-    -o-transform: rotate(45deg);
-    /* Opera */
-    -moz-transform: rotate(45deg);
-    /* Firefox */
 }
 
 .art-lightbox-wrapper .ccw {
     transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    /* IE 9 */
-    -webkit-transform: rotate(-45deg);
-    /* Safari and Chrome */
-    -o-transform: rotate(-45deg);
-    /* Opera */
-    -moz-transform: rotate(-45deg);
-    /* Firefox */
 }
 
 .art-lightbox-wrapper .close-alt,
@@ -3239,8 +3095,6 @@ li.messages {
 }
 
 fieldset {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
     border-radius: 10px;
 }
 
@@ -3292,8 +3146,6 @@ fieldset legend {
     border: 1px solid #090;
     background: #C9FBC8;
     margin: 5px 0;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
 }
 
@@ -3870,11 +3722,7 @@ div.workbench-info-block {
     margin: 7px auto;
     color: #666;
     font-size: 0.95em;
-    -webkit-background-origin: border !important;
-    -moz-background-origin: border !important;
     background-origin: border-box !important;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
     border: 3px solid #fedd9f;
     width: 97%;
@@ -4035,8 +3883,6 @@ div.group-header div.field-name-field-canceled {
     color: red;
     font-variant: small-caps;
     text-transform: uppercase;
-    -webkit-transform: rotate(-30deg);
-    -moz-transform: rotate(-30deg);
     transform: rotate(-30deg);
     position: absolute;
     top: 200px;
@@ -4052,8 +3898,6 @@ div.group-left div.field-name-field-canceled {
     color: red;
     font-variant: small-caps;
     text-transform: uppercase;
-    -webkit-transform: rotate(-30deg);
-    -moz-transform: rotate(-30deg);
     transform: rotate(-30deg);
     position: absolute;
     top: 30px;
@@ -4071,11 +3915,7 @@ div.node-calendar-item div.group-left,
 div.node-calendar-item div.group-right {
     background: #CCE0EA;
     padding: 5px;
-    -webkit-background-origin: border !important;
-    -moz-background-origin: border !important;
     background-origin: border-box !important;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
     border: 3px solid #9cc3d7;
     /*margin-left: -8px;*/
@@ -4117,8 +3957,6 @@ div.adr {
 
 div.view-display-id-page_1 h3 {
     background: #BBE3F2;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     border: 1px solid #9DC4D7;
     margin: 0 auto;
@@ -4167,8 +4005,6 @@ span.public-phone:after {
 
 div.view-display-id-page_3 h3 {
     background: #BBE3F2;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     border: 1px solid #9DC4D7;
     margin: 0 auto;
@@ -4200,11 +4036,7 @@ div.view-display-id-page_3 div.views-row {
 
 .node-unpublished {
     background-color: #fedddd;
-    -webkit-background-origin: border !important;
-    -moz-background-origin: border !important;
     background-origin: border-box !important;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
     border: 3px solid #fda9a9;
     margin-left: -8px;
@@ -4909,13 +4741,9 @@ div#block-widgets-s-socialmedia-share-default div.widgets-element-horizontal {
 
 div.region.region-banner2 div.block {
     border: 2px solid #ae133e;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
     background: #FFF url(images/notice-arrow.png) no-repeat;
     margin: 5px auto;
-    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, .5);
-    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, .5);
     box-shadow: 0 2px 8px rgba(0, 0, 0, .5);
     min-height: 47px;
     position: relative;

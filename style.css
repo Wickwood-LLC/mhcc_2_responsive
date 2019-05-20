@@ -11,9 +11,7 @@
   /* CSS2 browsers */
   background: #87ceeb left bottom repeat-x url("images/mhcc-cyclists-silhouettes.png") fixed;
   /* CSS3 browsers */
-  background: linear-gradient(top, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat fixed, -450px bottom repeat-x url("images/trees.png") fixed, left bottom repeat-x url("images/mhcc-cyclists-silhouettes.png") fixed, 75px bottom repeat-x url("images/mhcc-cyclists-silhouettes.png") fixed, linear-gradient(top, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
-  background: linear-gradient(top, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat fixed, -450px bottom repeat-x url("images/trees.png") fixed, left bottom repeat-x url("images/mhcc-cyclists-silhouettes.png") fixed, 75px bottom repeat-x url("images/mhcc-cyclists-silhouettes.png") fixed, linear-gradient(top, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
-  -svg-background: linear-gradient(top, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat fixed, -450px bottom repeat-x url("images/trees.png") fixed, left bottom repeat-x url("images/mhcc-cyclists-silhouettes.png") fixed, 75px bottom repeat-x url("images/mhcc-cyclists-silhouettes.png") fixed, linear-gradient(top, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
+  background: linear-gradient(to bottom, rgba(135, 206, 235, 0.26) 0, rgba(135, 206, 235, 0.26) 420px, rgba(238, 130, 238, 0.15) 1050px) no-repeat fixed, -450px bottom repeat-x url("images/trees.png") fixed, left bottom repeat-x url("images/mhcc-cyclists-silhouettes.png") fixed, 75px bottom repeat-x url("images/mhcc-cyclists-silhouettes.png") fixed, linear-gradient(to bottom, #87ceeb 0, #87ceeb 420px, #ee82ee 1050px) no-repeat fixed;
   background-size: auto, auto 82%, auto 16%, auto 18%, auto;
   margin: 0 auto;
   font-size: 16px;
@@ -629,9 +627,7 @@ ul.art-hmenu {
   margin: 15px auto 0;
   padding: 2%;
   background: #7FCAE6;
-  background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-  background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-  -svg-background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
+  background: linear-gradient(to bottom, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
   border-radius: 6px 6px 0 0;
   width: 98%;
   border: 7px solid #D7E7EF; }
@@ -1141,9 +1137,7 @@ div.art-vmenublock img {
 
 .art-vmenublockheader {
   background: #28A1CC;
-  background: linear-gradient(top, #3FB0D9 0, #2AA7D5 36%, #2389AF 100%) no-repeat;
-  background: linear-gradient(top, #3FB0D9 0, #2AA7D5 36%, #2389AF 100%) no-repeat;
-  -svg-background: linear-gradient(top, #3FB0D9 0, #2AA7D5 36%, #2389AF 100%) no-repeat;
+  background: linear-gradient(to bottom, #3FB0D9 0, #2AA7D5 36%, #2389AF 100%) no-repeat;
   border-radius: 3px;
   padding: 10px 0;
   margin: 0 auto 7px; }
@@ -1398,9 +1392,7 @@ div.art-block img {
 
 .art-blockheader {
   background: #7FCAE6;
-  background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-  background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
-  -svg-background: linear-gradient(top, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
+  background: linear-gradient(to bottom, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
   border-radius: 3px 3px 0 0;
   padding: 6px 5px;
   margin: 0 auto 2px; }
@@ -1910,8 +1902,6 @@ label.art-radiobutton.hovered:before {
 .art-commentsform input:not([type=submit]),
 .art-commentsform textarea {
   box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   width: 100%;
   max-width: 100%; }
 
@@ -2552,26 +2542,12 @@ blockquote p,
   width: 30px; }
 
 .art-lightbox-wrapper .cw {
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
   -webkit-transform: rotate(45deg);
-  /* Safari and Chrome */
-  -o-transform: rotate(45deg);
-  /* Opera */
-  -moz-transform: rotate(45deg);
-  /* Firefox */ }
+          transform: rotate(45deg); }
 
 .art-lightbox-wrapper .ccw {
-  transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  /* IE 9 */
   -webkit-transform: rotate(-45deg);
-  /* Safari and Chrome */
-  -o-transform: rotate(-45deg);
-  /* Opera */
-  -moz-transform: rotate(-45deg);
-  /* Firefox */ }
+          transform: rotate(-45deg); }
 
 .art-lightbox-wrapper .close-alt,
 .art-lightbox-wrapper .arrow-right-alt,
@@ -3229,7 +3205,7 @@ div.group-header div.field-name-field-canceled {
   font-variant: small-caps;
   text-transform: uppercase;
   -webkit-transform: rotate(-30deg);
-  transform: rotate(-30deg);
+          transform: rotate(-30deg);
   position: absolute;
   top: 200px;
   left: 200px;
@@ -3244,7 +3220,7 @@ div.group-left div.field-name-field-canceled {
   font-variant: small-caps;
   text-transform: uppercase;
   -webkit-transform: rotate(-30deg);
-  transform: rotate(-30deg);
+          transform: rotate(-30deg);
   position: absolute;
   top: 30px;
   left: 200px; }
