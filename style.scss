@@ -2104,6 +2104,12 @@ label.art-radiobutton.hovered:before {
     margin: 2px;
 }
 
+.item-list .pager {
+    li:before {
+        content: '';
+    }
+}
+
 .art-pager>*:last-child,
 .art-pager>*:last-child:hover {
     margin-right: 0;
