@@ -353,15 +353,9 @@ pre {
   margin: 0;
 }
 
-ul > li:before {
-  content: url("images/postbullets.png");
-  margin-right: 10px;
-  bottom: 2px;
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 0;
-  line-height: 0;
+ul {
+  list-style-image: url("images/blockbullets.png");
+  list-style-position: inside;
 }
 
 .opera ul > li:before {
@@ -379,6 +373,10 @@ ol {
 }
 
 ul > li {
+  padding-left: 17px;
+}
+
+ol > li {
   padding-left: 17px;
 }
 

@@ -1164,13 +1164,33 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/style.scss": {
-		"aP": 0,
+	"/style.responsive.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/style.responsive.css.map",
+		"oF": 0
+		},
+	"/style.responsive.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/style.responsive.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "/style.css",
 		"oF": 0,
