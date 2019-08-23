@@ -335,5 +335,6 @@ div#views_slideshow_cycle_teaser_section_front_page_slideshow-block.views-slides
   float: none; }
 
 #block-system-main ul li {
-  list-style-image: url("images/blockbullets.png"); }
+  list-style-image: url("images/blockbullets.png");
+  list-style-position: inside; }
 /*# sourceMappingURL=style.responsive.css.map */
