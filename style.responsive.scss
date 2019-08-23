@@ -418,3 +418,9 @@ div.views-slideshow-cycle-main-frame-row-item {}
 .responsive .site-title-and-slogan {
     float: none;
 }
+
+#block-system-main {
+    ul li {
+        list-style-image: url('images/blockbullets.png');
+    }
+}
