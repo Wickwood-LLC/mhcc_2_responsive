@@ -437,6 +437,13 @@ table.position {
     table-layout: fixed;
 }
 
+#block-system-main {
+    ul li {
+        list-style-image: url('images/blockbullets.png');
+        list-style-position: inside;
+    }
+}
+
 li h1,
 .art-postcontent li h1,
 .art-blockcontent li h1 {
@@ -2476,7 +2483,7 @@ pre {
 .art-postcontent ul,
 .art-post ul,
 .art-textblock ul {
-    margin: 1em 0 1em 11px;
+    margin: 1em 0 1em 1em;
 }
 
 .art-postcontent li ol,
@@ -2485,7 +2492,7 @@ pre {
 .art-postcontent li ul,
 .art-post li ul,
 .art-textblock li ul {
-    margin: 0.5em 0 0.5em 11px;
+    margin: 0.5em 0 0.5em 1em;
 }
 
 .art-postcontent li,
