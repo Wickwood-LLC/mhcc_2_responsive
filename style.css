@@ -4269,4 +4269,7 @@ img.media-element {
   @media (min-width: 0px) and (max-width: 530px) {
     #mini-panel-banner_1_mini_panel .panel-panel {
       flex: 1 100%; } }
+
+.page-node-3216 .field-name-body .field-item {
+  overflow-x: scroll; }
 /*# sourceMappingURL=style.css.map */
