@@ -3003,6 +3003,11 @@ blockquote p,
 }
 
 /* Begin Additional CSS Styles */
+#block-date-navigation-dn-node-article ul.jquerymenu {
+  -webkit-column-count: 2;
+          column-count: 2;
+}
+
 /* End Additional CSS Styles */
 /* BEGIN FCKEditor, CKEditor, TinyMCE modules support*/
 /*body.art-body-nostyle, body.cke_show_borders, #tinymce body, #tinymce body.mceContentBody, body.mceContentBody, #edit-body
