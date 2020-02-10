@@ -4047,7 +4047,8 @@ div.view-display-id-page_3 div.views-row {
 
 /* Styling for Unpublished Nodes */
 
-.node-unpublished {
+.node-unpublished,
+.page-node-draft .node.view-mode-full {
     background-color: #fedddd;
     background-origin: border-box !important;
     border-radius: 6px;
