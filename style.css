@@ -3003,7 +3003,7 @@ blockquote p,
 }
 
 /* Begin Additional CSS Styles */
-#block-date-navigation-dn-node-article ul.jquerymenu {
+.block-date-navigation ul.jquerymenu {
   -webkit-column-count: 2;
           column-count: 2;
 }
