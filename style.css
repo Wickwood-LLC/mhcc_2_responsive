@@ -2975,6 +2975,7 @@ blockquote p,
 .art-content-layout .art-sidebar1 {
   margin: 0 auto;
   order: -1;
+  flex: 1 100%;
 }
 
 .art-content-layout .art-content {
@@ -2985,6 +2986,7 @@ blockquote p,
 .art-content-layout .art-sidebar2 {
   margin: 0 auto;
   order: -1;
+  flex: 1 100%;
 }
 
 @media screen and (min-width: 693px) {
