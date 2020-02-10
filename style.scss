@@ -2236,7 +2236,6 @@ img.art-article,
 .art-block img,
 .art-footer img {
     margin: 1em;
-    border: 2px solid #9cc3d7;
 }
 
 .art-metadata-icons img {
@@ -5209,6 +5208,7 @@ img.media-element {
     min-width: 0;
     height: auto;
     box-sizing: border-box;
+    max-width: calc(100% - 2em);
 }
 
 .media-element-container.mce-responsive {
