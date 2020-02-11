@@ -3019,6 +3019,10 @@ blockquote p,
 .block-date-navigation {
     ul.jquerymenu {
         column-count: 2;
+
+        @include breakpoint(693px) {
+            column-count: unset;
+        }
     }
 }
 
@@ -4060,7 +4064,6 @@ div.view-display-id-page_3 div.views-row {
     background-origin: border-box !important;
     border-radius: 6px;
     border: 3px solid #fda9a9;
-    margin-left: -8px;
 }
 
 

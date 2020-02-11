@@ -3007,6 +3007,13 @@ blockquote p,
           column-count: 2;
 }
 
+@media (min-width: 693px) {
+  .block-date-navigation ul.jquerymenu {
+    -webkit-column-count: unset;
+            column-count: unset;
+  }
+}
+
 /* End Additional CSS Styles */
 /* BEGIN FCKEditor, CKEditor, TinyMCE modules support*/
 /*body.art-body-nostyle, body.cke_show_borders, #tinymce body, #tinymce body.mceContentBody, body.mceContentBody, #edit-body
@@ -3889,7 +3896,6 @@ div.view-display-id-page_3 div.views-row {
   background-origin: border-box !important;
   border-radius: 6px;
   border: 3px solid #fda9a9;
-  margin-left: -8px;
 }
 
 /* Styling of Top and Bottom Blocks */
