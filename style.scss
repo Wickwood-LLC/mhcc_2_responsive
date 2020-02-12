@@ -4058,8 +4058,10 @@ div.view-display-id-page_3 div.views-row {
 
 
 /* Styling for Unpublished Nodes */
-
-.node-unpublished,
+.node-unpublished {
+    background: unset;
+}
+.node-unpublished .art-post,
 .page-node-draft #block-system-main .art-post {
     background-color: #fedddd;
     background-origin: border-box !important;
