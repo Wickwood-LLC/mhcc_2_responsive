@@ -3017,9 +3017,10 @@ blockquote p,
 /* Begin Additional CSS Styles */
 
 .block-date-navigation {
-    ul.jquerymenu {
-        column-count: 2;
-
+    ul.jquerymenu {        
+        @include breakpoint(350px) {
+            column-count: 2;
+        }
         @include breakpoint(693px) {
             column-count: unset;
         }

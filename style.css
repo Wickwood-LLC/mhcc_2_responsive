@@ -3002,9 +3002,11 @@ blockquote p,
 }
 
 /* Begin Additional CSS Styles */
-.block-date-navigation ul.jquerymenu {
-  -webkit-column-count: 2;
-          column-count: 2;
+@media (min-width: 350px) {
+  .block-date-navigation ul.jquerymenu {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
 }
 
 @media (min-width: 693px) {
