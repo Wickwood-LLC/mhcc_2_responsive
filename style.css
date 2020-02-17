@@ -2223,14 +2223,6 @@ a img {
   border: 0;
 }
 
-.art-article img,
-img.art-article,
-.art-block img,
-.art-footer img {
-  margin: 1em;
-  display: flex;
-}
-
 .art-metadata-icons img {
   border: none;
   vertical-align: middle;
@@ -3894,6 +3886,10 @@ div.view-display-id-page_3 div.views-row {
 }
 
 /* Styling for BikeAbout Pages */
+.node-type-bikeabout-post .bikeabout-header {
+  text-align: center;
+}
+
 .node-type-bikeabout-post .pane-node-field-bikeabout-issue,
 .node-type-bikeabout-post .pane-node-field-bikeabout-post-type {
   font-weight: bold;
@@ -3939,6 +3935,19 @@ div.view-display-id-page_3 div.views-row {
 
 .node-type-bikeabout-post .pane-node-field-primary-image img {
   width: auto;
+  display: inline;
+}
+
+@media (min-width: 760px) {
+  .node-type-bikeabout-post .pane-node-field-primary-image {
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.node-type-bikeabout-post .pane-node-field-tags {
+  margin: 0 2.5%;
 }
 
 /* Styling for Unpublished Nodes */

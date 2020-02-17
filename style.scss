@@ -2235,8 +2235,8 @@ a img {
 img.art-article,
 .art-block img,
 .art-footer img {
-    margin: 1em;
-    display: flex;
+    // margin: 1em;
+    // display: flex;
 }
 
 .art-metadata-icons img {
@@ -4059,6 +4059,9 @@ div.view-display-id-page_3 div.views-row {
 
 /* Styling for BikeAbout Pages */
 .node-type-bikeabout-post {
+    .bikeabout-header {
+        text-align: center;
+    }
     .pane-node-field-bikeabout-issue,
     .pane-node-field-bikeabout-post-type {
         font-weight: bold;
@@ -4098,7 +4101,18 @@ div.view-display-id-page_3 div.views-row {
 
         img {
             width: auto;
+            display: inline;
         }
+
+        @include breakpoint(760px) {
+            float: none;
+            margin: auto;
+            text-align: center;
+        }
+    }
+
+    .pane-node-field-tags {
+        margin: 0 2.5%;
     }
 }
 
