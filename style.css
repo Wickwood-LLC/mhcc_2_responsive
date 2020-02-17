@@ -3929,8 +3929,9 @@ div.view-display-id-page_3 div.views-row {
 }
 
 .node-type-bikeabout-post .pane-node-field-primary-image {
-  float: left;
-  margin-right: 1em;
+  float: none;
+  margin: auto;
+  text-align: center;
 }
 
 .node-type-bikeabout-post .pane-node-field-primary-image img {
@@ -3940,9 +3941,8 @@ div.view-display-id-page_3 div.views-row {
 
 @media (min-width: 760px) {
   .node-type-bikeabout-post .pane-node-field-primary-image {
-    float: none;
-    margin: auto;
-    text-align: center;
+    float: left;
+    margin-right: 1em;
   }
 }
 
