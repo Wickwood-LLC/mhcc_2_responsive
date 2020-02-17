@@ -2228,6 +2228,7 @@ img.art-article,
 .art-block img,
 .art-footer img {
   margin: 1em;
+  display: flex;
 }
 
 .art-metadata-icons img {
@@ -2293,7 +2294,8 @@ pre {
   margin: 0;
 }
 
-.art-postmetadataheader {
+.art-postmetadataheader,
+.art-postcontent .field-name-title-field {
   background: #BBE3F2;
   border-radius: 4px;
   border: 1px solid #9DC4D7;
@@ -3889,6 +3891,54 @@ div.view-display-id-page_3 div.views-row {
 .node-type-article div.art-article div.user-picture img {
   float: left;
   margin: .8em 1em .5em;
+}
+
+/* Styling for BikeAbout Pages */
+.node-type-bikeabout-post .pane-node-field-bikeabout-issue,
+.node-type-bikeabout-post .pane-node-field-bikeabout-post-type {
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.node-type-bikeabout-post .pane-node-field-bikeabout-post-type {
+  display: block;
+}
+
+@media (min-width: 391px) {
+  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type {
+    display: inline-block;
+  }
+  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type:before {
+    content: " - ";
+    display: inline-block;
+  }
+  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type .pane-content {
+    display: inline-block;
+  }
+}
+
+.node-type-bikeabout-post .pane-node-author,
+.node-type-bikeabout-post .pane-node-updated {
+  display: inline;
+}
+
+.node-type-bikeabout-post .pane-node-author .pane-content,
+.node-type-bikeabout-post .pane-node-updated .pane-content {
+  display: inline;
+}
+
+.node-type-bikeabout-post .pane-node-author:after {
+  content: "\00a0\00a0|\00a0\00a0";
+}
+
+.node-type-bikeabout-post .pane-node-field-primary-image {
+  float: left;
+  margin-right: 1em;
+}
+
+.node-type-bikeabout-post .pane-node-field-primary-image img {
+  width: auto;
 }
 
 /* Styling for Unpublished Nodes */
