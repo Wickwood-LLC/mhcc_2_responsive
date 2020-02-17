@@ -5157,4 +5157,19 @@ img.media-element {
 .page-node-3216 .field-name-body .field-item {
   overflow-x: scroll;
 }
+
+.boxed {
+  background: #D7E7EF;
+  border-radius: 6px;
+  padding: 7px;
+  margin: 5px;
+}
+
+.boxed .pane-title {
+  background: #7FCAE6;
+  background: linear-gradient(to bottom, #7FCAE6 0, #84CCE7 40%, #84CCE7 85%, #61BEE0 100%) no-repeat;
+  border-radius: 3px 3px 0 0;
+  padding: 6px 5px;
+  margin: 0 auto 2px;
+}
 /*# sourceMappingURL=style.css.map */
