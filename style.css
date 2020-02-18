@@ -3934,7 +3934,7 @@ div.view-display-id-page_3 div.views-row {
   }
 }
 
-@media (min-width: 550px) {
+@media (min-width: 570px) {
   .node-type-bikeabout-post .pane-node-field-bikeabout-post-type:after {
     content: " - ";
     display: inline-block;
