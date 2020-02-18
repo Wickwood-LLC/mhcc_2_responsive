@@ -4087,10 +4087,10 @@ div.view-display-id-page_3 div.views-row {
     }
     .pane-node-field-bikeabout-post-type {
         display: block;
-        @include breakpoint(391px) {
+        @include breakpoint(530px) {
             display: inline-block;
 
-            &:before{
+            &:before, &:after{
                 content: " - ";
                 display: inline-block;
             }
@@ -4100,15 +4100,14 @@ div.view-display-id-page_3 div.views-row {
         }
     }
 
-    .pane-node-author,
-    .pane-node-updated {
+    .pane-node-author {
         display: inline;
         
         .pane-content {
             display: inline;
         }
     }
-    .pane-node-author:after {
+    .pane-node-author:before {
         content: "\00a0\00a0|\00a0\00a0";
     }
 
