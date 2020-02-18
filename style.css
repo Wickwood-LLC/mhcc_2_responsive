@@ -3952,6 +3952,7 @@ div.view-display-id-page_3 div.views-row {
 @media (min-width: 570px) {
   .node-type-bikeabout-post .pane-node-author {
     display: inline;
+    width: 100%;
   }
 }
 
