@@ -4110,6 +4110,7 @@ div.view-display-id-page_3 div.views-row {
 
     .pane-node-author {
         display: inline-block;
+        width: 100%;
         
         .pane-content {
             display: inline;
@@ -4117,7 +4118,7 @@ div.view-display-id-page_3 div.views-row {
 
         @include breakpoint(570px) {
             display: inline;
-            width: 100%;
+            width: auto;
         }
     }
 
