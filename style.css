@@ -3942,11 +3942,17 @@ div.view-display-id-page_3 div.views-row {
 }
 
 .node-type-bikeabout-post .pane-node-author {
-  display: inline;
+  display: inline-block;
 }
 
 .node-type-bikeabout-post .pane-node-author .pane-content {
   display: inline;
+}
+
+@media (min-width: 570px) {
+  .node-type-bikeabout-post .pane-node-author {
+    display: inline;
+  }
 }
 
 .node-type-bikeabout-post .pane-node-field-primary-image {

@@ -4100,7 +4100,7 @@ div.view-display-id-page_3 div.views-row {
             }
         }
         
-        @include breakpoint(550px) {
+        @include breakpoint(570px) {
             &:after {
                 content: " - ";
                 display: inline-block;
@@ -4109,9 +4109,13 @@ div.view-display-id-page_3 div.views-row {
     }
 
     .pane-node-author {
-        display: inline;
+        display: inline-block;
         
         .pane-content {
+            display: inline;
+        }
+
+        @include breakpoint(570px) {
             display: inline;
         }
     }
