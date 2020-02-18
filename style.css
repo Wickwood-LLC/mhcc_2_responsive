@@ -3921,15 +3921,22 @@ div.view-display-id-page_3 div.views-row {
   display: block;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 391px) {
   .node-type-bikeabout-post .pane-node-field-bikeabout-post-type {
     display: inline-block;
   }
-  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type:before, .node-type-bikeabout-post .pane-node-field-bikeabout-post-type:after {
+  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type:before {
     content: " - ";
     display: inline-block;
   }
   .node-type-bikeabout-post .pane-node-field-bikeabout-post-type .pane-content {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 550px) {
+  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type:after {
+    content: " - ";
     display: inline-block;
   }
 }
@@ -3940,10 +3947,6 @@ div.view-display-id-page_3 div.views-row {
 
 .node-type-bikeabout-post .pane-node-author .pane-content {
   display: inline;
-}
-
-.node-type-bikeabout-post .pane-node-author:before {
-  content: "\00a0\00a0|\00a0\00a0";
 }
 
 .node-type-bikeabout-post .pane-node-field-primary-image {
