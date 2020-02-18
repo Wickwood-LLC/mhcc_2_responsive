@@ -5041,12 +5041,16 @@ div.feed-icon img {
   display: table;
 }
 
-.media-element.mce-align-left {
-  float: left;
+@media (min-width: 481px) {
+  .media-element.mce-align-left {
+    float: left;
+  }
 }
 
-.media-element.mce-align-right {
-  float: right;
+@media (min-width: 481px) {
+  .media-element.mce-align-right {
+    float: right;
+  }
 }
 
 .media-element.mce-align-center {
@@ -5059,7 +5063,6 @@ img.media-element {
   min-width: 0;
   height: auto;
   box-sizing: border-box;
-  max-width: calc(100% - 2em);
 }
 
 .media-element-container.mce-responsive {
@@ -5185,5 +5188,10 @@ img.media-element {
   border-radius: 3px 3px 0 0;
   padding: 6px 5px;
   margin: 0 auto 2px;
+}
+
+.file-responsive-image-medium-4x3 {
+  -webkit-filter: drop-shadow(2px 4px 6px black);
+          filter: drop-shadow(2px 4px 6px black);
 }
 /*# sourceMappingURL=style.css.map */
