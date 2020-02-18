@@ -3921,7 +3921,7 @@ div.view-display-id-page_3 div.views-row {
   display: block;
 }
 
-@media (min-width: 391px) {
+@media (min-width: 415px) {
   .node-type-bikeabout-post .pane-node-field-bikeabout-post-type {
     display: inline-block;
   }
@@ -3953,6 +3953,7 @@ div.view-display-id-page_3 div.views-row {
 @media (min-width: 570px) {
   .node-type-bikeabout-post .pane-node-author {
     display: inline;
+    width: auto;
   }
 }
 
@@ -5050,7 +5051,7 @@ div.feed-icon img {
 
 .media-element.mce-align-center {
   display: table;
-  margin: 1em auto;
+  margin: auto;
 }
 
 img.media-element {

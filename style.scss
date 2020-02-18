@@ -4088,7 +4088,7 @@ div.view-display-id-page_3 div.views-row {
     .pane-node-field-bikeabout-post-type {
         display: block;
         
-        @include breakpoint(391px) {
+        @include breakpoint(415px) {
             display: inline-block;
 
             &:before {
@@ -5294,7 +5294,7 @@ div.feed-icon img {
 
 .media-element.mce-align-center {
     display: table;
-    margin: 1em auto;
+    margin: auto;
 }
 
 img.media-element {
