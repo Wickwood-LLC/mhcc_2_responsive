@@ -3922,6 +3922,10 @@ div.view-display-id-page_3 div.views-row {
     content: " - ";
     display: inline-block;
   }
+  .node-type-bikeabout-post .pane-node-field-bikeabout-issue .pane-content {
+    display: inline-block;
+    vertical-align: bottom;
+  }
 }
 
 .node-type-bikeabout-post .pane-node-field-bikeabout-post-type {

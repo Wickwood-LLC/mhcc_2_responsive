@@ -4091,6 +4091,10 @@ div.view-display-id-page_3 div.views-row {
                 content: " - ";
                 display: inline-block;
             }
+            .pane-content {
+                display: inline-block;
+                vertical-align: bottom;
+            }
         }
     }
     .pane-node-field-bikeabout-post-type {
