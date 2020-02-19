@@ -3943,6 +3943,7 @@ div.view-display-id-page_3 div.views-row {
   content: none;
   vertical-align: baseline;
   font-size: inherit;
+  font-weight: bold;
 }
 
 .node-type-bikeabout-post .pane-node-author .pane-content:before {
@@ -3953,7 +3954,6 @@ div.view-display-id-page_3 div.views-row {
   display: inline-block;
   vertical-align: middle;
   font-size: 0;
-  font-weight: bold;
   line-height: 0;
 }
 
@@ -5206,7 +5206,7 @@ img.media-element {
 }
 
 .file-responsive-image-medium-4x3 {
-  -webkit-filter: drop-shadow(2px 4px 6px black);
-          filter: drop-shadow(2px 4px 6px black);
+  -webkit-filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
 }
 /*# sourceMappingURL=style.css.map */
