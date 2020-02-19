@@ -4106,16 +4106,19 @@ div.view-display-id-page_3 div.views-row {
 
         &:before {
             content: none;
+            vertical-align: baseline;
+            font-size: inherit;
         }
 
         .pane-content:before {
             content: url("images/postauthoricon.png");
-            margin-right: 6px;
+            margin-right: 0;
             bottom: 2px;
             position: relative;
             display: inline-block;
             vertical-align: middle;
             font-size: 0;
+            font-weight: bold;
             line-height: 0;
         }
 
@@ -4126,6 +4129,7 @@ div.view-display-id-page_3 div.views-row {
             &:before {
                 content: " - ";
                 display: inline-block;
+                margin-right: 0;
             }
             .pane-content {
                 display: inline-block;

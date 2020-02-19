@@ -3947,12 +3947,13 @@ div.view-display-id-page_3 div.views-row {
 
 .node-type-bikeabout-post .pane-node-author .pane-content:before {
   content: url("images/postauthoricon.png");
-  margin-right: 6px;
+  margin-right: 0;
   bottom: 2px;
   position: relative;
   display: inline-block;
   vertical-align: middle;
   font-size: 0;
+  font-weight: bold;
   line-height: 0;
 }
 
@@ -3964,6 +3965,7 @@ div.view-display-id-page_3 div.views-row {
   .node-type-bikeabout-post .pane-node-author:before {
     content: " - ";
     display: inline-block;
+    margin-right: 0;
   }
   .node-type-bikeabout-post .pane-node-author .pane-content {
     display: inline-block;
