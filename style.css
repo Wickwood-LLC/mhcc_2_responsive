@@ -3941,10 +3941,19 @@ div.view-display-id-page_3 div.views-row {
 
 .node-type-bikeabout-post .pane-node-author:before {
   content: none;
+  vertical-align: baseline;
+  font-size: inherit;
 }
 
 .node-type-bikeabout-post .pane-node-author .pane-content:before {
+  content: url("images/postauthoricon.png");
+  margin-right: 6px;
+  bottom: 2px;
+  position: relative;
   display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+  line-height: 0;
 }
 
 @media (min-width: 570px) {
