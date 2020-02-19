@@ -3917,6 +3917,13 @@ div.view-display-id-page_3 div.views-row {
   vertical-align: bottom;
 }
 
+@media (min-width: 415px) {
+  .node-type-bikeabout-post .pane-node-field-bikeabout-issue:after {
+    content: " - ";
+    display: inline-block;
+  }
+}
+
 .node-type-bikeabout-post .pane-node-field-bikeabout-post-type {
   display: block;
 }
@@ -3925,18 +3932,14 @@ div.view-display-id-page_3 div.views-row {
   .node-type-bikeabout-post .pane-node-field-bikeabout-post-type {
     display: inline-block;
   }
-  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type:before {
-    content: " - ";
-    display: inline-block;
-  }
-  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type .pane-content {
-    display: inline-block;
-  }
 }
 
 @media (min-width: 570px) {
   .node-type-bikeabout-post .pane-node-field-bikeabout-post-type:after {
     content: " - ";
+    display: inline-block;
+  }
+  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type .pane-content {
     display: inline-block;
   }
 }

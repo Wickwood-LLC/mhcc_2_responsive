@@ -4085,24 +4085,27 @@ div.view-display-id-page_3 div.views-row {
         display: inline-block;
         vertical-align: bottom;
     }
-    .pane-node-field-bikeabout-post-type {
-        display: block;
-        
+    .pane-node-field-bikeabout-issue{
         @include breakpoint(415px) {
-            display: inline-block;
-
-            &:before {
+            &:after {
                 content: " - ";
                 display: inline-block;
             }
-            .pane-content {
-                display: inline-block;
-            }
+        }
+    }
+    .pane-node-field-bikeabout-post-type {
+        display: block;
+
+        @include breakpoint(415px) {
+            display: inline-block;
         }
         
         @include breakpoint(570px) {
             &:after {
                 content: " - ";
+                display: inline-block;
+            }
+            .pane-content {
                 display: inline-block;
             }
         }
