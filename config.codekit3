@@ -1428,6 +1428,13 @@
 		"oAP": "/templates/page.tpl.php",
 		"oF": 0
 		},
+	"/templates/panelizer-view-mode.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/panelizer-view-mode.tpl.php",
+		"oF": 0
+		},
 	"/templates/simpleads_block.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
