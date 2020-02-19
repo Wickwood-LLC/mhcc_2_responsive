@@ -4085,27 +4085,12 @@ div.view-display-id-page_3 div.views-row {
         display: inline-block;
         vertical-align: bottom;
     }
-    .pane-node-field-bikeabout-issue{
-        @include breakpoint(415px) {
-            &:after {
-                content: " - ";
-                display: inline-block;
-            }
-            .pane-content {
-                display: inline-block;
-                vertical-align: bottom;
-            }
-        }
-    }
     .pane-node-field-bikeabout-post-type {
         display: block;
 
         @include breakpoint(415px) {
             display: inline-block;
-        }
-        
-        @include breakpoint(570px) {
-            &:after {
+            &:before {
                 content: " - ";
                 display: inline-block;
             }
@@ -4118,14 +4103,33 @@ div.view-display-id-page_3 div.views-row {
     .pane-node-author {
         display: inline-block;
         width: 100%;
-        
-        .pane-content {
-            display: inline;
+
+        &:before {
+            content: none;
+        }
+
+        .pane-content:before {
+            content: url("images/postauthoricon.png");
+            margin-right: 6px;
+            bottom: 2px;
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 0;
+            line-height: 0;
         }
 
         @include breakpoint(570px) {
             display: inline;
             width: auto;
+
+            &:before {
+                content: " - ";
+                display: inline-block;
+            }
+            .pane-content {
+                display: inline-block;
+            }
         }
     }
 

@@ -3917,17 +3917,6 @@ div.view-display-id-page_3 div.views-row {
   vertical-align: bottom;
 }
 
-@media (min-width: 415px) {
-  .node-type-bikeabout-post .pane-node-field-bikeabout-issue:after {
-    content: " - ";
-    display: inline-block;
-  }
-  .node-type-bikeabout-post .pane-node-field-bikeabout-issue .pane-content {
-    display: inline-block;
-    vertical-align: bottom;
-  }
-}
-
 .node-type-bikeabout-post .pane-node-field-bikeabout-post-type {
   display: block;
 }
@@ -3936,10 +3925,7 @@ div.view-display-id-page_3 div.views-row {
   .node-type-bikeabout-post .pane-node-field-bikeabout-post-type {
     display: inline-block;
   }
-}
-
-@media (min-width: 570px) {
-  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type:after {
+  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type:before {
     content: " - ";
     display: inline-block;
   }
@@ -3953,14 +3939,25 @@ div.view-display-id-page_3 div.views-row {
   width: 100%;
 }
 
-.node-type-bikeabout-post .pane-node-author .pane-content {
-  display: inline;
+.node-type-bikeabout-post .pane-node-author:before {
+  content: none;
+}
+
+.node-type-bikeabout-post .pane-node-author .pane-content:before {
+  display: inline-block;
 }
 
 @media (min-width: 570px) {
   .node-type-bikeabout-post .pane-node-author {
     display: inline;
     width: auto;
+  }
+  .node-type-bikeabout-post .pane-node-author:before {
+    content: " - ";
+    display: inline-block;
+  }
+  .node-type-bikeabout-post .pane-node-author .pane-content {
+    display: inline-block;
   }
 }
 
