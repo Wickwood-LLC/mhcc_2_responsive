@@ -5055,15 +5055,33 @@ div.feed-icon img {
   display: table;
 }
 
-@media (min-width: 481px) {
+.media-element.mce-align-left {
+  float: none;
+  margin: auto;
+}
+
+@media (min-width: 480px) {
   .media-element.mce-align-left {
     float: left;
+    margin-top: 5px;
+    margin-left: 0.5em;
+    margin-right: .5em;
+    margin-bottom: 1em;
   }
 }
 
-@media (min-width: 481px) {
+.media-element.mce-align-right {
+  float: none;
+  margin: auto;
+}
+
+@media (min-width: 480px) {
   .media-element.mce-align-right {
     float: right;
+    margin-top: 5px;
+    margin-left: 0.5em;
+    margin-left: .5em;
+    margin-bottom: 1em;
   }
 }
 

@@ -5299,14 +5299,28 @@ div.feed-icon img {
 }
 
 .media-element.mce-align-left {
-    @include breakpoint(481px){
-        float: left;
+    float: none;
+    margin: auto; 
+
+    @media (min-width: 480px) {
+      float: left;
+      margin-top: 5px;
+      margin-left: 0.5em;
+      margin-right: .5em;
+      margin-bottom: 1em;
     }
 }
 
 .media-element.mce-align-right {
-    @include breakpoint(481px){
-        float: right;
+    float: none;
+    margin: auto; 
+
+    @media (min-width: 480px) {
+      float: right;
+      margin-top: 5px;
+      margin-left: 0.5em;
+      margin-left: .5em;
+      margin-bottom: 1em;
     }
 }
 
