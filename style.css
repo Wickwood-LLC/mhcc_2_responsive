@@ -5056,6 +5056,7 @@ div.feed-icon img {
 }
 
 .media-element.mce-align-left {
+  display: inline-flex;
   float: none;
   margin: auto;
 }
@@ -5071,6 +5072,7 @@ div.feed-icon img {
 }
 
 .media-element.mce-align-right {
+  display: inline-flex;
   float: none;
   margin: auto;
 }
