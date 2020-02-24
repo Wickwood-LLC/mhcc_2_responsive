@@ -3893,6 +3893,11 @@ div.view-display-id-page_3 div.views-row {
 .node-type-bikeabout-post .panel-myriad-layout .main-content,
 .node-type-bikeabout-post .panel-myriad-layout .row-two {
   flex: 4 1 474px;
+  background: #E2EDF3;
+  border-radius: 10px;
+  border: 3px solid #9DC4D7;
+  padding: 5px;
+  margin: 5px;
 }
 
 @media (min-width: 520px) {
@@ -3905,6 +3910,7 @@ div.view-display-id-page_3 div.views-row {
 .node-type-bikeabout-post .panel-myriad-layout .sidebar-content {
   flex: 1 1 200px;
   min-width: 200px;
+  align-self: flex-start;
 }
 
 .node-type-bikeabout-post .bikeabout-header {
@@ -5216,6 +5222,7 @@ img.media-element {
   border-radius: 6px;
   padding: 7px;
   margin: 5px;
+  border: 3px solid #9DC4D7;
 }
 
 .boxed .pane-title {
