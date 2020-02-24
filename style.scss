@@ -4058,11 +4058,12 @@ div.view-display-id-page_3 div.views-row {
 
 /* Styling for BikeAbout Pages */
 .node-type-bikeabout-post {
-    .row-two {
+    .panel-myriad-layout {
         display: flex;
         flex-flow: row wrap;
         
-        .main-content {
+        .main-content,
+        .row-two {
             flex: 4 1 474px;
             
             @include breakpoint(520px) {
