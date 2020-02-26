@@ -5237,4 +5237,12 @@ img.media-element {
   -webkit-filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
           filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
 }
+
+.panelized-node .art-content > article.art-post.art-article:last-of-type {
+  background: none;
+  border-radius: 0px;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
 /*# sourceMappingURL=style.css.map */
