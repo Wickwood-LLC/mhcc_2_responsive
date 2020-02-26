@@ -4058,6 +4058,14 @@ div.view-display-id-page_3 div.views-row {
 
 /* Styling for BikeAbout Pages */
 .node-type-bikeabout-post {
+    .panelized-node .art-content > article.art-post.art-article:last-of-type {
+        background: none;
+        border-radius:0px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
     .panel-myriad-layout {
         display: flex;
         flex-flow: row wrap;
@@ -5477,12 +5485,4 @@ img.media-element {
 
 .file-responsive-image-medium-4x3 {
     filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, .5));
-}
-
-.panelized-node .art-content > article.art-post.art-article:last-of-type {
-    background: none;
-    border-radius:0px;
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
 }
