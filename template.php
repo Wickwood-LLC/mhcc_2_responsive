@@ -362,10 +362,3 @@ print t('!username on !datetime',
         return '';
     }
 }
-
-function mhcc_2_preprocess_page(&$vars, $hook) {
-    dpm($vars);
-    if (isset($vars['node']->type)) {
-        $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
-    }
-}
