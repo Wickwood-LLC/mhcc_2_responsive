@@ -79,8 +79,8 @@ function mhcc_2_preprocess_page(&$vars){
     }
 
     dpm($vars['node']->panelizer);
-    if (isset($vars['node']->type)) {
-        $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
+    if (isset($vars['node']->type) && isset($vars['node']->panelizer)) {
+        $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type . '-panelized';
     }
 }
 
