@@ -1393,13 +1393,6 @@
 		"oAP": "/templates/node--article.tpl.php",
 		"oF": 0
 		},
-	"/templates/node--bikeabout-post.tpl.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/templates/node--bikeabout-post.tpl.php",
-		"oF": 0
-		},
 	"/templates/node--news.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
