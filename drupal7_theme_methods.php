@@ -78,8 +78,8 @@ function mhcc_2_preprocess_page(&$vars){
         $vars['search_box'] = drupal_get_form('search_form');
     }
 
-    dpm($vars);
-    if (isset($vars['node']->type) && isset($vars['node']->panelizer)) {
+    dpm($vars['node']);
+    if (isset($vars['node']->type) && $vars['node']->panelizer) {
         $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type . '-panelized';
     }
 }
