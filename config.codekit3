@@ -1421,6 +1421,13 @@
 		"oAP": "/templates/node.tpl.php",
 		"oF": 0
 		},
+	"/templates/page.tpl copy.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/page.tpl copy.php",
+		"oF": 0
+		},
 	"/templates/page.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
