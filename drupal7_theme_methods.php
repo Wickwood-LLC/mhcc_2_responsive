@@ -79,9 +79,9 @@ function mhcc_2_preprocess_page(&$vars){
     }
 
     dpm($vars);
-    if (isset($vars['node']->type) && isset($vars['node']->panelizer['page_manager']->pnid)) {
+    // if (($vars['node']->type ==  'bikeabout_post') && isset($vars['node']->panelizer['page_manager']->pnid)) {
         $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type . '__panelized';
-    }
+    // }
 }
 
 /**
