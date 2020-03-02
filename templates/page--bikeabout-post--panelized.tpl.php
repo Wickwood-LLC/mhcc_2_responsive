@@ -12,7 +12,7 @@ if (!isset($vnavigation_right)) $vnavigation_right = NULL;
 $tabs = (isset($tabs) && !(empty($tabs))) ? '<ul class="arttabs_primary">'.render($tabs).'</ul>' : NULL;
 $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.render($tabs2).'</ul>' : NULL;
 ?>
-    <div id="art-main test">
+    <div id="art-main">
         <div id="art-header-bg" class="clearfix">
         </div>
         <div class="art-sheet clearfix">
@@ -127,7 +127,7 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
                             </article>
                             <?php endif; ?>
                             <?php if ($art_post_position === FALSE): ?>
-                            <article class="art-post art-article">
+                            <article class="art-post art-article panelized-content">
                                 <div class="art-postcontent">
                                     <?php endif; ?>
                                     <?php echo art_content_replace(render($content)); ?>
@@ -136,7 +136,7 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
                             </article>
                             <?php endif; ?>
                             <?php else: ?>
-                            <article class="art-post art-article panelized-content">
+                            <article class="art-post art-article">
                                 <div class="art-postcontent">
                                     <?php if (!empty($tabs)) { echo $tabs.'<div class="cleared"></div>'; }; ?>
                                     <?php if (!empty($tabs2)) { echo $tabs2.'<div class="cleared"></div>'; } ?>
