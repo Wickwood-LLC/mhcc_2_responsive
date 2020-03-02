@@ -3885,14 +3885,6 @@ div.view-display-id-page_3 div.views-row {
 }
 
 /* Styling for BikeAbout Pages */
-.node-type-bikeabout-post.panelized-node .art-content > article.art-post.art-article:last-of-type {
-  background: none;
-  border-radius: 0px;
-  border: 0px;
-  padding: 0px;
-  margin: 0px;
-}
-
 .node-type-bikeabout-post .panel-myriad-layout {
   display: flex;
   flex-flow: row wrap;
@@ -4007,6 +3999,14 @@ div.view-display-id-page_3 div.views-row {
 
 .node-type-bikeabout-post .pane-node-field-tags {
   margin: 0 2.5%;
+}
+
+.panelized-content {
+  background: none;
+  border-radius: 0px;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 /* Styling for Unpublished Nodes */
