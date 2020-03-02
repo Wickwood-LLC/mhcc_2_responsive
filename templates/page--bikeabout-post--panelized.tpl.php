@@ -12,7 +12,7 @@ if (!isset($vnavigation_right)) $vnavigation_right = NULL;
 $tabs = (isset($tabs) && !(empty($tabs))) ? '<ul class="arttabs_primary">'.render($tabs).'</ul>' : NULL;
 $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.render($tabs2).'</ul>' : NULL;
 ?>
-    <div id="art-main">
+    <div id="art-main test">
         <div id="art-header-bg" class="clearfix">
         </div>
         <div class="art-sheet clearfix">
