@@ -1421,11 +1421,11 @@
 		"oAP": "/templates/node.tpl.php",
 		"oF": 0
 		},
-	"/templates/page--bikeabout-post-panelized.tpl.php": {
+	"/templates/page--bikeabout-post--panelized.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/templates/page--bikeabout-post-panelized.tpl.php",
+		"oAP": "/templates/page--bikeabout-post--panelized.tpl.php",
 		"oF": 0
 		},
 	"/templates/page.tpl.php": {
