@@ -4057,8 +4057,7 @@ div.view-display-id-page_3 div.views-row {
 }
 
 /* Styling for BikeAbout Pages */
-.node-type-bikeabout-post,
-.node-bikeabout-post {    
+.node-type-bikeabout-post {    
     .panel-myriad-layout {
         display: flex;
         flex-flow: row wrap;
@@ -4082,7 +4081,10 @@ div.view-display-id-page_3 div.views-row {
             align-self: flex-start;
         }
     }
+}
 
+.node-type-bikeabout-post,
+.node-bikeabout-post {
     .bikeabout-header {
         text-align: center;
     }
