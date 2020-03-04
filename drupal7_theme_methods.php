@@ -78,9 +78,10 @@ function mhcc_2_preprocess_page(&$vars){
         $vars['search_box'] = drupal_get_form('search_form');
     }
 
-    if (($vars['node']->type ==  'bikeabout_post') && isset($vars['node']->panelizer['page_manager']->pnid)) {
-        $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type . '__panelized';
+    if (isset($vars['node']->panelizer['page_manager']->pnid)) {
+        $vars['theme_hook_suggestions'][] = 'page__panelized';
     }
+    dpm($vars['node']);
 }
 
 /**
