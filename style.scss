@@ -241,7 +241,7 @@ ul.art-vmenu a {
 
 .art-postcontent h2 {
     color: #152933;
-    margin: 10px 0 0;
+    margin: 5px 10px;
     font-size: 29px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
@@ -2318,7 +2318,7 @@ pre {
 .art-postheader,
 .art-postcontent h1.art-postheader {
     color: #0F3C4D;
-    margin: 5px 10px;
+    margin: 5px 0px;
     text-align: center;
     font: normal bold 29px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
@@ -4180,6 +4180,24 @@ div.view-display-id-page_3 div.views-row {
 
 .views-row .panel-myriad-layout {
     display: block;
+}
+
+.pane-date-navigation-panel-pane-1 {
+    .pane-node-title-field a {
+        text-decoration: underline;
+    }
+    .pane-node-links {
+        text-align: right;
+        
+        li {
+            list-style: none;
+            
+            a {
+                color: red;
+                font-weight: bold;
+            }
+        }
+    }
 }
 
 
