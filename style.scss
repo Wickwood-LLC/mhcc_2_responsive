@@ -2391,7 +2391,6 @@ pre {
 .art-postheadericons a:hover,
 .art-postheadericons a.hover {
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-    font-weight: normal;
     font-style: normal;
     text-decoration: underline;
     color: #238DB3;
@@ -4177,6 +4176,10 @@ div.view-display-id-page_3 div.views-row {
             align-self: flex-start;
         }
     }
+}
+
+.views-row .panel-myriad-layout {
+    display: block;
 }
 
 
