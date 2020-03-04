@@ -4192,6 +4192,10 @@ div.view-display-id-page_3 div.views-row {
         li {
             list-style: none;
             
+            &:before {
+                display: none;
+            }
+            
             a {
                 color: red;
                 font-weight: bold;
