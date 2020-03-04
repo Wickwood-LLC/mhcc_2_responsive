@@ -4060,32 +4060,6 @@ div.view-display-id-page_3 div.views-row {
 }
 
 /* Styling for BikeAbout Pages */
-.node-type-bikeabout-post {    
-    .panel-myriad-layout {
-        display: flex;
-        flex-flow: row wrap;
-        
-        .main-content,
-        .row-two {
-            flex: 4 1 474px;
-            background: #E2EDF3;
-            border-radius: 10px;
-            border: 3px solid #9DC4D7;
-            padding: 5px;
-            margin: 5px;
-            
-            @include breakpoint(520px) {
-                min-width: 474px;
-            }
-        }
-        .sidebar-content {
-            flex: 1 1 200px;
-            min-width: 200px;
-            align-self: flex-start;
-        }
-    }
-}
-
 .node-type-bikeabout-post,
 .node-bikeabout-post {
     .bikeabout-header {
@@ -4176,6 +4150,33 @@ div.view-display-id-page_3 div.views-row {
     border: 0px;
     padding: 0px;
     margin: 0px;
+}
+
+/* Styling for Panelized Nodes */
+.panelized-node {    
+    .panel-myriad-layout {
+        display: flex;
+        flex-flow: row wrap;
+        
+        .main-content,
+        .row-two {
+            flex: 4 1 474px;
+            background: #E2EDF3;
+            border-radius: 10px;
+            border: 3px solid #9DC4D7;
+            padding: 5px;
+            margin: 5px;
+            
+            @include breakpoint(520px) {
+                min-width: 474px;
+            }
+        }
+        .sidebar-content {
+            flex: 1 1 200px;
+            min-width: 200px;
+            align-self: flex-start;
+        }
+    }
 }
 
 
@@ -5487,7 +5488,7 @@ img.media-element {
         margin: 0 auto 2px;
     }
 }
-.pane-bikeabout-header.boxed {
+.pane-bikeabout-header .boxed {
     background: white;
     padding-bottom: 0px;
     

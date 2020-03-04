@@ -3888,34 +3888,6 @@ div.view-display-id-page_3 div.views-row {
 }
 
 /* Styling for BikeAbout Pages */
-.node-type-bikeabout-post .panel-myriad-layout {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.node-type-bikeabout-post .panel-myriad-layout .main-content,
-.node-type-bikeabout-post .panel-myriad-layout .row-two {
-  flex: 4 1 474px;
-  background: #E2EDF3;
-  border-radius: 10px;
-  border: 3px solid #9DC4D7;
-  padding: 5px;
-  margin: 5px;
-}
-
-@media (min-width: 520px) {
-  .node-type-bikeabout-post .panel-myriad-layout .main-content,
-  .node-type-bikeabout-post .panel-myriad-layout .row-two {
-    min-width: 474px;
-  }
-}
-
-.node-type-bikeabout-post .panel-myriad-layout .sidebar-content {
-  flex: 1 1 200px;
-  min-width: 200px;
-  align-self: flex-start;
-}
-
 .node-type-bikeabout-post .bikeabout-header,
 .node-bikeabout-post .bikeabout-header {
   text-align: center;
@@ -4027,6 +3999,35 @@ div.view-display-id-page_3 div.views-row {
   border: 0px;
   padding: 0px;
   margin: 0px;
+}
+
+/* Styling for Panelized Nodes */
+.panelized-node .panel-myriad-layout {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.panelized-node .panel-myriad-layout .main-content,
+.panelized-node .panel-myriad-layout .row-two {
+  flex: 4 1 474px;
+  background: #E2EDF3;
+  border-radius: 10px;
+  border: 3px solid #9DC4D7;
+  padding: 5px;
+  margin: 5px;
+}
+
+@media (min-width: 520px) {
+  .panelized-node .panel-myriad-layout .main-content,
+  .panelized-node .panel-myriad-layout .row-two {
+    min-width: 474px;
+  }
+}
+
+.panelized-node .panel-myriad-layout .sidebar-content {
+  flex: 1 1 200px;
+  min-width: 200px;
+  align-self: flex-start;
 }
 
 /* Styling for Unpublished Nodes */
@@ -5261,12 +5262,12 @@ img.media-element {
   margin: 0 auto 2px;
 }
 
-.pane-bikeabout-header.boxed {
+.pane-bikeabout-header .boxed {
   background: white;
   padding-bottom: 0px;
 }
 
-.pane-bikeabout-header.boxed img {
+.pane-bikeabout-header .boxed img {
   width: 100%;
   height: auto;
 }
