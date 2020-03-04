@@ -136,7 +136,7 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
                             </article>
                             <?php endif; ?>
                             <?php else: ?>
-                            <article class="art-post art-article">
+                            <article class="art-post art-article panelized-content">
                                 <div class="art-postcontent">
                                     <?php if (!empty($tabs)) { echo $tabs.'<div class="cleared"></div>'; }; ?>
                                     <?php if (!empty($tabs2)) { echo $tabs2.'<div class="cleared"></div>'; } ?>
