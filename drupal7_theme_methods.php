@@ -78,10 +78,9 @@ function mhcc_2_preprocess_page(&$vars){
         $vars['search_box'] = drupal_get_form('search_form');
     }
 
-    if (isset($vars['node']->panelizer['page_manager']->pnid)) {
+    if (isset($vars['node']->panelizer['page_manager']->pnid) || page_manager_get_current_page()) {
         $vars['theme_hook_suggestions'][] = 'page__panelized';
     }
-    dpm(page_manager_get_current_page());
 }
 
 /**
