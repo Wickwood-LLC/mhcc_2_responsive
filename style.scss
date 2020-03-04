@@ -2500,6 +2500,9 @@ pre {
 .art-post li,
 .art-textblock li {
     margin: 3px 0 0 0;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+    list-style-position: outside;
 }
 
 .art-postcontent ol>li,
@@ -5482,6 +5485,15 @@ img.media-element {
         border-radius: 3px 3px 0 0;
         padding: 6px 5px;
         margin: 0 auto 2px;
+    }
+}
+.pane-bikeabout-header.boxed {
+    background: white;
+    padding-bottom: 0px;
+    
+    img {
+        width: 100%;
+        height: auto;
     }
 }
 
