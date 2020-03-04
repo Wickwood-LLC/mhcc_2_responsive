@@ -81,7 +81,7 @@ function mhcc_2_preprocess_page(&$vars){
     if (isset($vars['node']->panelizer['page_manager']->pnid)) {
         $vars['theme_hook_suggestions'][] = 'page__panelized';
     }
-    dpm($vars['node']);
+    dpm($vars);
 }
 
 /**
