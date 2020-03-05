@@ -4182,9 +4182,21 @@ div.view-display-id-page_3 div.views-row {
     display: block;
 }
 
-.pane-date-navigation-panel-pane-1 {
+.page-bikeabout.panelized-node {
+    .main-content {
+        border: 0;
+        background: none;
+        padding: 0;
+        margin: 0;
+    }
+
     .pane-node-title-field a {
-        text-decoration: underline;
+        color: #0F3C4D;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
     .pane-node-links {
         text-align: right;
@@ -4199,6 +4211,12 @@ div.view-display-id-page_3 div.views-row {
             a {
                 color: red;
                 font-weight: bold;
+                text-transform: capitalize;
+                text-decoration: none;
+                
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
     }

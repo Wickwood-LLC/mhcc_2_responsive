@@ -2938,11 +2938,13 @@ blockquote p,
 }
 
 .art-lightbox-wrapper .cw {
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .art-lightbox-wrapper .ccw {
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .art-lightbox-wrapper .close-alt,
@@ -2997,13 +2999,15 @@ blockquote p,
 /* Begin Additional CSS Styles */
 @media (min-width: 350px) {
   .block-date-navigation ul.jquerymenu {
-    column-count: 2;
+    -webkit-column-count: 2;
+            column-count: 2;
   }
 }
 
 @media (min-width: 693px) {
   .block-date-navigation ul.jquerymenu {
-    column-count: unset;
+    -webkit-column-count: unset;
+            column-count: unset;
   }
 }
 
@@ -3743,7 +3747,8 @@ div.group-header div.field-name-field-canceled {
   color: red;
   font-variant: small-caps;
   text-transform: uppercase;
-  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
   position: absolute;
   top: 200px;
   left: 200px;
@@ -3758,7 +3763,8 @@ div.group-left div.field-name-field-canceled {
   color: red;
   font-variant: small-caps;
   text-transform: uppercase;
-  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
   position: absolute;
   top: 30px;
   left: 200px;
@@ -4027,25 +4033,43 @@ div.view-display-id-page_3 div.views-row {
   display: block;
 }
 
-.pane-date-navigation-panel-pane-1 .pane-node-title-field a {
+.page-bikeabout.panelized-node .main-content {
+  border: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-bikeabout.panelized-node .pane-node-title-field a {
+  color: #0F3C4D;
+  font-weight: bold;
+}
+
+.page-bikeabout.panelized-node .pane-node-title-field a:hover {
   text-decoration: underline;
 }
 
-.pane-date-navigation-panel-pane-1 .pane-node-links {
+.page-bikeabout.panelized-node .pane-node-links {
   text-align: right;
 }
 
-.pane-date-navigation-panel-pane-1 .pane-node-links li {
+.page-bikeabout.panelized-node .pane-node-links li {
   list-style: none;
 }
 
-.pane-date-navigation-panel-pane-1 .pane-node-links li:before {
+.page-bikeabout.panelized-node .pane-node-links li:before {
   display: none;
 }
 
-.pane-date-navigation-panel-pane-1 .pane-node-links li a {
+.page-bikeabout.panelized-node .pane-node-links li a {
   color: red;
   font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.page-bikeabout.panelized-node .pane-node-links li a:hover {
+  text-decoration: underline;
 }
 
 /* Styling for Unpublished Nodes */
@@ -5227,7 +5251,8 @@ img.media-element {
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-first .menu {
-  column-width: 150px;
+  -webkit-column-width: 150px;
+          column-width: 150px;
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-first .art-block {
@@ -5290,7 +5315,7 @@ img.media-element {
 }
 
 .file-responsive-image-medium-4x3 {
-  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
+  -webkit-filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
 }
-
 /*# sourceMappingURL=style.css.map */
