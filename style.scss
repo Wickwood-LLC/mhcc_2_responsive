@@ -4267,38 +4267,38 @@ div.view-display-id-page_3 div.views-row {
             cursor: default;
         }
     }
-}
 
-#flexslider-1 {
-    margin-bottom: 30px;
-    background: unset;
-    border: 0;
-    
-    .slides {
-        margin: 0;
+    .flexslider {
+        margin-bottom: 30px;
+        background: unset;
+        border: 0;
         
-        &:before {
-            display: none;
+        .slides {
+            margin: 0;
+            
+            &:before {
+                display: none;
+            }
+
+            li::before {
+                display: none;            
+            }
         }
 
-        li::before {
-            display: none;            
+        .flex-control-nav {
+            margin: 0;
+            
+            li {
+                margin: 3px;
+            }
         }
-    }
-
-    .flex-control-nav {
-        margin: 0;
-        
-        li {
-            margin: 3px;
-        }
-    }
-    .flex-direction-nav {
-        li::before {
-            display: none;
-        }
-        a::before {
-            line-height: 1;
+        .flex-direction-nav {
+            li::before {
+                display: none;
+            }
+            a::before {
+                line-height: 1;
+            }
         }
     }
 }
