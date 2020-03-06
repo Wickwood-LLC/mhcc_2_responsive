@@ -4267,6 +4267,28 @@ div.view-display-id-page_3 div.views-row {
     }
 }
 
+#flexslider-1 {
+    margin: 0;
+    background: unset;
+    border: 0;
+    
+    .slides {
+        margin: 0;
+        
+        &:before {
+            display: none;
+        }
+    }
+
+    .flex-control-nav {
+        margin: 0;
+        
+        li {
+            margin: 3px;
+        }
+    }
+}
+
 
 /* Styling for Unpublished Nodes */
 .node-unpublished {

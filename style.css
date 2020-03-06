@@ -4118,6 +4118,28 @@ div.view-display-id-page_3 div.views-row {
   cursor: default;
 }
 
+#flexslider-1 {
+  margin: 0;
+  background: unset;
+  border: 0;
+}
+
+#flexslider-1 .slides {
+  margin: 0;
+}
+
+#flexslider-1 .slides:before {
+  display: none;
+}
+
+#flexslider-1 .flex-control-nav {
+  margin: 0;
+}
+
+#flexslider-1 .flex-control-nav li {
+  margin: 3px;
+}
+
 /* Styling for Unpublished Nodes */
 .node-unpublished {
   background: unset;
