@@ -2295,7 +2295,7 @@ pre {
   position: relative;
   z-index: 1;
   padding: 1px;
-  margin-bottom: 5px;
+  margin: 0 2.5% 5px;
 }
 
 .art-postheader,
@@ -3890,6 +3890,7 @@ div.view-display-id-page_3 div.views-row {
 .node-type-bikeabout-post .bikeabout-header,
 .node-bikeabout-post .bikeabout-header {
   text-align: center;
+  width: 100%;
 }
 
 .node-type-bikeabout-post .pane-node-field-bikeabout-issue,
@@ -4075,7 +4076,7 @@ div.view-display-id-page_3 div.views-row {
 .pane-content-image-slideshow-panel-pane-1 {
   width: 100%;
   float: none;
-  margin-right: 0;
+  margin: 0 2.5%;
 }
 
 @media (min-width: 530px) {
@@ -4083,6 +4084,7 @@ div.view-display-id-page_3 div.views-row {
     width: 50%;
     float: left;
     margin-right: 1em;
+    margin-left: 2.5%;
   }
 }
 
@@ -4119,7 +4121,7 @@ div.view-display-id-page_3 div.views-row {
 }
 
 #flexslider-1 {
-  margin: 0;
+  margin-bottom: 30px;
   background: unset;
   border: 0;
 }
@@ -4142,6 +4144,10 @@ div.view-display-id-page_3 div.views-row {
 
 #flexslider-1 .flex-control-nav li {
   margin: 3px;
+}
+
+#flexslider-1 .flex-direction-nav li::before {
+  display: none;
 }
 
 #flexslider-1 .flex-direction-nav a::before {
