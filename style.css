@@ -4132,12 +4132,20 @@ div.view-display-id-page_3 div.views-row {
   display: none;
 }
 
+#flexslider-1 .slides li::before {
+  display: none;
+}
+
 #flexslider-1 .flex-control-nav {
   margin: 0;
 }
 
 #flexslider-1 .flex-control-nav li {
   margin: 3px;
+}
+
+#flexslider-1 .flex-direction-nav a::before {
+  line-height: 1;
 }
 
 /* Styling for Unpublished Nodes */

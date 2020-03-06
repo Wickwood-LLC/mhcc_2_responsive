@@ -4278,6 +4278,10 @@ div.view-display-id-page_3 div.views-row {
         &:before {
             display: none;
         }
+
+        li::before {
+            display: none;            
+        }
     }
 
     .flex-control-nav {
@@ -4286,6 +4290,9 @@ div.view-display-id-page_3 div.views-row {
         li {
             margin: 3px;
         }
+    }
+    .flex-direction-nav a::before {
+        line-height: 1;
     }
 }
 
