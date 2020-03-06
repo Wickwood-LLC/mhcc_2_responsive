@@ -4222,6 +4222,35 @@ div.view-display-id-page_3 div.views-row {
     }
 }
 
+.view-content-image-slideshow {
+    width: 50%;
+    float: left;
+    .views-slideshow-controls-bottom {
+        float: none;
+        width: unset;
+        text-align: center;
+    }
+    .views-slideshow-pager-field-item {
+        cursor: pointer;
+        display: inline-block;
+        background: #222;
+        margin: 0.4em;
+        line-height: 12px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+
+        a {
+            text-indent: -9999px;
+        }
+
+        &.active {
+            background: #555;
+            cursor: default;
+        }
+    }
+}
+
 
 /* Styling for Unpublished Nodes */
 .node-unpublished {

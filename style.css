@@ -4072,6 +4072,36 @@ div.view-display-id-page_3 div.views-row {
   text-decoration: underline;
 }
 
+.view-content-image-slideshow {
+  width: 50%;
+}
+
+.view-content-image-slideshow .views-slideshow-controls-bottom {
+  float: none;
+  width: unset;
+  text-align: center;
+}
+
+.view-content-image-slideshow .views-slideshow-pager-field-item {
+  cursor: pointer;
+  display: inline-block;
+  background: #222;
+  margin: 0.4em;
+  line-height: 12px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.view-content-image-slideshow .views-slideshow-pager-field-item a {
+  text-indent: -9999px;
+}
+
+.view-content-image-slideshow .views-slideshow-pager-field-item.active {
+  background: #555;
+  cursor: default;
+}
+
 /* Styling for Unpublished Nodes */
 .node-unpublished {
   background: unset;
