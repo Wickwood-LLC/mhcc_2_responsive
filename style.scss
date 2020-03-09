@@ -4300,6 +4300,18 @@ div.view-display-id-page_3 div.views-row {
                 line-height: 1;
             }
         }
+
+        .flex-caption {
+            text-align: center;
+            background: #BBE3F2;
+            border-radius: 4px;
+            border: 1px solid #9DC4D7;
+            position: relative;
+            z-index: 1;
+            padding: 1px;
+            margin: 5px 2.5% 5px;
+            font-size: .9em;
+        }
     }
 }
 
