@@ -4293,8 +4293,11 @@ div.view-display-id-page_3 div.views-row {
             }
         }
         .flex-direction-nav {
-            li::before {
-                display: none;
+            li {
+                list-style-image: none !important;
+                &::before {
+                    display: none;
+                }
             }
             a::before {
                 line-height: 1;

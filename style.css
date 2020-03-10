@@ -4146,6 +4146,10 @@ div.view-display-id-page_3 div.views-row {
   margin: 3px;
 }
 
+.view-content-image-slideshow .flexslider .flex-direction-nav li {
+  list-style-image: none !important;
+}
+
 .view-content-image-slideshow .flexslider .flex-direction-nav li::before {
   display: none;
 }
