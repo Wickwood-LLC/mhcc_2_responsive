@@ -5437,8 +5437,16 @@ img.media-element {
     flex-flow: row wrap;
   }
   .pane-views-3705582c857dd1f7512fbc0488e9eda0 .views-exposed-widgets div[class*="views-widget-filter"] {
-    flex: 1 1 auto;
+    flex: 1 1 30%;
   }
+}
+
+.pane-views-3705582c857dd1f7512fbc0488e9eda0 .views-exposed-widgets label {
+  line-height: normal;
+}
+
+.pane-views-3705582c857dd1f7512fbc0488e9eda0 .views-exposed-widgets label::after {
+  margin-left: -0.3em;
 }
 
 .file-responsive-image-medium-4x3 {

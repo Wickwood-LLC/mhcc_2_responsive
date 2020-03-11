@@ -5659,7 +5659,15 @@ img.media-element {
             flex-flow: row wrap;
             
             div[class*="views-widget-filter"] {
-                flex: 1 1 auto;
+                flex: 1 1 30%;
+            }
+        }
+
+        label {
+            line-height: normal;
+
+            &::after {
+                margin-left: -0.3em;
             }
         }
     }
