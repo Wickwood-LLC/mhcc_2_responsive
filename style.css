@@ -4158,11 +4158,11 @@ div.view-display-id-page_3 div.views-row {
 
 .view-content-image-slideshow .flexslider .flex-direction-nav li::before {
   display: none;
-  color: #fed005;
 }
 
 .view-content-image-slideshow .flexslider .flex-direction-nav a::before {
   line-height: 1;
+  color: #fed005;
 }
 
 .view-content-image-slideshow .flexslider .flex-caption {

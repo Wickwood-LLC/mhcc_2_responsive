@@ -4302,11 +4302,11 @@ div.view-display-id-page_3 div.views-row {
                 list-style-image: none !important;
                 &::before {
                     display: none;
-                    color: #fed005;
                 }
             }
             a::before {
                 line-height: 1;
+                color: #fed005;
             }
         }
 
