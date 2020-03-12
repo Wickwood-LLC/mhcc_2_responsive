@@ -5671,6 +5671,20 @@ img.media-element {
             }
         }
     }
+
+    .form-actions {
+        flex: 1 1 30%;
+        text-align: center;
+
+        .views-exposed-widget {
+            float: none;
+            padding-top: 0;
+            
+            input {
+                margin-top: 0;
+            }
+        }
+    }
 }
 
 .file-responsive-image-medium-4x3 {
