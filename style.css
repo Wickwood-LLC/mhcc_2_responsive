@@ -5451,7 +5451,8 @@ img.media-element {
 
 .pane-views-3705582c857dd1f7512fbc0488e9eda0 .form-actions {
   flex: 1 1 30%;
-  text-align: center;
+  display: inline-flex;
+  justify-content: center;
 }
 
 .pane-views-3705582c857dd1f7512fbc0488e9eda0 .form-actions .views-exposed-widget {

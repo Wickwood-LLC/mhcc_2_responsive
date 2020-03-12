@@ -5674,7 +5674,8 @@ img.media-element {
 
     .form-actions {
         flex: 1 1 30%;
-        text-align: center;
+        display: inline-flex;
+        justify-content: center;
 
         .views-exposed-widget {
             float: none;
