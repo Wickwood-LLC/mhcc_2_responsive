@@ -5688,6 +5688,28 @@ img.media-element {
     }
 }
 
+
+.pane-bikeabout-posts-panel-pane-2 {
+    .views-row + .views-row {
+        margin-top: 1em;
+    }
+    .views-field-field-content-images {
+        a {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .views-field-title-field {
+        text-align: center;
+        font-weight: bold;
+        
+        a {
+            text-decoration: none;
+            line-height: normal;
+        }
+    }
+}
+
 .file-responsive-image-medium-4x3 {
     filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, .5));
 }
