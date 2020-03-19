@@ -5479,6 +5479,7 @@ img.media-element {
 }
 
 .pane-bikeabout-posts-panel-pane-2 .views-field-title-field a {
+  display: inline-block;
   text-decoration: none;
   line-height: normal;
 }
