@@ -5554,7 +5554,6 @@ img.media-element {
         box-sizing: border-box;
         display: flex;
         flex-flow: column;
-        height: 255px;
 
         .menu,
         .view,
@@ -5582,7 +5581,6 @@ img.media-element {
             column-width: 150px;
         }
         .art-block {
-            overflow-y: scroll;
             overflow-x: hidden;
         }
     }
@@ -5690,8 +5688,23 @@ img.media-element {
 
 
 .pane-bikeabout-posts-panel-pane-2 {
-    .views-row + .views-row {
-        margin-top: 1em;
+    .view-content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .views-row {
+        flex: 1 1 150px;
+        margin: 0.5em;
+
+        @include breakpoint(715px) {
+            margin: 0;
+            
+            & + .views-row {
+                margin-top: 1em;   
+            }
+        }
     }
     .views-field-field-content-images {
         a {

@@ -5330,7 +5330,6 @@ img.media-element {
   box-sizing: border-box;
   display: flex;
   flex-flow: column;
-  height: 255px;
 }
 
 #mini-panel-banner_1_mini_panel .art-block .menu,
@@ -5361,7 +5360,6 @@ img.media-element {
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-first .art-block {
-  overflow-y: scroll;
   overflow-x: hidden;
 }
 
@@ -5464,8 +5462,25 @@ img.media-element {
   margin-top: 0;
 }
 
-.pane-bikeabout-posts-panel-pane-2 .views-row + .views-row {
-  margin-top: 1em;
+.pane-bikeabout-posts-panel-pane-2 .view-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.pane-bikeabout-posts-panel-pane-2 .views-row {
+  flex: 1 1 150px;
+  margin: 0.5em;
+}
+
+@media (min-width: 715px) {
+  .pane-bikeabout-posts-panel-pane-2 .views-row {
+    margin: 0;
+  }
+  .pane-bikeabout-posts-panel-pane-2 .views-row + .views-row {
+    margin-top: 1em;
+  }
 }
 
 .pane-bikeabout-posts-panel-pane-2 .views-field-field-content-images a {
