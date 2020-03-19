@@ -84,6 +84,10 @@ li {
     padding: 0;
 }
 
+picture img {
+    width: unset;
+}
+
 
 
 /* Reset buttons border. It's important for input and button tags. 
@@ -3299,8 +3303,6 @@ img.imagefield {
     clear: right;
     float: right;
 }
-
-
 
 /* END Support User picture */
 
