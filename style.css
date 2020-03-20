@@ -4018,6 +4018,7 @@ div.view-display-id-page_3 div.views-row {
   flex-flow: row wrap;
 }
 
+.panelized-node .panel-myriad-layout .main-content,
 .panelized-node .panel-myriad-layout .row-two {
   flex: 4 1 474px;
   background: #E2EDF3;
@@ -4028,6 +4029,7 @@ div.view-display-id-page_3 div.views-row {
 }
 
 @media (min-width: 520px) {
+  .panelized-node .panel-myriad-layout .main-content,
   .panelized-node .panel-myriad-layout .row-two {
     min-width: 474px;
   }
