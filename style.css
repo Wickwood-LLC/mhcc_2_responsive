@@ -4006,12 +4006,18 @@ div.view-display-id-page_3 div.views-row {
 }
 
 /* Styling for Panelized Nodes */
+.panelized-node .art-postmetadataheader {
+  background: none;
+  border: 0px;
+  margin: 0;
+  padding: 0;
+}
+
 .panelized-node .panel-myriad-layout {
   display: flex;
   flex-flow: row wrap;
 }
 
-.panelized-node .panel-myriad-layout .main-content,
 .panelized-node .panel-myriad-layout .row-two {
   flex: 4 1 474px;
   background: #E2EDF3;
@@ -4022,7 +4028,6 @@ div.view-display-id-page_3 div.views-row {
 }
 
 @media (min-width: 520px) {
-  .panelized-node .panel-myriad-layout .main-content,
   .panelized-node .panel-myriad-layout .row-two {
     min-width: 474px;
   }
@@ -4042,6 +4047,7 @@ div.view-display-id-page_3 div.views-row {
   background: none;
   border: 0px;
   margin: 0;
+  padding: 0;
 }
 
 .page-bikeabout.panelized-node .main-content {
