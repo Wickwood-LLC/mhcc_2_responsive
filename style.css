@@ -5342,6 +5342,8 @@ img.media-element {
   box-sizing: border-box;
   display: flex;
   flex-flow: column;
+  height: 255px;
+  overflow-y: auto;
 }
 
 #mini-panel-banner_1_mini_panel .art-block .menu,
@@ -5351,6 +5353,10 @@ img.media-element {
   height: 100%;
   box-sizing: border-box;
   width: 100%;
+}
+
+#mini-panel-banner_1_mini_panel .art-block .item-list .pager {
+  margin-bottom: 0;
 }
 
 #mini-panel-banner_1_mini_panel .pane-system-user-menu .menu {

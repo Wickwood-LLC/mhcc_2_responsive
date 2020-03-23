@@ -5558,11 +5558,15 @@ img.media-element {
     flex-flow: row wrap;
     width: 100%;
 
+
     .art-block {
         height: calc(100% - 10px);
         box-sizing: border-box;
         display: flex;
         flex-flow: column;
+        height: 255px;
+        overflow-y: auto;
+
 
         .menu,
         .view,
@@ -5571,6 +5575,10 @@ img.media-element {
             height: 100%;
             box-sizing: border-box;
             width: 100%;
+        }
+
+        .item-list .pager {
+            margin-bottom: 0;
         }
     }
 
