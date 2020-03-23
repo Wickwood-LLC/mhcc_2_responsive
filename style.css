@@ -2942,11 +2942,13 @@ blockquote p,
 }
 
 .art-lightbox-wrapper .cw {
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .art-lightbox-wrapper .ccw {
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .art-lightbox-wrapper .close-alt,
@@ -3001,13 +3003,15 @@ blockquote p,
 /* Begin Additional CSS Styles */
 @media (min-width: 350px) {
   .block-date-navigation ul.jquerymenu {
-    column-count: 2;
+    -webkit-column-count: 2;
+            column-count: 2;
   }
 }
 
 @media (min-width: 693px) {
   .block-date-navigation ul.jquerymenu {
-    column-count: unset;
+    -webkit-column-count: unset;
+            column-count: unset;
   }
 }
 
@@ -3747,7 +3751,8 @@ div.group-header div.field-name-field-canceled {
   color: red;
   font-variant: small-caps;
   text-transform: uppercase;
-  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
   position: absolute;
   top: 200px;
   left: 200px;
@@ -3762,7 +3767,8 @@ div.group-left div.field-name-field-canceled {
   color: red;
   font-variant: small-caps;
   text-transform: uppercase;
-  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
   position: absolute;
   top: 30px;
   left: 200px;
@@ -5367,7 +5373,8 @@ img.media-element {
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-first .menu {
-  column-width: 150px;
+  -webkit-column-width: 150px;
+          column-width: 150px;
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-first .art-block {
@@ -5502,16 +5509,15 @@ img.media-element {
 .pane-bikeabout-posts-panel-pane-2 .views-field-title-field {
   text-align: center;
   font-weight: bold;
-}
-
-.pane-bikeabout-posts-panel-pane-2 .views-field-title-field a {
-  display: inline-block;
-  text-decoration: none;
-  line-height: normal;
+  margin-top: 0.2em a;
+  margin-top-display: inline-block;
+  margin-top-text-decoration: none;
+  margin-top-line-height: normal;
 }
 
 .file-responsive-image-medium-4x3 {
-  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
+  -webkit-filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .field-name-field-tags {
@@ -5525,5 +5531,4 @@ img.media-element {
 .field-name-field-tags a:link:hover {
   text-decoration: underline;
 }
-
 /*# sourceMappingURL=style.css.map */
