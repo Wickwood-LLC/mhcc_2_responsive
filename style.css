@@ -5520,7 +5520,11 @@ img.media-element {
   font-weight: bold;
 }
 
-.field-name-field-tags a {
+.field-name-field-tags a:link {
+  text-decoration: none;
+}
+
+.field-name-field-tags a:link:hover {
   text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */

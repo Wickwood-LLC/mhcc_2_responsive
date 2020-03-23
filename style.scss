@@ -5740,7 +5740,11 @@ img.media-element {
 .field-name-field-tags {
     font-weight: bold;
     
-    a {
-        text-decoration: underline;
+    a:link {
+        text-decoration: none;
+        
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
