@@ -5564,7 +5564,7 @@ img.media-element {
         box-sizing: border-box;
         display: flex;
         flex-flow: column;
-        height: 255px;
+        max-height: 255px;
         overflow-y: auto;
 
 

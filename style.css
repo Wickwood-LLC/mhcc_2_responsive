@@ -2942,13 +2942,11 @@ blockquote p,
 }
 
 .art-lightbox-wrapper .cw {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .art-lightbox-wrapper .ccw {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .art-lightbox-wrapper .close-alt,
@@ -3003,15 +3001,13 @@ blockquote p,
 /* Begin Additional CSS Styles */
 @media (min-width: 350px) {
   .block-date-navigation ul.jquerymenu {
-    -webkit-column-count: 2;
-            column-count: 2;
+    column-count: 2;
   }
 }
 
 @media (min-width: 693px) {
   .block-date-navigation ul.jquerymenu {
-    -webkit-column-count: unset;
-            column-count: unset;
+    column-count: unset;
   }
 }
 
@@ -3751,8 +3747,7 @@ div.group-header div.field-name-field-canceled {
   color: red;
   font-variant: small-caps;
   text-transform: uppercase;
-  -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+  transform: rotate(-30deg);
   position: absolute;
   top: 200px;
   left: 200px;
@@ -3767,8 +3762,7 @@ div.group-left div.field-name-field-canceled {
   color: red;
   font-variant: small-caps;
   text-transform: uppercase;
-  -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+  transform: rotate(-30deg);
   position: absolute;
   top: 30px;
   left: 200px;
@@ -5342,7 +5336,7 @@ img.media-element {
   box-sizing: border-box;
   display: flex;
   flex-flow: column;
-  height: 255px;
+  max-height: 255px;
   overflow-y: auto;
 }
 
@@ -5373,8 +5367,7 @@ img.media-element {
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-first .menu {
-  -webkit-column-width: 150px;
-          column-width: 150px;
+  column-width: 150px;
 }
 
 #mini-panel-banner_1_mini_panel .panel-col-first .art-block {
@@ -5518,8 +5511,7 @@ img.media-element {
 }
 
 .file-responsive-image-medium-4x3 {
-  -webkit-filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
-          filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .field-name-field-tags {
@@ -5533,4 +5525,5 @@ img.media-element {
 .field-name-field-tags a:link:hover {
   text-decoration: underline;
 }
+
 /*# sourceMappingURL=style.css.map */
