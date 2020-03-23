@@ -5736,3 +5736,11 @@ img.media-element {
 .file-responsive-image-medium-4x3 {
     filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, .5));
 }
+
+.field-name-field-tags {
+    font-weight: bold;
+    
+    a {
+        text-decoration: underline;
+    }
+}

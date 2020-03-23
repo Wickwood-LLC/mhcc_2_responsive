@@ -5515,4 +5515,12 @@ img.media-element {
   -webkit-filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
           filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.5));
 }
+
+.field-name-field-tags {
+  font-weight: bold;
+}
+
+.field-name-field-tags a {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=style.css.map */
