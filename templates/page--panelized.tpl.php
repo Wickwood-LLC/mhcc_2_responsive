@@ -136,13 +136,25 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
                             </article>
                             <?php endif; ?>
                             <?php else: ?>
-                            <article class="art-post art-article panelized-content">
+                                <?php if (!empty($tabs) || !empty($tabs2)): ?>
+                            <article class="art-post art-article">
                                 <div class="art-postcontent">
                                     <?php if (!empty($tabs)) { echo $tabs.'<div class="cleared"></div>'; }; ?>
                                     <?php if (!empty($tabs2)) { echo $tabs2.'<div class="cleared"></div>'; } ?>
+                                </div>
+                            </article>
+                            <?php endif; ?>
+                            <?php if (!empty($mission) || !empty($help) || !empty($messages) || !empty($action_links)): ?>
+                            <article class="art-post art-article">
+                                <div class="art-postcontent">
                                     <?php if (isset($mission) && !empty($mission)) { echo '<div id="mission">'.$mission.'</div>'; }; ?>
                                     <?php if (!empty($help)) { echo render($help); } ?>
                                     <?php if (!empty($messages)) { echo $messages; } ?>
+                                </div>
+                            </article>
+                            <?php endif; ?>
+                            <article class="art-post art-article panelized-content">
+                                <div class="art-postcontent">
                                     <div class="art-postmetadataheader">
                                         <?php print render($title_prefix); ?>
                                         <?php if (!empty($title)): print '<h1'. ($tabs ? ' class="art-postheader with-tabs"' : ' class="art-postheader"') .'>'. $title .'</h1>'; endif; ?>
