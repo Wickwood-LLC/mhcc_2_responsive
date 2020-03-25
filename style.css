@@ -5439,7 +5439,7 @@ img.media-element {
   height: auto;
 }
 
-.view-empty {
+.view-empty p {
   margin: 1em 2.5%;
 }
 
