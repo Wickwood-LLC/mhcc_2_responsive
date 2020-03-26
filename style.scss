@@ -5672,6 +5672,13 @@ img.media-element {
             text-align: left;
         }
     }
+
+    #ctools-jump-menu {
+        label {
+            display: block;
+        }    
+    }
+
     .views-exposed-widgets {
         @include breakpoint(0px 692px) {
             display: flex;

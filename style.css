@@ -5453,6 +5453,10 @@ img.media-element {
   }
 }
 
+.pane-views-3705582c857dd1f7512fbc0488e9eda0 #ctools-jump-menu label {
+  display: block;
+}
+
 @media (min-width: 0px) and (max-width: 692px) {
   .pane-views-3705582c857dd1f7512fbc0488e9eda0 .views-exposed-widgets {
     display: flex;
