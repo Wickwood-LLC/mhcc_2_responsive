@@ -5673,12 +5673,6 @@ img.media-element {
         }
     }
 
-    #ctools-jump-menu {
-        label {
-            display: block;
-        }    
-    }
-
     .views-exposed-widgets {
         @include breakpoint(0px 692px) {
             display: flex;
@@ -5711,6 +5705,13 @@ img.media-element {
                 margin-top: 0;
             }
         }
+    }
+}
+.pane-bikeabout-issue-selection-panel-pane-1 {
+    #ctools-jump-menu {
+        label {
+            display: block;
+        }    
     }
 }
 

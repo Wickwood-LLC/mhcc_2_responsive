@@ -5453,10 +5453,6 @@ img.media-element {
   }
 }
 
-.pane-views-3705582c857dd1f7512fbc0488e9eda0 #ctools-jump-menu label {
-  display: block;
-}
-
 @media (min-width: 0px) and (max-width: 692px) {
   .pane-views-3705582c857dd1f7512fbc0488e9eda0 .views-exposed-widgets {
     display: flex;
@@ -5488,6 +5484,10 @@ img.media-element {
 
 .pane-views-3705582c857dd1f7512fbc0488e9eda0 .form-actions .views-exposed-widget input {
   margin-top: 0;
+}
+
+.pane-bikeabout-issue-selection-panel-pane-1 #ctools-jump-menu label {
+  display: block;
 }
 
 .pane-bikeabout-posts-panel-pane-2 .view-content {
