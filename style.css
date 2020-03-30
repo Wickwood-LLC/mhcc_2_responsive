@@ -3997,6 +3997,13 @@ div.view-display-id-page_3 div.views-row {
   margin: 0 2.5%;
 }
 
+.panelizer-view-mode.node-bikeabout-post .pane-node-field-tags {
+  display: inline-block;
+  margin: 0 2.5%;
+  position: relative;
+  z-index: 1;
+}
+
 .panelized-content {
   background: none;
   border-radius: 0px;
