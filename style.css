@@ -4052,6 +4052,10 @@ div.view-display-id-page_3 div.views-row {
   display: block;
 }
 
+.page-bikeabout.panelized-node .row-one {
+  width: 100%;
+}
+
 .page-bikeabout.panelized-node .art-postmetadataheader {
   background: none;
   border: 0px;
