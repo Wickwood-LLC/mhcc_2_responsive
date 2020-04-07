@@ -4057,14 +4057,6 @@ div.view-display-id-page_3 div.views-row {
   display: block;
 }
 
-.view-bikeabout-issue-selection .form-type-select {
-  text-align: center;
-}
-
-.view-bikeabout-issue-selection .form-type-select label, .view-bikeabout-issue-selection .form-type-select select {
-  display: inline-block;
-}
-
 .page-bikeabout.panelized-node .row-one {
   width: 100%;
 }
@@ -5545,8 +5537,12 @@ img.media-element {
   margin-top: 0;
 }
 
-.pane-bikeabout-issue-selection-panel-pane-1 #ctools-jump-menu label {
-  display: block;
+.pane-bikeabout-issue-selection-panel-pane-1 #ctools-jump-menu .form-type-select {
+  text-align: center;
+}
+
+.pane-bikeabout-issue-selection-panel-pane-1 #ctools-jump-menu .form-type-select label, .pane-bikeabout-issue-selection-panel-pane-1 #ctools-jump-menu .form-type-select select {
+  display: inline-block;
 }
 
 .pane-bikeabout-posts-panel-pane-2 .view-content {

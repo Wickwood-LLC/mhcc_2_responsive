@@ -4204,14 +4204,6 @@ div.view-display-id-page_3 div.views-row {
     display: block;
 }
 
-.view-bikeabout-issue-selection .form-type-select {
-    text-align: center;
-    
-    label, select {
-        display: inline-block;
-    }
-}
-
 .page-bikeabout.panelized-node {
     .row-one {
         width: 100%;
@@ -5743,9 +5735,11 @@ img.media-element {
     }
 }
 .pane-bikeabout-issue-selection-panel-pane-1 {
-    #ctools-jump-menu {
-        label {
-            display: block;
+    #ctools-jump-menu .form-type-select {
+        text-align: center;
+        
+        label, select {
+            display: inline-block;
         }    
     }
 }
