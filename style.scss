@@ -4204,16 +4204,17 @@ div.view-display-id-page_3 div.views-row {
     display: block;
 }
 
+.view-bikeabout-issue-selection .form-type-select {
+    text-align: center;
+    
+    label, select {
+        display: inline-block;
+    }
+}
+
 .page-bikeabout.panelized-node {
     .row-one {
         width: 100%;
-    }
-    #ctools-jump-menu .form-type-select {
-        text-align: center;
-        
-        label, select {
-            display: inline-block;
-        }
     }
     .art-postmetadataheader {
         background: none;

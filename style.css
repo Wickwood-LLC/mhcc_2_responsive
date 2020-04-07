@@ -4057,16 +4057,16 @@ div.view-display-id-page_3 div.views-row {
   display: block;
 }
 
-.page-bikeabout.panelized-node .row-one {
-  width: 100%;
-}
-
-.page-bikeabout.panelized-node #ctools-jump-menu .form-type-select {
+.view-bikeabout-issue-selection .form-type-select {
   text-align: center;
 }
 
-.page-bikeabout.panelized-node #ctools-jump-menu .form-type-select label, .page-bikeabout.panelized-node #ctools-jump-menu .form-type-select select {
+.view-bikeabout-issue-selection .form-type-select label, .view-bikeabout-issue-selection .form-type-select select {
   display: inline-block;
+}
+
+.page-bikeabout.panelized-node .row-one {
+  width: 100%;
 }
 
 .page-bikeabout.panelized-node .art-postmetadataheader {
