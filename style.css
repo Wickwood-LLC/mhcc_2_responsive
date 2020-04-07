@@ -3891,6 +3891,11 @@ div.view-display-id-page_3 div.views-row {
 }
 
 /* Styling for BikeAbout Pages */
+.node-type-bikeabout-post .row-one,
+.node-bikeabout-post .row-one {
+  width: 100%;
+}
+
 .node-type-bikeabout-post .bikeabout-header,
 .node-bikeabout-post .bikeabout-header {
   text-align: center;
