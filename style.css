@@ -5537,11 +5537,11 @@ img.media-element {
   margin-top: 0;
 }
 
-.pane-bikeabout-issue-selection-panel-pane-1 #ctools-jump-menu .form-type-select {
+.pane-bikeabout-issue-selection-panel-pane-1 #ctools-jump-menu {
   text-align: center;
 }
 
-.pane-bikeabout-issue-selection-panel-pane-1 #ctools-jump-menu .form-type-select label, .pane-bikeabout-issue-selection-panel-pane-1 #ctools-jump-menu .form-type-select select {
+.pane-bikeabout-issue-selection-panel-pane-1 #ctools-jump-menu label, .pane-bikeabout-issue-selection-panel-pane-1 #ctools-jump-menu select {
   display: inline-block;
 }
 
