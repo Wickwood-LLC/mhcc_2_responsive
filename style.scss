@@ -4208,6 +4208,13 @@ div.view-display-id-page_3 div.views-row {
     .row-one {
         width: 100%;
     }
+    #ctools-jump-menu .form-type-select {
+        text-align: center;
+        
+        label, select {
+            display: inline-block;
+        }
+    }
     .art-postmetadataheader {
         background: none;
         border: 0px;

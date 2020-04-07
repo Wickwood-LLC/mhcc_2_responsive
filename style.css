@@ -4061,6 +4061,14 @@ div.view-display-id-page_3 div.views-row {
   width: 100%;
 }
 
+.page-bikeabout.panelized-node #ctools-jump-menu .form-type-select {
+  text-align: center;
+}
+
+.page-bikeabout.panelized-node #ctools-jump-menu .form-type-select label, .page-bikeabout.panelized-node #ctools-jump-menu .form-type-select select {
+  display: inline-block;
+}
+
 .page-bikeabout.panelized-node .art-postmetadataheader {
   background: none;
   border: 0px;
