@@ -5594,8 +5594,9 @@ div[class*="media-responsive_image_small"].media-element-container {
     @include breakpoint(715px) {
         &.mce-align-left,
         &.mce-align-right {
+            display: table;
             float: none;
-            margin: 0 0 0.25em;
+            margin: 0 auto 0.5em;
             text-align: center;
         }
     }
@@ -5642,8 +5643,9 @@ div[class*="media-responsive_image_medium"].media-element-container {
     @include breakpoint(715px) {
         &.mce-align-left,
         &.mce-align-right {
+            display: table;
             float: none;
-            margin: 0 0 0.25em;
+            margin: 0 auto 0.5em;
             text-align: center;
         }
     }
