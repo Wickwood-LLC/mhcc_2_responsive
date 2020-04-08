@@ -5497,7 +5497,7 @@ div.feed-icon img {
     display: table;
 }
 
-.media-element.mce-align-left {
+.media-element-container.mce-align-left {
     display: inline-flex;
     float: none;
     margin: auto; 
@@ -5511,7 +5511,7 @@ div.feed-icon img {
     }
 }
 
-.media-element.mce-align-right {
+.media-element-container.mce-align-right {
     display: inline-flex;
     float: none;
     margin: auto; 
@@ -5525,7 +5525,7 @@ div.feed-icon img {
     }
 }
 
-.media-element.mce-align-center {
+.media-element-container.mce-align-center {
     display: table;
     margin: auto;
 }

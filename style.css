@@ -5275,14 +5275,14 @@ div.feed-icon img {
   display: table;
 }
 
-.media-element.mce-align-left {
+.media-element-container.mce-align-left {
   display: inline-flex;
   float: none;
   margin: auto;
 }
 
 @media (min-width: 480px) {
-  .media-element.mce-align-left {
+  .media-element-container.mce-align-left {
     float: left;
     margin-top: 0px;
     margin-left: 2.5%;
@@ -5291,14 +5291,14 @@ div.feed-icon img {
   }
 }
 
-.media-element.mce-align-right {
+.media-element-container.mce-align-right {
   display: inline-flex;
   float: none;
   margin: auto;
 }
 
 @media (min-width: 480px) {
-  .media-element.mce-align-right {
+  .media-element-container.mce-align-right {
     float: right;
     margin-top: 0px;
     margin-left: .25em;
@@ -5307,7 +5307,7 @@ div.feed-icon img {
   }
 }
 
-.media-element.mce-align-center {
+.media-element-container.mce-align-center {
   display: table;
   margin: auto;
 }
