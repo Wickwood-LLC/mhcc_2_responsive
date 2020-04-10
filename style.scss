@@ -5618,7 +5618,7 @@ div[class*="media-responsive_image_small"].media-element-container {
     }
 }
 
-div[class*="media-responsive_image_medium"].media-element-container {
+div[class*="media-responsive_image_medium_4x3"].media-element-container {
     display: table;
     float: none;
     margin: 0 auto 0.5em;
@@ -5641,6 +5641,54 @@ div[class*="media-responsive_image_medium"].media-element-container {
         }
     }
     @include breakpoint(715px) {
+        &.mce-align-left,
+        &.mce-align-right {
+            display: table;
+            float: none;
+            margin: 0 auto 0.5em;
+            text-align: center;
+        }
+    }
+    @include breakpoint(950px) {
+        &.mce-align-left {
+            float: left;
+            margin-top: 0px;
+            margin-left: 2.5%;
+            margin-bottom: .25em;
+            margin-right: .5em;
+        }
+        &.mce-align-right {
+            float: right;
+            margin-top: 0px;
+            margin-left: .25em;
+            margin-bottom: .5em;
+            margin-right: 2.5%;
+        }
+    }
+}
+div[class*="media-responsive_image_medium_16x9"].media-element-container {
+    display: table;
+    float: none;
+    margin: 0 auto 0.5em;
+    text-align: center;
+
+    @include breakpoint(573px) {
+        &.mce-align-left {
+            float: left;
+            margin-top: 0px;
+            margin-left: 2.5%;
+            margin-bottom: .25em;
+            margin-right: .5em;
+        }
+        &.mce-align-right {
+            float: right;
+            margin-top: 0px;
+            margin-left: .25em;
+            margin-bottom: .5em;
+            margin-right: 2.5%;
+        }
+    }
+    @include breakpoint(650px) {
         &.mce-align-left,
         &.mce-align-right {
             display: table;
