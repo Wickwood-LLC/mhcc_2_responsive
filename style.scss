@@ -5624,7 +5624,7 @@ div[class*="media-responsive_image_medium_4x3"].media-element-container {
     margin: 0 auto 0.5em;
     text-align: center;
 
-    @include breakpoint(480px) {
+    @include breakpoint(560px) {
         &.mce-align-left {
             float: left;
             margin-top: 0px;
@@ -5672,7 +5672,7 @@ div[class*="media-responsive_image_medium_16x9"].media-element-container {
     margin: 0 auto 0.5em;
     text-align: center;
 
-    @include breakpoint(573px) {
+    @include breakpoint(480px) {
         &.mce-align-left {
             float: left;
             margin-top: 0px;
