@@ -5624,7 +5624,7 @@ div[class*="media-responsive_image_medium_4x3"].media-element-container {
     margin: 0 auto 0.5em;
     text-align: center;
 
-    @include breakpoint(560px) {
+    @include breakpoint(670px) {
         &.mce-align-left {
             float: left;
             margin-top: 0px;

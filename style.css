@@ -5404,7 +5404,7 @@ div[class*="media-responsive_image_medium_4x3"].media-element-container {
   text-align: center;
 }
 
-@media (min-width: 560px) {
+@media (min-width: 670px) {
   div[class*="media-responsive_image_medium_4x3"].media-element-container.mce-align-left {
     float: left;
     margin-top: 0px;
