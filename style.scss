@@ -2997,6 +2997,7 @@ blockquote p,
 .art-content-layout .art-content {
     margin: 0 auto;
     flex: 1;
+    min-width: 0;
 }
 
 .art-content-layout .art-sidebar2 {
@@ -4187,6 +4188,7 @@ div.view-display-id-page_3 div.views-row {
             border: 3px solid #9DC4D7;
             padding: 5px;
             margin: 5px;
+            min-width: 0;
             
             @include breakpoint(520px) {
                 min-width: 474px;
