@@ -518,6 +518,7 @@ li p,
   padding: 0;
   margin: 0;
   color: #000000 !important;
+  grid-column: 1 / 2;
 }
 
 @media screen and (min-width: 632px) {
@@ -606,12 +607,8 @@ li p,
 }
 
 .art-header {
-  display: table;
-  margin: 10px auto 0;
-  height: 110px;
-  background-position: 88px -1px, center top;
-  background-repeat: no-repeat;
   position: relative;
+  width: 100%;
   z-index: auto !important;
 }
 
@@ -5199,8 +5196,19 @@ div.feed-icon img {
 
 .header-inner {
   margin: 0 auto;
-  display: table;
+  display: grid;
   text-align: center;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  gap: 0 1em;
+}
+
+.art-logo {
+  grid-column: 1 / 2;
+}
+
+.art-logo img {
+  width: 100%;
 }
 
 .region-top,
