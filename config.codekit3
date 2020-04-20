@@ -618,6 +618,17 @@
 		"oAP": "/favicon.ico",
 		"oF": 0
 		},
+	"/images/2020_MHCC_Logo_840px trimmed.png": {
+		"ft": 32768,
+		"iS": 29112,
+		"oA": 0,
+		"oAP": "/images/2020_MHCC_Logo_840px trimmed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/addicon.png": {
 		"ft": 32768,
 		"iS": 286,
