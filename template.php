@@ -24,6 +24,10 @@ switch (get_drupal_major_version()) {
 
 /* Common methods */
 
+function mhcc_2_preprocess_html(&$vars) {
+  drupal_add_html_head_link(array('href' => 'https://use.typekit.net/bok0khi.css', 'rel' => 'stylesheet', 'type' => 'text/css'));
+}
+
 function get_drupal_major_version()
 {
     $tok = strtok(VERSION, '.');
