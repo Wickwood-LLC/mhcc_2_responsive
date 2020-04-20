@@ -1421,6 +1421,13 @@
 		"oAP": "/templates/node.tpl.php",
 		"oF": 0
 		},
+	"/templates/page--panelized.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/page--panelized.tpl.php",
+		"oF": 0
+		},
 	"/templates/page.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1440,6 +1447,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/simpleads_img_element.tpl.php",
+		"oF": 0
+		},
+	"/templates/views-exposed-form.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/views-exposed-form.tpl.php",
 		"oF": 0
 		}
 	},
@@ -3308,7 +3322,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
+		"ieCompatibility": 0,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -3503,7 +3517,7 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
