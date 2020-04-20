@@ -527,7 +527,7 @@ li p,
   .art-headline a:link,
   .art-headline a:visited,
   .art-headline a:hover {
-    font-size: calc(16px + 8 * ((100vw - 632px) / 388));
+    font-size: calc(16px + 20 * ((100vw - 632px) / 388));
   }
 }
 
@@ -537,7 +537,7 @@ li p,
   .art-headline a:link,
   .art-headline a:visited,
   .art-headline a:hover {
-    font-size: 24px;
+    font-size: 36px;
   }
 }
 
@@ -556,7 +556,7 @@ li p,
 .art-slogan a:link,
 .art-slogan a:visited,
 .art-slogan a:hover {
-  font-size: 12px;
+  font-size: 32px;
   font-family: 'Neuzeit Grotesk', Tahoma, Arial, Helvetica, Sans-Serif;
   text-decoration: none;
   text-align: left;
@@ -566,6 +566,26 @@ li p,
   text-shadow: 1.5px 1.5px 2px rgba(245, 245, 245, 0.5);
   text-align: left;
   width: 100%;
+}
+
+@media screen and (min-width: 632px) {
+  .art-slogan,
+  .art-slogan a,
+  .art-slogan a:link,
+  .art-slogan a:visited,
+  .art-slogan a:hover {
+    font-size: calc(24px + 8 * ((100vw - 632px) / 388));
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .art-slogan,
+  .art-slogan a,
+  .art-slogan a:link,
+  .art-slogan a:visited,
+  .art-slogan a:hover {
+    font-size: 32px;
+  }
 }
 
 #art-header-bg {
