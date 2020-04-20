@@ -503,7 +503,7 @@ li p,
 .art-headline a:link,
 .art-headline a:visited,
 .art-headline a:hover {
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Neuzeit Grotesk', Tahoma, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
   font-weight: normal;
   font-style: normal;
@@ -515,7 +515,37 @@ li p,
   color: #293c98 !important;
 }
 
-@media screen and (min-width: 632px) {
+@media screen and (min-width: 320px) {
+  .art-headline,
+  .art-headline a,
+  .art-headline a:link,
+  .art-headline a:visited,
+  .art-headline a:hover {
+    font-size: calc(14px + 10 * ((100vw - 320px) / 159));
+  }
+}
+
+@media screen and (min-width: 479px) {
+  .art-headline,
+  .art-headline a,
+  .art-headline a:link,
+  .art-headline a:visited,
+  .art-headline a:hover {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 480px) {
+  .art-headline,
+  .art-headline a,
+  .art-headline a:link,
+  .art-headline a:visited,
+  .art-headline a:hover {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 480px) and (min-width: 632px) {
   .art-headline,
   .art-headline a,
   .art-headline a:link,
@@ -525,7 +555,7 @@ li p,
   }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 480px) and (min-width: 1020px) {
   .art-headline,
   .art-headline a,
   .art-headline a:link,
@@ -555,7 +585,7 @@ li p,
 .art-slogan a:link,
 .art-slogan a:visited,
 .art-slogan a:hover {
-  font-size: 24px;
+  font-size: 16px;
   font-family: 'Neuzeit Grotesk', Tahoma, Arial, Helvetica, Sans-Serif;
   text-decoration: none;
   text-align: left;
@@ -564,11 +594,22 @@ li p,
   margin: 0;
   color: #293c98 !important;
   text-shadow: 1.5px 1.5px 2px rgba(245, 245, 245, 0.5);
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
-@media screen and (min-width: 632px) {
+@media (min-width: 480px) {
+  .art-slogan,
+  .art-slogan a,
+  .art-slogan a:link,
+  .art-slogan a:visited,
+  .art-slogan a:hover {
+    text-align: left;
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 480px) and (min-width: 632px) {
   .art-slogan,
   .art-slogan a,
   .art-slogan a:link,
@@ -578,7 +619,7 @@ li p,
   }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 480px) and (min-width: 1020px) {
   .art-slogan,
   .art-slogan a,
   .art-slogan a:link,
@@ -5218,7 +5259,14 @@ div.feed-icon img {
 }
 
 .art-logo img {
+  max-width: 350px;
   width: 100%;
+}
+
+@media (min-width: 480px) {
+  .art-logo img {
+    max-width: unset;
+  }
 }
 
 .region-top,

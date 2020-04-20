@@ -539,8 +539,8 @@ li p,
 .art-headline a:link,
 .art-headline a:visited,
 .art-headline a:hover {
-    font-size: 16px; // backup size
-    @include fluid-type(632px, 1020px, 16px, 36px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    font-size: 14px; // backup size
+    @include fluid-type(320px, 479px, 14px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     font-family: 'Neuzeit Grotesk', Tahoma, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: normal;
     font-style: normal;
@@ -550,6 +550,11 @@ li p,
     padding: 0;
     margin: 0;
     color: #293c98 !important;
+
+    @include breakpoint(480px) {
+        font-size: 16px; // backup size
+        @include fluid-type(632px, 1020px, 16px, 36px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    }
 }
 
 .art-slogan {
@@ -570,8 +575,7 @@ li p,
 .art-slogan a:link,
 .art-slogan a:visited,
 .art-slogan a:hover {
-    font-size: 24px; // backup size
-    @include fluid-type(632px, 1020px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    font-size: 16px; // backup size
     font-family: 'Neuzeit Grotesk', Tahoma, Arial, Helvetica, Sans-Serif;
     text-decoration: none;
     text-align: left;
@@ -580,8 +584,14 @@ li p,
     margin: 0;
     color: #293c98 !important;
     text-shadow: 1.5px 1.5px 2px rgba(245, 245, 245, 0.5);
-    text-align: left;
+    text-align: center;
     width: 100%;
+
+    @include breakpoint(480px) {
+        text-align: left;
+        font-size: 24px; // backup size
+        @include fluid-type(632px, 1020px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    }
 }
 
 #art-header-bg {
@@ -5431,7 +5441,12 @@ div.feed-icon img {
 .art-logo {
     grid-column: 1 / 2;
     img {
+        max-width: 350px;
         width: 100%;
+
+        @include breakpoint(480px) {
+            max-width: unset;
+        }
     }
 }
 
