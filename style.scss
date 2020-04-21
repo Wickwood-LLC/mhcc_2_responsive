@@ -544,8 +544,8 @@ li p,
 .art-headline a:link,
 .art-headline a:visited,
 .art-headline a:hover {
-    font-size: 16px; // backup size
-    @include fluid-type(320px, 479px, 16px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    font-size: 18px; // backup size
+    @include fluid-type(320px, 479px, 18px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     font-family: 'Neuzeit Grotesk', Tahoma, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: normal;
     font-style: normal;
@@ -556,8 +556,8 @@ li p,
     color: #293c98 !important;
 
     @include breakpoint(480px) {
-        font-size: 24px; // backup size
-        @include fluid-type(632px, 1020px, 20px, 38px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+        font-size: 16px; // backup size
+        @include fluid-type(480px, 1020px, 16px, 38px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     }
 }
 
@@ -592,8 +592,8 @@ li p,
 
     @include breakpoint(480px) {
         text-align: left;
-        font-size: 24px; // backup size
-        @include fluid-type(632px, 1020px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+        font-size: 16px; // backup size
+        @include fluid-type(480px, 1020px, 16px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     }
 }
 
