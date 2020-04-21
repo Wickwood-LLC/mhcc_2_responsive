@@ -45,6 +45,8 @@
     background: -webkit-linear-gradient(0deg, rgba(2,138,210,1) 0%, rgba(2,138,210,0.95) 70%, rgba(255,255,255,1) 100%);
     background: linear-gradient(0deg, rgba(2,138,210,1) 0%, rgba(2,138,210,0.95) 70%, rgba(255,255,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#028ad2",endColorstr="#ffffff",GradientType=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0 auto;
     font-size: 16px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;

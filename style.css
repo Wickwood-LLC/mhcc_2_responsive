@@ -13,6 +13,8 @@
   /* CSS3 browsers */
   background: linear-gradient(0deg, #028ad2 0%, rgba(2, 138, 210, 0.95) 70%, white 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#028ad2",endColorstr="#ffffff",GradientType=1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0 auto;
   font-size: 16px;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;

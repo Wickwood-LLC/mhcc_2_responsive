@@ -1181,7 +1181,7 @@
 		"oA": 0,
 		"oAP": "/style.responsive.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"/style.scss": {
