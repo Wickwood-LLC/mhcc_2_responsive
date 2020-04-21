@@ -9,9 +9,10 @@
 /* Fluid Typography */
 #art-main {
   /* CSS2 browsers */
-  background: #9395e6;
+  background: #028ad2;
   /* CSS3 browsers */
-  background: linear-gradient(to bottom, rgba(51, 51, 204, 0.2), #3333cc) no-repeat fixed;
+  background: linear-gradient(0deg, #028ad2 0%, rgba(2, 138, 210, 0.95) 70%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#028ad2",endColorstr="#ffffff",GradientType=1);
   margin: 0 auto;
   font-size: 16px;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
@@ -503,7 +504,7 @@ li p,
 .art-headline a:link,
 .art-headline a:visited,
 .art-headline a:hover {
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Neuzeit Grotesk', Tahoma, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
   font-weight: normal;
   font-style: normal;
@@ -521,7 +522,7 @@ li p,
   .art-headline a:link,
   .art-headline a:visited,
   .art-headline a:hover {
-    font-size: calc(14px + 10 * ((100vw - 320px) / 159));
+    font-size: calc(16px + 8 * ((100vw - 320px) / 159));
   }
 }
 
@@ -5249,7 +5250,7 @@ div.feed-icon img {
 
 @media (min-width: 480px) {
   .header-inner {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto 42%;
     grid-template-rows: auto auto;
   }
 }
