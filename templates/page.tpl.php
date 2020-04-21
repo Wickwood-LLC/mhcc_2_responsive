@@ -30,11 +30,11 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
             				</a>
             			</h1>
                         <?php else : ?>
-                        <div class="art-headline">
+                        <h1 class="art-headline">
                             <a href="<?php echo $GLOBALS['base_url']; ?>" title="<?php echo $site_name; ?>">
                                 <?php echo $site_name;  ?>
                             </a>
-                        </div>
+                        </h1>
                         <?php endif; ?>
                     <?php endif; ?>
                     <?php if (!empty($site_slogan)) : ?>
