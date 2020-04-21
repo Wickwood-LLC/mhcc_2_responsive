@@ -553,7 +553,7 @@ li p,
   .art-headline a:link,
   .art-headline a:visited,
   .art-headline a:hover {
-    font-size: calc(24px + 14 * ((100vw - 632px) / 388));
+    font-size: calc(16px + 22 * ((100vw - 632px) / 388));
   }
 }
 

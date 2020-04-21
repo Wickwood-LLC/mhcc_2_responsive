@@ -557,7 +557,7 @@ li p,
 
     @include breakpoint(480px) {
         font-size: 24px; // backup size
-        @include fluid-type(632px, 1020px, 24px, 38px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+        @include fluid-type(632px, 1020px, 16px, 38px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     }
 }
 
