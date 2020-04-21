@@ -551,14 +551,13 @@ li p,
     font-style: normal;
     text-decoration: none;
     text-align: center;
-    text-shadow: 3px 3px 2px rgba(245, 245, 245, 0.5);
     padding: 0;
     margin: 0;
     color: #293c98 !important;
 
     @include breakpoint(480px) {
-        font-size: 16px; // backup size
-        @include fluid-type(632px, 1020px, 16px, 36px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+        font-size: 24px; // backup size
+        @include fluid-type(632px, 1020px, 24px, 38px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     }
 }
 
@@ -588,7 +587,6 @@ li p,
     padding: 0;
     margin: 0;
     color: #293c98 !important;
-    text-shadow: 1.5px 1.5px 2px rgba(245, 245, 245, 0.5);
     text-align: center;
     width: 100%;
 
