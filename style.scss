@@ -5978,7 +5978,7 @@ div[class*="media-responsive_image_large"].media-element-container {
 
 /* Superfish Main Menus */
 #superfish-1, #superfish-2 {
-    display: table !important;
+    display: table;
     margin: 0 auto;
 
     > li {
@@ -6049,7 +6049,7 @@ div[class*="media-responsive_image_large"].media-element-container {
                 > ul {
                     left: calc(100% + 2px);
                 }
-                
+
                 > a {
                     color: #000000;
                 }

@@ -4829,7 +4829,7 @@ div[class*="media-responsive_image_large"].media-element-container {
 
 /* Superfish Main Menus */
 #superfish-1, #superfish-2 {
-  display: table !important;
+  display: table;
   margin: 0 auto; }
   #superfish-1 > li, #superfish-2 > li {
     margin-left: 5px;
