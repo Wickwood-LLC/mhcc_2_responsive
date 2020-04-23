@@ -4837,7 +4837,7 @@ div[class*="media-responsive_image_large"].media-element-container {
     display: inline-block; }
     #superfish-1 > li > a, #superfish-2 > li > a {
       text-decoration: none;
-      text-shadow: 2px 2px 2px rgba(245, 245, 245, 0.5); }
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
   #superfish-1 a, #superfish-2 a {
     border: 1px solid transparent;
     font-weight: bold;
