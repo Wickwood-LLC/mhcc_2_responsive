@@ -6001,5 +6001,19 @@ div[class*="media-responsive_image_large"].media-element-container {
         outline: none;
         position: relative;
         z-index: 11;
+        display: block;
+        height: 41px;
+        cursor: pointer;
+        color: white;
+        line-height: 41px;
+        border-radius: 4px;
+        padding: 0 10px;
+        margin: 0 auto;
+
+        .sf-sub-indicator {
+            display: inline-block;
+            position: static;
+            margin-left: 5px;
+        }
     }
 }
