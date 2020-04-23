@@ -5975,3 +5975,31 @@ div[class*="media-responsive_image_large"].media-element-container {
         }
     }
 }
+
+/* Superfish Main Menus */
+#superfish-1, #superfish-2 {
+    display: table !important;
+    margin: 0 auto;
+
+    > li {
+        margin-left: 5px;
+        float: none;
+        display: inline-block;
+
+        > a {
+            text-decoration: none;
+            text-shadow: 2px 2px 2px rgba(245,245,245,0.5);
+        }
+    }
+
+    a {
+        border: 1px solid transparent;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        outline: none;
+        position: relative;
+        z-index: 11;
+    }
+}
