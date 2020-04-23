@@ -46,7 +46,6 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
                     </div>
                 </div>
             </header>
-            <button class="responsive-nav-toggle"> ≡ Menu </button>
             <?php if (!empty($navigation) || !empty($extra1) || !empty($extra2)): ?>
             <nav class="art-nav clearfix">
                 <?php if (!empty($extra1)) : ?>
