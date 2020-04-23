@@ -4878,6 +4878,8 @@ div[class*="media-responsive_image_large"].media-element-container {
         margin-bottom: 0; }
         #superfish-1 li ul li:last-child a, #superfish-2 li ul li:last-child a {
           border: 0px; }
+      #superfish-1 li ul li:hover > ul, #superfish-2 li ul li:hover > ul {
+        left: calc(100% + 2px); }
       #superfish-1 li ul li:hover > a, #superfish-2 li ul li:hover > a {
         color: #000000; }
     #superfish-1 li ul a, #superfish-2 li ul a {

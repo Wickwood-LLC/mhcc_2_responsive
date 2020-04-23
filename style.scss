@@ -6045,8 +6045,14 @@ div[class*="media-responsive_image_large"].media-element-container {
                 }
             }
             
-            &:hover > a {
-                color: #000000;
+            &:hover {
+                > ul {
+                    left: calc(100% + 2px);
+                }
+                
+                > a {
+                    color: #000000;
+                }
             }
         }
         
