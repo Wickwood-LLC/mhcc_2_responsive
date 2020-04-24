@@ -4849,7 +4849,7 @@ div[class*="media-responsive_image_large"].media-element-container {
     #superfish-1 > li:hover > a.menuparent, #superfish-2 > li:hover > a.menuparent {
       border-bottom: 0;
       border-radius: 4px 4px 0 0; }
-      #superfish-1 > li:hover > a.menuparent ul, #superfish-2 > li:hover > a.menuparent ul {
+      #superfish-1 > li:hover > a.menuparent + ul, #superfish-2 > li:hover > a.menuparent + ul {
         border-top-left-radius: 0; }
     #superfish-1 > li:first-child, #superfish-2 > li:first-child {
       margin-left: 0px; }
