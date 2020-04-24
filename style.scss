@@ -545,7 +545,7 @@ li p,
 .art-headline a:visited,
 .art-headline a:hover {
     font-size: 20px; // backup size
-    @include fluid-type(320px, 479px, 20px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(320px, 479px, 20px, 36px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     font-family: 'Neuzeit Grotesk', Tahoma, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: normal;
     font-style: normal;
@@ -555,9 +555,9 @@ li p,
     margin: 0;
     color: #293c98 !important;
 
-    @include breakpoint(480px) {
-        font-size: 16px; // backup size
-        @include fluid-type(480px, 1020px, 16px, 38px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include breakpoint(693px) {
+        font-size: 24px; // backup size
+        @include fluid-type(480px, 1020px, 24px, 36px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     }
 }
 
@@ -580,6 +580,7 @@ li p,
 .art-slogan a:visited,
 .art-slogan a:hover {
     font-size: 16px; // backup size
+    @include fluid-type(320px, 1020px, 16px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     font-family: 'Neuzeit Grotesk', Tahoma, Arial, Helvetica, Sans-Serif;
     text-decoration: none;
     text-align: left;
@@ -589,12 +590,6 @@ li p,
     color: #293c98 !important;
     text-align: center;
     width: 100%;
-
-    @include breakpoint(480px) {
-        text-align: left;
-        font-size: 16px; // backup size
-        @include fluid-type(480px, 1020px, 16px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
-    }
 }
 
 #art-header-bg {
@@ -6174,6 +6169,11 @@ div[class*="media-responsive_image_large"].media-element-container {
     .col-1, .col-2, .col-3 {
         flex: 1 1 100%;
     }
+    .col-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
     @include breakpoint(693px){
         .col-1, .col-3 {
@@ -6184,5 +6184,12 @@ div[class*="media-responsive_image_large"].media-element-container {
             order: 1;
             flex: 1 100%;
         }
+    }
+
+    .pane-simpleads-block .pane-content {
+        text-align: center;
+    }
+    .view-simpleads-block {
+        display: inline-block;
     }
 }

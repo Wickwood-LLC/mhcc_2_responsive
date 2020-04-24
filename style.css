@@ -463,35 +463,35 @@ li p,
     .art-headline a:link,
     .art-headline a:visited,
     .art-headline a:hover {
-      font-size: calc(20px + 4 * ((100vw - 320px) / 159)); } }
+      font-size: calc(20px + 16 * ((100vw - 320px) / 159)); } }
   @media screen and (min-width: 479px) {
     .art-headline,
     .art-headline a,
     .art-headline a:link,
     .art-headline a:visited,
     .art-headline a:hover {
+      font-size: 36px; } }
+  @media (min-width: 693px) {
+    .art-headline,
+    .art-headline a,
+    .art-headline a:link,
+    .art-headline a:visited,
+    .art-headline a:hover {
       font-size: 24px; } }
-  @media (min-width: 480px) {
+  @media screen and (min-width: 693px) and (min-width: 480px) {
     .art-headline,
     .art-headline a,
     .art-headline a:link,
     .art-headline a:visited,
     .art-headline a:hover {
-      font-size: 16px; } }
-  @media screen and (min-width: 480px) and (min-width: 480px) {
+      font-size: calc(24px + 12 * ((100vw - 480px) / 540)); } }
+  @media screen and (min-width: 693px) and (min-width: 1020px) {
     .art-headline,
     .art-headline a,
     .art-headline a:link,
     .art-headline a:visited,
     .art-headline a:hover {
-      font-size: calc(16px + 22 * ((100vw - 480px) / 540)); } }
-  @media screen and (min-width: 480px) and (min-width: 1020px) {
-    .art-headline,
-    .art-headline a,
-    .art-headline a:link,
-    .art-headline a:visited,
-    .art-headline a:hover {
-      font-size: 38px; } }
+      font-size: 36px; } }
 
 .art-slogan {
   min-width: 50px;
@@ -519,22 +519,14 @@ li p,
   color: #293c98 !important;
   text-align: center;
   width: 100%; }
-  @media (min-width: 480px) {
-    .art-slogan,
-    .art-slogan a,
-    .art-slogan a:link,
-    .art-slogan a:visited,
-    .art-slogan a:hover {
-      text-align: left;
-      font-size: 16px; } }
-  @media screen and (min-width: 480px) and (min-width: 480px) {
+  @media screen and (min-width: 480px) {
     .art-slogan,
     .art-slogan a,
     .art-slogan a:link,
     .art-slogan a:visited,
     .art-slogan a:hover {
       font-size: calc(16px + 16 * ((100vw - 480px) / 540)); } }
-  @media screen and (min-width: 480px) and (min-width: 1020px) {
+  @media screen and (min-width: 1020px) {
     .art-slogan,
     .art-slogan a,
     .art-slogan a:link,
@@ -4982,4 +4974,8 @@ div[class*="media-responsive_image_large"].media-element-container {
     #mini-panel-header_mini_panel_with_ads .col-2 {
       order: 1;
       flex: 1 100%; } }
+  #mini-panel-header_mini_panel_with_ads .pane-simpleads-block .pane-content {
+    text-align: center; }
+  #mini-panel-header_mini_panel_with_ads .view-simpleads-block {
+    display: inline-block; }
 /*# sourceMappingURL=style.css.map */
