@@ -11,8 +11,6 @@
   /* CSS2 browsers */
   background: #028ad2;
   /* CSS3 browsers */
-  background: -moz-linear-gradient(0deg, #028ad2 0%, rgba(2, 138, 210, 0.95) 70%, white 100%);
-  background: -webkit-linear-gradient(0deg, #028ad2 0%, rgba(2, 138, 210, 0.95) 70%, white 100%);
   background: linear-gradient(0deg, #028ad2 0%, rgba(2, 138, 210, 0.95) 70%, white 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#028ad2",endColorstr="#ffffff",GradientType=1);
   background-repeat: no-repeat;
@@ -2576,10 +2574,12 @@ blockquote p,
   width: 30px; }
 
 .art-lightbox-wrapper .cw {
-  transform: rotate(45deg); }
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
 
 .art-lightbox-wrapper .ccw {
-  transform: rotate(-45deg); }
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
 
 .art-lightbox-wrapper .close-alt,
 .art-lightbox-wrapper .arrow-right-alt,
@@ -2625,11 +2625,13 @@ blockquote p,
 /* Begin Additional CSS Styles */
 @media (min-width: 350px) {
   .block-date-navigation ul.jquerymenu {
-    column-count: 2; } }
+    -webkit-column-count: 2;
+            column-count: 2; } }
 
 @media (min-width: 693px) {
   .block-date-navigation ul.jquerymenu {
-    column-count: unset; } }
+    -webkit-column-count: unset;
+            column-count: unset; } }
 
 /* End Additional CSS Styles */
 /* BEGIN FCKEditor, CKEditor, TinyMCE modules support*/
@@ -3247,7 +3249,8 @@ div.group-header div.field-name-field-canceled {
   color: red;
   font-variant: small-caps;
   text-transform: uppercase;
-  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
   position: absolute;
   top: 200px;
   left: 200px;
@@ -3261,7 +3264,8 @@ div.group-left div.field-name-field-canceled {
   color: red;
   font-variant: small-caps;
   text-transform: uppercase;
-  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
   position: absolute;
   top: 30px;
   left: 200px; }
@@ -4410,7 +4414,6 @@ div.feed-icon img {
 
 .header-inner {
   margin: 0 auto;
-  display: grid;
   text-align: center;
   grid-template-columns: 100%;
   grid-template-rows: auto;
@@ -4686,7 +4689,8 @@ div[class*="media-responsive_image_large"].media-element-container {
   #mini-panel-banner_1_mini_panel .panel-col-first {
     flex: 1 2 20%; }
     #mini-panel-banner_1_mini_panel .panel-col-first .menu {
-      column-width: 150px; }
+      -webkit-column-width: 150px;
+              column-width: 150px; }
     #mini-panel-banner_1_mini_panel .panel-col-first .art-block {
       overflow-x: hidden; }
   #mini-panel-banner_1_mini_panel .panel-col {
@@ -4966,3 +4970,4 @@ div[class*="media-responsive_image_large"].media-element-container {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase; }
+/*# sourceMappingURL=style.css.map */

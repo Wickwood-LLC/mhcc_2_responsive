@@ -19,29 +19,6 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
             <header class="art-header clearfix">
                 <div class="header-inner">
                     <?php if (!empty($art_header)) { echo render($art_header); } ?>
-                    <div class="art-logo">
-                        <img src="<?php echo $GLOBALS['base_url'] . '/' . path_to_theme('mhcc_2', 'mhcc_2'); ?>/images/logo.png" />
-                    </div>
-                    <?php if (!empty($site_name)) : ?>
-                        <?php if (!$title) : ?>
-                        <h1 class="art-headline" data-left="85.39%">
-            				<a href="<?php echo $GLOBALS['base_url']; ?>" title="<?php echo $site_name; ?>;">
-            					<?php echo $site_name;  ?>
-            				</a>
-            			</h1>
-                        <?php else : ?>
-                        <h1 class="art-headline">
-                            <a href="<?php echo $GLOBALS['base_url']; ?>" title="<?php echo $site_name; ?>">
-                                <?php echo $site_name;  ?>
-                            </a>
-                        </h1>
-                        <?php endif; ?>
-                    <?php endif; ?>
-                    <?php if (!empty($site_slogan)) : ?>
-                    <h2 class="art-slogan" data-left="84.57%">
-            			<?php echo $site_slogan; ?>
-            		</h2>
-                    <?php endif; ?>
                 </div>
             </header>
             <?php if (!empty($navigation) || !empty($extra1) || !empty($extra2)): ?>

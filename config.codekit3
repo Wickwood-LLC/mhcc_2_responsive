@@ -740,7 +740,7 @@
 		},
 	"/images/logo.png": {
 		"ft": 32768,
-		"iS": 107035,
+		"iS": 29112,
 		"oA": 0,
 		"oAP": "/images/logo.png",
 		"oF": 0,
@@ -1185,12 +1185,12 @@
 		"uL": 1
 		},
 	"/style.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "/style.css",
 		"oF": 0,
