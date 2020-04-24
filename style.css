@@ -4844,7 +4844,13 @@ div[class*="media-responsive_image_large"].media-element-container {
       background: #96C8DE;
       border-radius: 4px;
       border: 1px dotted rgba(40, 161, 204, 0.9);
-      color: #0C2F3C; }
+      color: #0C2F3C;
+      text-shadow: 2px 2px 2px rgba(245, 245, 245, 0.5); }
+    #superfish-1 > li:hover > a.menuparent, #superfish-2 > li:hover > a.menuparent {
+      border-bottom: 0;
+      border-radius: 4px 4px 0 0; }
+      #superfish-1 > li:hover > a.menuparent ul, #superfish-2 > li:hover > a.menuparent ul {
+        border-top-left-radius: 0; }
     #superfish-1 > li:first-child, #superfish-2 > li:first-child {
       margin-left: 0px; }
   #superfish-1 a, #superfish-2 a {
