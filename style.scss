@@ -6043,32 +6043,28 @@ div[class*="media-responsive_image_large"].media-element-container {
         border-radius: 4px;
         border: 1px dotted rgba(40,161,204,0.9);
         margin: 0 auto;
+        padding: 0 !important;
         position: absolute;
         width: auto;
         z-index: 1;
 
         li{
-            margin-top: 2px;
-            margin-bottom: 2px;
-
-            &:first-child {
-                margin-top: 0;
-            }
             &:last-child {
-                margin-bottom: 0;
-
                 a {
                     border: 0px;
                 }
             }
             
             &:hover {
+                background: #1694D6;
+
                 > ul {
                     left: calc(100% + 2px);
                 }
 
                 > a {
-                    color: #000000;
+                    color: white;
+                    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
                 }
             }
         }
@@ -6081,6 +6077,10 @@ div[class*="media-responsive_image_large"].media-element-container {
             text-decoration: none;
             text-shadow: 2px 2px 2px rgba(245,245,245,0.5);
             white-space: nowrap;
+
+            &:hover {
+                
+            }
         }        
     }
 }
