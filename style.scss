@@ -5994,6 +5994,10 @@ div[class*="media-responsive_image_large"].media-element-container {
         &:hover a {
             text-shadow: 2px 2px 2px rgba(245,245,245,0.5);
         }
+
+        &:first-child {
+            margin-left: 0px;
+        }
     }
 
     a {
