@@ -6167,4 +6167,22 @@ div[class*="media-responsive_image_large"].media-element-container {
     }
 }
 
-
+#mini-panel-header_mini_panel_with_ads {
+    display: flex;
+    flex-flow: row wrap;
+    
+    .col-1, .col-2, .col-3 {
+        flex: 1 1 100%;
+    }
+    
+    @include breakpoint(693px){
+        .col-1, .col-3 {
+            flex: 1 1 40%;
+        }
+    
+        .col-2 {
+            order: 1;
+            flex: 1 100%;
+        }
+    }
+}

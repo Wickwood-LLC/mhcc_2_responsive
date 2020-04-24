@@ -4970,4 +4970,16 @@ div[class*="media-responsive_image_large"].media-element-container {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase; }
+
+#mini-panel-header_mini_panel_with_ads {
+  display: flex;
+  flex-flow: row wrap; }
+  #mini-panel-header_mini_panel_with_ads .col-1, #mini-panel-header_mini_panel_with_ads .col-2, #mini-panel-header_mini_panel_with_ads .col-3 {
+    flex: 1 1 100%; }
+  @media (min-width: 693px) {
+    #mini-panel-header_mini_panel_with_ads .col-1, #mini-panel-header_mini_panel_with_ads .col-3 {
+      flex: 1 1 40%; }
+    #mini-panel-header_mini_panel_with_ads .col-2 {
+      order: 1;
+      flex: 1 100%; } }
 /*# sourceMappingURL=style.css.map */
