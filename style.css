@@ -4925,7 +4925,6 @@ div[class*="media-responsive_image_large"].media-element-container {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
 
 #superfish-2-accordion {
-  display: block;
   position: fixed;
   top: 105px !important;
   right: 0 !important;
@@ -4933,13 +4932,24 @@ div[class*="media-responsive_image_large"].media-element-container {
   text-align: center;
   background: #96C8DE;
   border: 1px dotted rgba(40, 161, 204, 0.9); }
-  #superfish-2-accordion li:last-child a {
-    border: 0px; }
   #superfish-2-accordion li:hover {
     background: #1A6884; }
     #superfish-2-accordion li:hover > a {
       color: white;
       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
+  #superfish-2-accordion li.sf-expanded {
+    background: #078cd3; }
+    #superfish-2-accordion li.sf-expanded > a {
+      color: white;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
+  #superfish-2-accordion li > ul {
+    background: #96C8DE;
+    border: 4px double rgba(40, 161, 204, 0.9);
+    border-left: 0;
+    border-right: 0;
+    border-style: double; }
+  #superfish-2-accordion > li:last-child a {
+    border: 0px; }
   #superfish-2-accordion a {
     border-bottom: 1px dotted rgba(40, 161, 204, 0.9);
     text-align: left;
@@ -4953,4 +4963,5 @@ div[class*="media-responsive_image_large"].media-element-container {
     padding: 0 10px;
     margin: 0 auto;
     font-weight: bold;
+    text-align: center;
     text-transform: uppercase; }
