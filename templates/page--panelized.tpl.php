@@ -19,32 +19,8 @@ $tabs2 = (isset($tabs2) && !(empty($tabs2))) ?'<ul class="arttabs_secondary">'.r
             <header class="art-header clearfix">
                 <div class="header-inner">
                     <?php if (!empty($art_header)) { echo render($art_header); } ?>
-                    <div class="art-shapes">
-                        <img src="<?php echo $GLOBALS['base_url'] . '/' . path_to_theme('mhcc_2', 'mhcc_2'); ?>/images/logo.png" />
-                    </div>
-                    <div class="site-title-and-slogan">
-                        <?php if (!empty($site_name)) : ?>
-                        <?php if (!$title) : ?>
-                        <h1 class="art-headline" data-left="85.39%">
-				<a href="<?php echo $GLOBALS['base_url']; ?>" title="<?php echo $site_name; ?>;">
-					<?php echo $site_name;  ?>
-				</a>
-			</h1>
-                        <?php else : ?>
-                        <div class="art-headline">
-                            <a href="<?php echo $GLOBALS['base_url']; ?>" title="<?php echo $site_name; ?>">
-                                <?php echo $site_name;  ?>
-                            </a>
-                        </div>
-                        <?php endif; ?>
-                        <?php endif; ?>
-                        <?php if (!empty($site_slogan)) : ?>
-                        <h2 class="art-slogan" data-left="84.57%">
-			<?php echo $site_slogan; ?>
-		</h2>
-                        <?php endif; ?>
-                    </div>
                 </div>
+            </header>
             </header>
             <?php if (!empty($navigation) || !empty($extra1) || !empty($extra2)): ?>
             <nav class="art-nav clearfix">
