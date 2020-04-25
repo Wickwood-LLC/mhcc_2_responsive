@@ -34,7 +34,7 @@
 				$(".art-nav").removeClass('mobile-nav');
 			}
 
-			$(".menu-has-child").off("click");	// Added to fix the annoying yoyo effect
+			// $(".menu-has-child").off("click");	// Added to fix the annoying yoyo effect
 			$(".menu-has-child").on("click", function(){
 		            $(this).siblings('.menu').slideToggle();	// This expands/collapses the submenus upon clicking the button
 		            $(this).text(function(i, text){
