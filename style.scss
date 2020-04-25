@@ -6122,8 +6122,9 @@ div[class*="media-responsive_image_large"].media-element-container {
     }
 
     li{
-        width: auto;
+        width: 100%;
         float: none;
+        display: table;
 
         &:hover {
             background: #1A6884;
@@ -6171,6 +6172,8 @@ div[class*="media-responsive_image_large"].media-element-container {
         font-weight: bold;
         text-align: right;
         text-transform: uppercase;
+        width: 100%;
+        box-sizing: border-box;
     }
 }
 
@@ -6183,6 +6186,7 @@ div[class*="media-responsive_image_large"].media-element-container {
     }
     .col-1 {
         display: flex;
+        flex-flow: row wrap;
         justify-content: center;
         align-items: center;
 
