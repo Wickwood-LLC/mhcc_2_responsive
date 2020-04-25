@@ -552,6 +552,10 @@ li p,
     padding: 0;
     margin: 0;
     color: #293c98 !important;
+
+    font-size: 20px; // backup size
+    @include fluid-type(320px, 879px, 20px, 42px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(880px, 1020px, 20px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-slogan {
@@ -6071,6 +6075,7 @@ div[class*="media-responsive_image_large"].media-element-container {
         position: fixed;
         top: 60px;
         right: 0;
+        z-index: 110;
     }
 }
 #superfish-2-toggle {
@@ -6087,7 +6092,6 @@ div[class*="media-responsive_image_large"].media-element-container {
     box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.5);
     z-index: 50;
     position: relative;
-    z-index: 110;
 
     &:hover {
         background: #1A6884;
@@ -6191,13 +6195,6 @@ div[class*="media-responsive_image_large"].media-element-container {
         .pane-page-site-name {
             flex: 1 1 0;
         }
-
-        .art-headline,
-        .art-headline a {
-            font-size: 20px; // backup size
-            @include fluid-type(320px, 879px, 20px, 42px); // values inside are ($min_width,$max_width, $min_font, $max_font);
-            
-        }
     }
     
     @include breakpoint(680px) {
@@ -6226,12 +6223,6 @@ div[class*="media-responsive_image_large"].media-element-container {
             .pane-page-site-name{
                 flex: 1 1 100%;
             }
-        }
-
-        .art-headline,
-        .art-headline a {
-            font-size: 20px; // backup size
-            @include fluid-type(880px, 1020px, 20px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font);
         }
     }
 
