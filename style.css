@@ -4961,15 +4961,15 @@ div[class*="media-responsive_image_large"].media-element-container {
     flex: 1 1 100%; }
   #mini-panel-header_mini_panel_with_ads_and_r .art-headline,
   #mini-panel-header_mini_panel_with_ads_and_r .art-headline a {
-    font-size: 16px; } }
-  @media screen and (min-width: 880px) and (min-width: 320px) {
+    font-size: 20px; } }
+  @media screen and (min-width: 880px) and (min-width: 880px) {
     #mini-panel-header_mini_panel_with_ads_and_r .art-headline,
     #mini-panel-header_mini_panel_with_ads_and_r .art-headline a {
-      font-size: calc(16px + 16 * ((100vw - 320px) / 700)); } }
+      font-size: calc(20px + 4 * ((100vw - 880px) / 140)); } }
   @media screen and (min-width: 880px) and (min-width: 1020px) {
     #mini-panel-header_mini_panel_with_ads_and_r .art-headline,
     #mini-panel-header_mini_panel_with_ads_and_r .art-headline a {
-      font-size: 32px; } }
+      font-size: 24px; } }
 
 #mini-panel-header_mini_panel_with_ads_and_r .pane-simpleads-block .pane-content {
   text-align: center; }
