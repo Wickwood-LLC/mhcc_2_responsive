@@ -4975,26 +4975,40 @@ div[class*="media-responsive_image_large"].media-element-container {
     width: 100%;
     box-sizing: border-box; }
 
-#mini-panel-header_mini_panel_with_ads {
+#mini-panel-header_mini_panel_with_ads_and_r .row-one {
   display: flex;
   flex-flow: row wrap; }
-  #mini-panel-header_mini_panel_with_ads .col-1, #mini-panel-header_mini_panel_with_ads .col-2, #mini-panel-header_mini_panel_with_ads .col-3 {
-    flex: 1 1 100%; }
-  #mini-panel-header_mini_panel_with_ads .col-1 {
+
+#mini-panel-header_mini_panel_with_ads_and_r .col-1, #mini-panel-header_mini_panel_with_ads_and_r .col-2, #mini-panel-header_mini_panel_with_ads_and_r .col-3 {
+  flex: 1 1 100%; }
+
+#mini-panel-header_mini_panel_with_ads_and_r .col-1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+  #mini-panel-header_mini_panel_with_ads_and_r .col-1 > div {
+    flex: 1 100%; }
+
+@media (min-width: 680px) {
+  #mini-panel-header_mini_panel_with_ads_and_r .col-1 {
+    flex: 1 100%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center; }
-    #mini-panel-header_mini_panel_with_ads .col-1 > div {
-      flex: 1 100%; }
-  @media (min-width: 693px) {
-    #mini-panel-header_mini_panel_with_ads .col-1, #mini-panel-header_mini_panel_with_ads .col-3 {
-      flex: 1 1 40%; }
-    #mini-panel-header_mini_panel_with_ads .col-2 {
-      order: 1;
-      flex: 1 100%; } }
-  #mini-panel-header_mini_panel_with_ads .pane-simpleads-block .pane-content {
-    text-align: center; }
-  #mini-panel-header_mini_panel_with_ads .view-simpleads-block {
-    display: inline-block; }
+    flex-flow: row wrap; }
+    #mini-panel-header_mini_panel_with_ads_and_r .col-1 .pane-page-logo {
+      flex: 0 0 auto; }
+    #mini-panel-header_mini_panel_with_ads_and_r .col-1 .pane-page-site-name {
+      flex: 1 1 0; }
+  #mini-panel-header_mini_panel_with_ads_and_r .col-2, #mini-panel-header_mini_panel_with_ads_and_r .col-3 {
+    flex: 1 1 0; } }
+
+@media (min-width: 880px) {
+  #mini-panel-header_mini_panel_with_ads_and_r .col-1, #mini-panel-header_mini_panel_with_ads_and_r .col-2, #mini-panel-header_mini_panel_with_ads_and_r .col-3 {
+    flex: 1 1 0; } }
+
+#mini-panel-header_mini_panel_with_ads_and_r .pane-simpleads-block .pane-content {
+  text-align: center; }
+
+#mini-panel-header_mini_panel_with_ads_and_r .view-simpleads-block {
+  display: inline-block; }
 /*# sourceMappingURL=style.css.map */
