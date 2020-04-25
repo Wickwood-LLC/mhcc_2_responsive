@@ -5004,7 +5004,9 @@ div[class*="media-responsive_image_large"].media-element-container {
 
 @media (min-width: 880px) {
   #mini-panel-header_mini_panel_with_ads_and_r .col-1, #mini-panel-header_mini_panel_with_ads_and_r .col-2, #mini-panel-header_mini_panel_with_ads_and_r .col-3 {
-    flex: 1 1 0; } }
+    flex: 1 1 0; }
+  #mini-panel-header_mini_panel_with_ads_and_r .col-1 {
+    display: block; } }
 
 #mini-panel-header_mini_panel_with_ads_and_r .pane-simpleads-block .pane-content {
   text-align: center; }
