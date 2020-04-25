@@ -8,7 +8,7 @@
 		});
 
 		// After loading and resizing events..
-		$(window).off("resize load");
+		// $(window).off("resize load");
 		$(window).on("resize load",function(){
 			// Check if the window width is less than the specified value
 			if ($(window).width() < 678) {
