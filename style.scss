@@ -6183,9 +6183,20 @@ div[class*="media-responsive_image_large"].media-element-container {
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
+        align-content: center;
 
-        > div {
-            flex: 1 100%;
+        .pane-page-logo {
+            flex: 0 1 200px;
+        }
+        .pane-page-site-name {
+            flex: 1 1 0;
+        }
+
+        .art-headline,
+        .art-headline a {
+            font-size: 20px; // backup size
+            @include fluid-type(320px, 879px, 20px, 42px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+            
         }
     }
     
@@ -6194,26 +6205,12 @@ div[class*="media-responsive_image_large"].media-element-container {
             flex: 1 100%;
             display: flex;
             flex-flow: row wrap;
-
-            .pane-page-logo {
-                flex: 0 0 200px;
-            }
-            .pane-page-site-name {
-                flex: 1 1 0;
-            }
         }
         .col-2, .col-3 {
             flex: 1 1 0;
             display: flex;
             align-items: center;
             align-content: center;
-        }
-
-        .art-headline,
-        .art-headline a {
-            font-size: 28px; // backup size
-            @include fluid-type(680px, 879px, 28px, 42px); // values inside are ($min_width,$max_width, $min_font, $max_font);
-            
         }
     }
 
