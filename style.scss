@@ -6087,6 +6087,7 @@ div[class*="media-responsive_image_large"].media-element-container {
     box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.5);
     z-index: 50;
     position: relative;
+    z-index: 110;
 
     &:hover {
         background: #1A6884;
@@ -6195,7 +6196,7 @@ div[class*="media-responsive_image_large"].media-element-container {
             flex-flow: row wrap;
 
             .pane-page-logo {
-                flex: 0 0 auto;
+                flex: 0 0 200px;
             }
             .pane-page-site-name {
                 flex: 1 1 0;
@@ -6203,6 +6204,16 @@ div[class*="media-responsive_image_large"].media-element-container {
         }
         .col-2, .col-3 {
             flex: 1 1 0;
+            display: flex;
+            align-items: center;
+            align-content: center;
+        }
+
+        .art-headline,
+        .art-headline a {
+            font-size: 28px; // backup size
+            @include fluid-type(680px, 879px, 28px, 42px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+            
         }
     }
 
@@ -6211,6 +6222,7 @@ div[class*="media-responsive_image_large"].media-element-container {
             flex: 1 1 0;
             display: flex;
             align-items: center;
+            align-content: center;
         }
         .col-1 {
             .pane-page-logo,
