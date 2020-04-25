@@ -740,7 +740,7 @@
 		},
 	"/images/logo.png": {
 		"ft": 32768,
-		"iS": 107035,
+		"iS": 29112,
 		"oA": 0,
 		"oAP": "/images/logo.png",
 		"oF": 0,
@@ -1071,6 +1071,17 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/logo.png": {
+		"ft": 32768,
+		"iS": 29112,
+		"oA": 0,
+		"oAP": "/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/mhcc.js": {
 		"ft": 64,
