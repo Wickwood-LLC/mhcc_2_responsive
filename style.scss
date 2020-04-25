@@ -6112,7 +6112,17 @@ div[class*="media-responsive_image_large"].media-element-container {
     border: 1px dotted rgba(40,161,204,0.9);
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
 
-    li{        
+    &.sf-hidden {
+        display: none !important;
+    }
+    &.sf-expanded {
+        display: block !important;
+    }
+
+    li{
+        width: auto;
+        float: none;
+
         &:hover {
             background: #1A6884;
 
@@ -6157,7 +6167,7 @@ div[class*="media-responsive_image_large"].media-element-container {
         padding: 0 10px;
         margin: 0 auto;
         font-weight: bold;
-        text-align: center;
+        text-align: right;
         text-transform: uppercase;
     }
 }
