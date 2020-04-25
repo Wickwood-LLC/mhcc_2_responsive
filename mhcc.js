@@ -2,7 +2,7 @@
   Drupal.behaviors.mhcc2 = {
     attach: function (context, settings) {
       
-		$(".responsive-nav-toggle").off("click");	// Added to fix the annoying yoyo effect
+		// $(".responsive-nav-toggle").off("click");	// Added to fix the annoying yoyo effect
 		$(".responsive-nav-toggle").on("click", function(){
 			$('.art-hmenu').slideToggle();
 		});
