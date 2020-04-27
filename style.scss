@@ -3831,6 +3831,10 @@ ul>li:before.closed {
             text-decoration: none;
         }
     }
+    .view-content {
+        max-height: 117px;
+        overflow-y: auto;
+    }
     ul.pager {
         text-align: center;
 
@@ -6209,6 +6213,8 @@ div[class*="media-responsive_image_large"].media-element-container {
 }
 
 #mini-panel-header_mini_panel_with_ads_rides {
+    margin: 5px;
+    
     .row-one{
         display: flex;
         flex-flow: row wrap;
@@ -6243,6 +6249,7 @@ div[class*="media-responsive_image_large"].media-element-container {
             display: flex;
             align-items: center;
             align-content: center;
+            justify-content: center;
         }
     }
 
