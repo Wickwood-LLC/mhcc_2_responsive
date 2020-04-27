@@ -3148,6 +3148,24 @@ ul > li:before.closed {
   color: red;
   text-decoration: underline; }
 
+.view-full-calendar-view .view-header {
+  text-align: center;
+  font-weight: bold; }
+  .view-full-calendar-view .view-header a {
+    color: red; }
+
+.view-full-calendar-view .view-content {
+  text-align: left; }
+
+.view-full-calendar-view a,
+.view-full-calendar-view a:visited {
+  color: #000000;
+  text-decoration: none; }
+
+.view-full-calendar-view a:hover {
+  color: red;
+  text-decoration: underline; }
+
 .art-block ul > li.open:before {
   content: none;
   margin-right: 6px;
