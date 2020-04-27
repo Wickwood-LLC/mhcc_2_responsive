@@ -555,7 +555,7 @@ li p,
 
     font-size: 20px; // backup size
     @include fluid-type(320px, 879px, 20px, 42px); // values inside are ($min_width,$max_width, $min_font, $max_font);
-    @include fluid-type(880px, 1020px, 18px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(880px, 1020px, 20px, 23px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-slogan {

@@ -477,14 +477,14 @@ li p,
     .art-headline a:link,
     .art-headline a:visited,
     .art-headline a:hover {
-      font-size: calc(18px + 6 * ((100vw - 880px) / 140)); } }
+      font-size: calc(20px + 3 * ((100vw - 880px) / 140)); } }
   @media screen and (min-width: 1020px) {
     .art-headline,
     .art-headline a,
     .art-headline a:link,
     .art-headline a:visited,
     .art-headline a:hover {
-      font-size: 24px; } }
+      font-size: 23px; } }
 
 .art-slogan {
   min-width: 50px;
