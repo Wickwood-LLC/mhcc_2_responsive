@@ -3154,17 +3154,19 @@ ul > li:before.closed {
   .view.view-full-calendar-view .view-header a {
     color: red; }
 
-.view.view-full-calendar-view .view-content {
+.view.view-full-calendar-view .view-content,
+.view.view-full-calendar-view ul.pager {
   text-align: left; }
-
-.view.view-full-calendar-view a,
-.view.view-full-calendar-view a:visited {
-  color: #000000;
-  text-decoration: none; }
-
-.view.view-full-calendar-view a:hover {
-  color: red;
-  text-decoration: underline; }
+  .view.view-full-calendar-view .view-content a,
+  .view.view-full-calendar-view .view-content a:visited,
+  .view.view-full-calendar-view ul.pager a,
+  .view.view-full-calendar-view ul.pager a:visited {
+    color: #000000;
+    text-decoration: none; }
+  .view.view-full-calendar-view .view-content a:hover,
+  .view.view-full-calendar-view ul.pager a:hover {
+    color: red;
+    text-decoration: underline; }
 
 .art-block ul > li.open:before {
   content: none;
