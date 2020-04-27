@@ -5016,6 +5016,11 @@ div[class*="media-responsive_image_large"].media-element-container {
       flex: 0 1 200px; }
     #mini-panel-header_mini_panel_with_ads_rides .col-1 .pane-page-site-name {
       flex: 1 1 0; }
+  @media (min-width: 575px) {
+    #mini-panel-header_mini_panel_with_ads_rides .col-2, #mini-panel-header_mini_panel_with_ads_rides .col-3 {
+      flex: 1 1 50%;
+      align-items: center;
+      display: flex; } }
   @media (min-width: 680px) {
     #mini-panel-header_mini_panel_with_ads_rides .col-1 {
       flex: 1 100%;

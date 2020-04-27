@@ -6237,6 +6237,14 @@ div[class*="media-responsive_image_large"].media-element-container {
             flex: 1 1 0;
         }
     }
+
+    @include breakpoint(575px) {
+        .col-2, .col-3 {
+            flex: 1 1 50%;
+            align-items: center;
+            display: flex;
+        }
+    }
     
     @include breakpoint(680px) {
         .col-1 {
