@@ -3168,6 +3168,9 @@ ul > li:before.closed {
     color: red;
     text-decoration: underline; }
 
+.view.view-full-calendar-view ul.pager {
+  text-align: center; }
+
 .art-block ul > li.open:before {
   content: none;
   margin-right: 6px;

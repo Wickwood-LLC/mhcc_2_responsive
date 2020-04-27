@@ -3830,6 +3830,9 @@ ul>li:before.closed {
             text-decoration: underline;
         }
     }
+    ul.pager {
+        text-align: center;
+    }
 }
 
 .art-block ul>li.open:before {
