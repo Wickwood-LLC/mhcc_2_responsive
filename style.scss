@@ -6222,17 +6222,23 @@ div[class*="media-responsive_image_large"].media-element-container {
     
     .col-1, .col-2, .col-3 {
         flex: 1 1 100%;
+        justify-content: center;
+        display: flex;
     }
     .col-1 {
-        display: flex;
         flex-flow: row wrap;
-        justify-content: center;
         align-items: center;
         align-content: center;
 
         .pane-page-logo {
             flex: 0 1 200px;
         }
+        .pane-page-site-name {
+            flex: 1 1 100%;
+        }
+    }
+
+    @include breakpoint(520px) {
         .pane-page-site-name {
             flex: 1 1 0;
         }
