@@ -6239,7 +6239,7 @@ div[class*="media-responsive_image_large"].media-element-container {
     }
 
     @include breakpoint(520px) {
-        .pane-page-site-name {
+        .col-1 .pane-page-site-name {
             flex: 1 1 0;
         }
     }
