@@ -3827,11 +3827,15 @@ ul>li:before.closed {
         }
         a:hover {
             color: red;
-            text-decoration: underline;
+            text-decoration: none;
         }
     }
     ul.pager {
         text-align: center;
+
+        .pager-current {
+            color: #356982;
+        }
     }
 }
 

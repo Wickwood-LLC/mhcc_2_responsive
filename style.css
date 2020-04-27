@@ -3166,10 +3166,12 @@ ul > li:before.closed {
   .view.view-full-calendar-view .view-content a:hover,
   .view.view-full-calendar-view ul.pager a:hover {
     color: red;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 .view.view-full-calendar-view ul.pager {
   text-align: center; }
+  .view.view-full-calendar-view ul.pager .pager-current {
+    color: #356982; }
 
 .art-block ul > li.open:before {
   content: none;
