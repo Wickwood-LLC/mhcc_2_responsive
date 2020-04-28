@@ -555,7 +555,7 @@ li p,
 
     font-size: 20px; // backup size
     @include fluid-type(320px, 879px, 20px, 42px); // values inside are ($min_width,$max_width, $min_font, $max_font);
-    @include fluid-type(880px, 1020px, 20px, 23px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(880px, 1020px, 18px, 23px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-slogan {
@@ -6246,7 +6246,8 @@ div[class*="media-responsive_image_large"].media-element-container {
 
     @include breakpoint(520px) {
         .col-1 .pane-page-site-name {
-            flex: 1 1 0;
+            flex: 0 auto;
+            margin-left: 10px;
         }
     }
 
@@ -6284,6 +6285,7 @@ div[class*="media-responsive_image_large"].media-element-container {
             .pane-page-logo,
             .pane-page-site-name{
                 flex: 1 1 100%;
+                margin-left: 0;
             }
         }
         .col-2 {
