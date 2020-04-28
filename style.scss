@@ -554,7 +554,8 @@ li p,
     color: #293c98 !important;
 
     font-size: 20px; // backup size
-    @include fluid-type(320px, 879px, 20px, 42px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(320px, 692px, 20px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(693px, 879px, 30px, 42px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     @include fluid-type(880px, 1020px, 18px, 23px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
@@ -6246,7 +6247,7 @@ div[class*="media-responsive_image_large"].media-element-container {
 
     @include breakpoint(520px) {
         .col-1 .pane-page-site-name {
-            flex: 0 auto;
+            flex: 1 1 0;
             margin-left: 10px;
         }
     }
@@ -6271,6 +6272,12 @@ div[class*="media-responsive_image_large"].media-element-container {
             align-items: center;
             align-content: center;
             justify-content: center;
+        }
+    }
+
+    @include breakpoint(693px) {
+        .col-1 .pane-page-site-name {
+            flex: 0 auto;
         }
     }
 
