@@ -3153,7 +3153,8 @@ ul > li:before.closed {
   font-weight: bold; }
   .view.view-full-calendar-view .view-header a {
     color: red;
-    text-decoration: none; }
+    text-decoration: none;
+    line-height: 28px; }
 
 .view.view-full-calendar-view .view-content,
 .view.view-full-calendar-view ul.pager {
@@ -3163,7 +3164,8 @@ ul > li:before.closed {
   .view.view-full-calendar-view ul.pager a,
   .view.view-full-calendar-view ul.pager a:visited {
     color: #000000;
-    text-decoration: none; }
+    text-decoration: none;
+    line-height: 28px; }
   .view.view-full-calendar-view .view-content a:hover,
   .view.view-full-calendar-view ul.pager a:hover {
     color: red;
