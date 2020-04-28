@@ -3834,8 +3834,12 @@ ul>li:before.closed {
         }
     }
     .view-content {
-        max-height: 117px;
-        overflow-y: auto;
+        // max-height: 117px;
+        // overflow-y: auto;
+        .views-row {
+            text-indent: -1em;
+            padding-left: 1em;
+        }
     }
     ul.pager {
         text-align: center;
@@ -6281,6 +6285,9 @@ div[class*="media-responsive_image_large"].media-element-container {
             .pane-page-site-name{
                 flex: 1 1 100%;
             }
+        }
+        .col-2 {
+            flex: 0 0 320px;
         }
     }
 

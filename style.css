@@ -3171,9 +3171,9 @@ ul > li:before.closed {
     color: red;
     text-decoration: none; }
 
-.view.view-full-calendar-view .view-content {
-  max-height: 117px;
-  overflow-y: auto; }
+.view.view-full-calendar-view .view-content .views-row {
+  text-indent: -1em;
+  padding-left: 1em; }
 
 .view.view-full-calendar-view ul.pager {
   text-align: center; }
@@ -5045,7 +5045,9 @@ div[class*="media-responsive_image_large"].media-element-container {
       align-content: center; }
     #mini-panel-header_mini_panel_with_ads_rides .col-1 .pane-page-logo,
     #mini-panel-header_mini_panel_with_ads_rides .col-1 .pane-page-site-name {
-      flex: 1 1 100%; } }
+      flex: 1 1 100%; }
+    #mini-panel-header_mini_panel_with_ads_rides .col-2 {
+      flex: 0 0 320px; } }
   #mini-panel-header_mini_panel_with_ads_rides .pane-simpleads-block .pane-content {
     text-align: center; }
   #mini-panel-header_mini_panel_with_ads_rides .view-simpleads-block {
