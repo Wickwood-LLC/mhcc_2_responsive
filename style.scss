@@ -587,7 +587,7 @@ li p,
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     width: 100%;
 
-    font-size: 18px; // backup size
+    font-size: 16px; // backup size
     @include fluid-type(320px, 649px, 16px, 19px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     @include fluid-type(650px, 1020px, 19px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
