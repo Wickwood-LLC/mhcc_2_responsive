@@ -6266,8 +6266,13 @@ div[class*="media-responsive_image_large"].media-element-container {
                 margin-left: 10%;
             }
         }
-        .col-2, .col-3 {
-            flex: 1 1 50%;
+        .col-2 {
+            flex: 3 1 345px;
+            align-items: center;
+            display: flex;
+        }
+        .col-3 {
+            flex: 2 1 auto;
             align-items: center;
             display: flex;
         }

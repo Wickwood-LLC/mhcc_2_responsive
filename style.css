@@ -5057,8 +5057,12 @@ div[class*="media-responsive_image_large"].media-element-container {
   @media (min-width: 575px) {
     #mini-panel-header_mini_panel_with_ads_rides .col-1 .pane-page-logo {
       margin-left: 10%; }
-    #mini-panel-header_mini_panel_with_ads_rides .col-2, #mini-panel-header_mini_panel_with_ads_rides .col-3 {
-      flex: 1 1 50%;
+    #mini-panel-header_mini_panel_with_ads_rides .col-2 {
+      flex: 3 1 345px;
+      align-items: center;
+      display: flex; }
+    #mini-panel-header_mini_panel_with_ads_rides .col-3 {
+      flex: 2 1 auto;
       align-items: center;
       display: flex; } }
   @media (min-width: 680px) {
