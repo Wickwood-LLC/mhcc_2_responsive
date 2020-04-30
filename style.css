@@ -5071,9 +5071,6 @@ div[class*="media-responsive_image_large"].media-element-container {
       display: flex;
       flex-flow: row wrap; }
     #mini-panel-header_mini_panel_with_ads_rides .col-2, #mini-panel-header_mini_panel_with_ads_rides .col-3 {
-      flex: 1 1 0;
-      display: flex;
-      align-items: center;
       align-content: center;
       justify-content: center; } }
   @media (min-width: 693px) {

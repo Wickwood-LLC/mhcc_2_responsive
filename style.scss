@@ -6285,9 +6285,6 @@ div[class*="media-responsive_image_large"].media-element-container {
             flex-flow: row wrap;
         }
         .col-2, .col-3 {
-            flex: 1 1 0;
-            display: flex;
-            align-items: center;
             align-content: center;
             justify-content: center;
         }
