@@ -6249,23 +6249,19 @@ div[class*="media-responsive_image_large"].media-element-container {
     @include breakpoint(520px) {
         .col-1 {
             .pane-page-logo {
-                margin-left: 0;
+                margin-left: 10%;
             }
             .pane-page-site-name {
                 flex: 1 1 0;
                 margin-left: 10px;
-                text-align: left;
                 margin-right: 10%;
+                margin-top: 25px;
+                text-align: left;
             }
         }
     }
 
     @include breakpoint(575px) {
-        .col-1 {
-            .pane-page-logo {
-                margin-left: 10%;
-            }
-        }
         .col-2 {
             flex: 3 1 345px;
             align-items: center;
