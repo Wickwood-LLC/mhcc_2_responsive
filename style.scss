@@ -6298,6 +6298,8 @@ div[class*="media-responsive_image_large"].media-element-container {
             .pane-page-site-name {
                 flex: 0 auto;
                 margin-right: 0;
+                margin-top: 20px;
+                text-align: center;
             }
         }
     }
@@ -6314,6 +6316,7 @@ div[class*="media-responsive_image_large"].media-element-container {
             .pane-page-site-name{
                 flex: 1 1 100%;
                 margin-left: 0;
+                margin-top: 0;
             }
         }
         .col-2 {
