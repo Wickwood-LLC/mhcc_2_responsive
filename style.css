@@ -591,6 +591,9 @@ li p,
   background-image: url("images/header.png");
   background-position: center center; }
 
+.region-content {
+  margin: 0 2.5%; }
+
 .art-header > .region,
 .art-header > .block {
   position: absolute;
@@ -3522,6 +3525,9 @@ div.view-display-id-page_3 div.views-row {
   margin: 0px; }
 
 /* Styling for Panelized Nodes */
+.panelized-node .region-content {
+  margin: 0; }
+
 .panelized-node .art-postmetadataheader {
   background: none;
   border: 0px;
