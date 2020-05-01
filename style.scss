@@ -304,6 +304,8 @@ ul.art-vmenu a {
     margin: 10px 0 0;
     font-size: 23px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    margin: 0 2.5%;
 }
 
 .art-postcontent h4 a,
@@ -2386,7 +2388,7 @@ pre {
 
 .art-postheadericons {
     padding: 1px;
-    margin: 0;
+    margin-bottom: 1em;
     text-align: center;
 }
 
@@ -2395,6 +2397,7 @@ pre {
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     text-decoration: none;
     color: #1A6884;
+    line-height: normal;
 }
 
 .art-postheadericons a:visited,

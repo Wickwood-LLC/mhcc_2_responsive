@@ -245,7 +245,9 @@ ul.art-vmenu a {
 .art-blockcontent h4 {
   margin: 10px 0 0;
   font-size: 23px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
+  margin: 0 2.5%; }
 
 .art-postcontent h4 a,
 .art-postcontent h4 a:link,
@@ -2091,14 +2093,15 @@ pre {
 
 .art-postheadericons {
   padding: 1px;
-  margin: 0;
+  margin-bottom: 1em;
   text-align: center; }
 
 .art-postheadericons a,
 .art-postheadericons a:link {
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
   text-decoration: none;
-  color: #1A6884; }
+  color: #1A6884;
+  line-height: normal; }
 
 .art-postheadericons a:visited,
 .art-postheadericons a.visited {
