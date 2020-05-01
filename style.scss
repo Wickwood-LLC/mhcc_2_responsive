@@ -577,6 +577,7 @@ li p,
 .art-slogan a:link,
 .art-slogan a:visited,
 .art-slogan a:hover {
+    box-sizing: border-box;
     font-family: 'Neuzeit Grotesk', Tahoma, Arial, Helvetica, Sans-Serif;
     text-decoration: none;
     text-align: left;
@@ -586,6 +587,9 @@ li p,
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     width: 100%;
+    @include breakpoint(415px 621px) {
+        padding: 0 12%;
+    }
 
     font-size: 16px; // backup size
     @include fluid-type(320px, 649px, 16px, 19px); // values inside are ($min_width,$max_width, $min_font, $max_font);

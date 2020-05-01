@@ -516,6 +516,7 @@ li p,
 .art-slogan a:link,
 .art-slogan a:visited,
 .art-slogan a:hover {
+  box-sizing: border-box;
   font-family: 'Neuzeit Grotesk', Tahoma, Arial, Helvetica, Sans-Serif;
   text-decoration: none;
   text-align: left;
@@ -526,6 +527,13 @@ li p,
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   width: 100%;
   font-size: 16px; }
+  @media (min-width: 415px) and (max-width: 621px) {
+    .art-slogan,
+    .art-slogan a,
+    .art-slogan a:link,
+    .art-slogan a:visited,
+    .art-slogan a:hover {
+      padding: 0 12%; } }
   @media screen and (min-width: 320px) {
     .art-slogan,
     .art-slogan a,
