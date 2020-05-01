@@ -592,7 +592,10 @@ li p,
   background-position: center center; }
 
 .region-content {
-  margin: 0 2.5%; }
+  margin: 0 2.5%;
+  line-height: 1.2em; }
+  .region-content > .region-content {
+    margin: 0; }
 
 .art-header > .region,
 .art-header > .block {
@@ -3218,6 +3221,9 @@ ul > li:before.closed {
   text-align: center; }
   .view.view-full-calendar-view ul.pager .pager-current {
     color: #356982; }
+
+.view-mobile-full-calendar .views-row {
+  margin-bottom: 0.25em; }
 
 .art-block ul > li.open:before {
   content: none;

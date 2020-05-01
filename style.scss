@@ -630,6 +630,11 @@ li p,
 
 .region-content {
     margin: 0 2.5%;
+    line-height: 1.2em;
+    
+    >.region-content {
+        margin: 0;
+    }
 }
 
 .art-header>.region,
@@ -3857,6 +3862,12 @@ ul>li:before.closed {
         .pager-current {
             color: #356982;
         }
+    }
+}
+
+.view-mobile-full-calendar {
+    .views-row {
+        margin-bottom: 0.25em;
     }
 }
 
