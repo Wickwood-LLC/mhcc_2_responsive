@@ -240,14 +240,14 @@ ul.art-vmenu a {
   color: #152933;
   margin: 10px 0 0;
   font-size: 23px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
+  margin: 0 2.5%; }
 
 .art-blockcontent h4 {
   margin: 10px 0 0;
   font-size: 23px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-  font-weight: bold;
-  margin: 0 2.5%; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
 
 .art-postcontent h4 a,
 .art-postcontent h4 a:link,
