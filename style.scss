@@ -3871,6 +3871,10 @@ ul>li:before.closed {
 .view-mobile-full-calendar {
     .views-row {
         margin-bottom: 0.25em;
+
+        a {
+            line-height: inherit;
+        }
     }
 }
 

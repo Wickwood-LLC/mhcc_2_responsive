@@ -3227,6 +3227,8 @@ ul > li:before.closed {
 
 .view-mobile-full-calendar .views-row {
   margin-bottom: 0.25em; }
+  .view-mobile-full-calendar .views-row a {
+    line-height: inherit; }
 
 .art-block ul > li.open:before {
   content: none;
