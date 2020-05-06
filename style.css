@@ -16,7 +16,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 14px;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
   font-weight: normal;
   font-style: normal;
@@ -27,6 +27,12 @@
   top: 0;
   cursor: default;
   overflow: hidden; }
+  @media screen and (min-width: 320px) {
+    #art-main {
+      font-size: calc(14px + 2 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    #art-main {
+      font-size: 16px; } }
 
 table,
 ul.art-hmenu {
@@ -70,7 +76,20 @@ picture img {
 .art-postheadericons,
 .art-blockcontent,
 ul.art-vmenu a {
-  text-align: left; }
+  text-align: left;
+  font-size: 14px; }
+  @media screen and (min-width: 320px) {
+    .art-postcontent,
+    .art-postheadericons,
+    .art-blockcontent,
+    ul.art-vmenu a {
+      font-size: calc(14px + 2 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-postcontent,
+    .art-postheadericons,
+    .art-blockcontent,
+    ul.art-vmenu a {
+      font-size: 16px; } }
 
 .art-postfootericons {
   text-align: right; }
@@ -4341,7 +4360,6 @@ div.region.region-banner2 div.views-row {
   display: inline-block;
   vertical-align: middle;
   padding: 5px;
-  font-size: 1.20em;
   overflow: hidden;
   flex: 1; }
 

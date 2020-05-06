@@ -48,7 +48,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 14px;
+    @include fluid-type(320px, 1020px, 14px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: normal;
     font-style: normal;
@@ -111,6 +112,8 @@ picture img {
 .art-blockcontent,
 ul.art-vmenu a {
     text-align: left;
+    font-size: 14px;
+    @include fluid-type(320px, 1020px, 14px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-postfootericons {
@@ -5211,7 +5214,6 @@ div.region.region-banner2 div.views-row {
     display: inline-block;
     vertical-align: middle;
     padding: 5px;
-    font-size: 1.20em;
     overflow: hidden;
     flex: 1;
 }
