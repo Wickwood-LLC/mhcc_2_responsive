@@ -1589,9 +1589,25 @@ div.art-block img {
 .art-blockcontent a:visited,
 .art-blockcontent a:hover {
   color: #152933;
-  font-size: 16px;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-  line-height: 175%; }
+  line-height: 175%;
+  font-size: 14px; }
+  @media screen and (min-width: 320px) {
+    .art-blockcontent table,
+    .art-blockcontent li,
+    .art-blockcontent a,
+    .art-blockcontent a:link,
+    .art-blockcontent a:visited,
+    .art-blockcontent a:hover {
+      font-size: calc(14px + 2 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-blockcontent table,
+    .art-blockcontent li,
+    .art-blockcontent a,
+    .art-blockcontent a:link,
+    .art-blockcontent a:visited,
+    .art-blockcontent a:hover {
+      font-size: 16px; } }
 
 .art-blockcontent p {
   margin: 0 5px; }

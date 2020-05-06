@@ -1694,9 +1694,10 @@ div.art-block img {
 .art-blockcontent a:visited,
 .art-blockcontent a:hover {
     color: #152933;
-    font-size: 16px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     line-height: 175%;
+    font-size: 14px;
+    @include fluid-type(320px, 1020px, 14px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-blockcontent p {
