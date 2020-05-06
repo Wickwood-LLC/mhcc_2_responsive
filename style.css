@@ -89,7 +89,14 @@ ul.art-vmenu a {
 
 .art-postcontent p {
   line-height: 1.2em;
-  margin: 0 2.5% 1em; }
+  margin: 0 2.5% 1em;
+  font-size: 14px; }
+  @media screen and (min-width: 320px) {
+    .art-postcontent p {
+      font-size: calc(14px + 2 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-postcontent p {
+      font-size: 16px; } }
 
 .art-postcontent h1,
 .art-postcontent h1 a,
@@ -173,13 +180,26 @@ ul.art-vmenu a {
 .art-postcontent h1 {
   color: #152933;
   margin: 10px 0 0;
-  font: 29px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-  text-align: center; }
+  font: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  text-align: center;
+  font-size: 24px; }
+  @media screen and (min-width: 320px) {
+    .art-postcontent h1 {
+      font-size: calc(24px + 8 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-postcontent h1 {
+      font-size: 32px; } }
 
 .art-blockcontent h1 {
   margin: 10px 0 0;
-  font-size: 34px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-size: 24px; }
+  @media screen and (min-width: 320px) {
+    .art-blockcontent h1 {
+      font-size: calc(24px + 8 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-blockcontent h1 {
+      font-size: 32px; } }
 
 .art-postcontent h1 a,
 .art-postcontent h1 a:link,
@@ -196,12 +216,26 @@ ul.art-vmenu a {
   color: #152933;
   margin: 5px 10px;
   font-size: 29px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-size: 22px; }
+  @media screen and (min-width: 320px) {
+    .art-postcontent h2 {
+      font-size: calc(22px + 7 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-postcontent h2 {
+      font-size: 29px; } }
 
 .art-blockcontent h2 {
   margin: 10px 0 0;
   font-size: 29px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-size: 22px; }
+  @media screen and (min-width: 320px) {
+    .art-blockcontent h2 {
+      font-size: calc(22px + 7 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-blockcontent h2 {
+      font-size: 29px; } }
 
 .art-postcontent h2 a,
 .art-postcontent h2 a:link,
@@ -217,13 +251,26 @@ ul.art-vmenu a {
 .art-postcontent h3 {
   color: #152933;
   margin: 10px 0 0;
-  font-size: 26px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-size: 20px; }
+  @media screen and (min-width: 320px) {
+    .art-postcontent h3 {
+      font-size: calc(20px + 6 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-postcontent h3 {
+      font-size: 26px; } }
 
 .art-blockcontent h3 {
   margin: 10px 0 0;
   font-size: 26px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-size: 20px; }
+  @media screen and (min-width: 320px) {
+    .art-blockcontent h3 {
+      font-size: calc(20px + 6 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-blockcontent h3 {
+      font-size: 26px; } }
 
 .art-postcontent h3 a,
 .art-postcontent h3 a:link,
@@ -239,15 +286,27 @@ ul.art-vmenu a {
 .art-postcontent h4 {
   color: #152933;
   margin: 10px 0 0;
-  font-size: 23px;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
   font-weight: bold;
-  margin: 0 2.5%; }
+  margin: 0 2.5%;
+  font-size: 18px; }
+  @media screen and (min-width: 320px) {
+    .art-postcontent h4 {
+      font-size: calc(18px + 5 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-postcontent h4 {
+      font-size: 23px; } }
 
 .art-blockcontent h4 {
   margin: 10px 0 0;
-  font-size: 23px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-size: 18px; }
+  @media screen and (min-width: 320px) {
+    .art-blockcontent h4 {
+      font-size: calc(18px + 5 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-blockcontent h4 {
+      font-size: 23px; } }
 
 .art-postcontent h4 a,
 .art-postcontent h4 a:link,
@@ -263,13 +322,25 @@ ul.art-vmenu a {
 .art-postcontent h5 {
   color: #152933;
   margin: 10px 0 0;
-  font-size: 19px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-size: 16px; }
+  @media screen and (min-width: 320px) {
+    .art-postcontent h5 {
+      font-size: calc(16px + 4 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-postcontent h5 {
+      font-size: 20px; } }
 
 .art-blockcontent h5 {
   margin: 10px 0 0;
-  font-size: 19px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-size: 16px; }
+  @media screen and (min-width: 320px) {
+    .art-blockcontent h5 {
+      font-size: calc(16px + 4 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-blockcontent h5 {
+      font-size: 20px; } }
 
 .art-postcontent h5 a,
 .art-postcontent h5 a:link,
@@ -285,13 +356,25 @@ ul.art-vmenu a {
 .art-postcontent h6 {
   color: #356982;
   margin: 10px 0 0;
-  font-size: 16px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-size: 14px; }
+  @media screen and (min-width: 320px) {
+    .art-postcontent h6 {
+      font-size: calc(14px + 2 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-postcontent h6 {
+      font-size: 16px; } }
 
 .art-blockcontent h6 {
   margin: 10px 0 0;
-  font-size: 16px;
-  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; }
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-size: 14px; }
+  @media screen and (min-width: 320px) {
+    .art-blockcontent h6 {
+      font-size: calc(14px + 2 * ((100vw - 320px) / 700)); } }
+  @media screen and (min-width: 1020px) {
+    .art-blockcontent h6 {
+      font-size: 16px; } }
 
 .art-postcontent h6 a,
 .art-postcontent h6 a:link,
@@ -4442,7 +4525,8 @@ div.simplead-container {
     display: flex; }
 
 div.simplead-container img {
-  width: 100%; }
+  width: 100%;
+  height: auto; }
 
 div.simplead-container p {
   line-height: normal;

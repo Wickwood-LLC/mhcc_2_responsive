@@ -133,6 +133,8 @@ ul.art-vmenu a {
 .art-postcontent p {
     line-height: 1.2em;
     margin: 0 2.5% 1em;
+    font-size: 14px;
+    @include fluid-type(320px, 1020px, 14px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-postcontent h1,
@@ -221,14 +223,17 @@ ul.art-vmenu a {
 .art-postcontent h1 {
     color: #152933;
     margin: 10px 0 0;
-    font: 29px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     text-align: center;
+    font-size: 24px;
+    @include fluid-type(320px, 1020px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-blockcontent h1 {
     margin: 10px 0 0;
-    font-size: 34px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-size: 24px;
+    @include fluid-type(320px, 1020px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-postcontent h1 a,
@@ -248,12 +253,16 @@ ul.art-vmenu a {
     margin: 5px 10px;
     font-size: 29px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-size: 22px;
+    @include fluid-type(320px, 1020px, 22px, 29px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-blockcontent h2 {
     margin: 10px 0 0;
     font-size: 29px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-size: 22px;
+    @include fluid-type(320px, 1020px, 22px, 29px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-postcontent h2 a,
@@ -271,14 +280,17 @@ ul.art-vmenu a {
 .art-postcontent h3 {
     color: #152933;
     margin: 10px 0 0;
-    font-size: 26px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-size: 20px;
+    @include fluid-type(320px, 1020px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-blockcontent h3 {
     margin: 10px 0 0;
     font-size: 26px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-size: 20px;
+    @include fluid-type(320px, 1020px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-postcontent h3 a,
@@ -296,16 +308,18 @@ ul.art-vmenu a {
 .art-postcontent h4 {
     color: #152933;
     margin: 10px 0 0;
-    font-size: 23px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     font-weight: bold;
     margin: 0 2.5%;
+    font-size: 18px;
+    @include fluid-type(320px, 1020px, 18px, 23px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-blockcontent h4 {
     margin: 10px 0 0;
-    font-size: 23px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-size: 18px;
+    @include fluid-type(320px, 1020px, 18px, 23px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-postcontent h4 a,
@@ -323,14 +337,16 @@ ul.art-vmenu a {
 .art-postcontent h5 {
     color: #152933;
     margin: 10px 0 0;
-    font-size: 19px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-size: 16px;
+    @include fluid-type(320px, 1020px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-blockcontent h5 {
     margin: 10px 0 0;
-    font-size: 19px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-size: 16px;
+    @include fluid-type(320px, 1020px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-postcontent h5 a,
@@ -347,15 +363,17 @@ ul.art-vmenu a {
 
 .art-postcontent h6 {
     color: #356982;
-    margin: 10px 0 0;
-    font-size: 16px;
+    margin: 10px 0 0;    
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-size: 14px;
+    @include fluid-type(320px, 1020px, 14px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-blockcontent h6 {
     margin: 10px 0 0;
-    font-size: 16px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-size: 14px;
+    @include fluid-type(320px, 1020px, 14px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-postcontent h6 a,
@@ -5441,6 +5459,7 @@ div.simplead-container {
 
 div.simplead-container img {
     width: 100%;
+    height: auto;
 }
 
 div.simplead-container p {
