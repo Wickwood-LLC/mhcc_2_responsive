@@ -618,6 +618,75 @@
 		"oAP": "/favicon.ico",
 		"oF": 0
 		},
+	"/favicon/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 22714,
+		"oA": 0,
+		"oAP": "/favicon/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 70108,
+		"oA": 0,
+		"oAP": "/favicon/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 20646,
+		"oA": 0,
+		"oAP": "/favicon/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 751,
+		"oA": 0,
+		"oAP": "/favicon/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1956,
+		"oA": 0,
+		"oAP": "/favicon/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/favicon/favicon.ico",
+		"oF": 0
+		},
+	"/favicon/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/favicon/site.webmanifest",
+		"oF": 0
+		},
 	"/images/addicon.png": {
 		"ft": 32768,
 		"iS": 286,
@@ -1476,7 +1545,7 @@
 	"creationDate": 556108728,
 	"displayValue": "mhcc_2_responsive",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-girlfriend",
+	"iconImageName": "/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

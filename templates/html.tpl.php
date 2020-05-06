@@ -17,6 +17,10 @@
 
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alike&amp;subset=latin">
 
+<link rel="apple-touch-icon" sizes="180x180" href="<?php print path_to_theme(); ?>/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php print path_to_theme(); ?>/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="<?php print path_to_theme(); ?>/favicon/favicon-16x16.png">
+<link rel="manifest" href="<?php print path_to_theme(); ?>/favicon/site.webmanifest">
 
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
