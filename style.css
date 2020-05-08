@@ -176,7 +176,7 @@ ul.art-vmenu a {
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
   font-weight: normal;
   font-style: normal;
-  line-height: 120%; }
+  line-height: 1.2em; }
 
 .art-postcontent a,
 .art-postcontent a:link {
@@ -3214,7 +3214,7 @@ td.fc-header-center {
   font-size: 1em; }
 
 #edit-type-1-wrapper div.description {
-  line-height: 120%;
+  line-height: 1.2em;
   margin-top: 5px; }
 
 #views-exposed-form-full-calendar-view-page select,
