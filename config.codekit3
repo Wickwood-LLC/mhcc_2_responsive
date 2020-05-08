@@ -7,11 +7,12 @@
 		"uuidString": "36BAA314-EB5A-43C0-9CAF-4CE4865158FF"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "31934",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.gitignore",
 		"oF": 0
@@ -48,6 +49,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/bower_components/breakpoint-sass/CHANGELOG.md",
 		"oF": 0,
@@ -66,6 +68,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/bower_components/breakpoint-sass/CONTRIBUTING.md",
 		"oF": 0,
@@ -77,6 +80,7 @@
 		"uCM": 0
 		},
 	"/bower_components/breakpoint-sass/eyeglass-exports.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -102,6 +106,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/bower_components/breakpoint-sass/README.md",
 		"oF": 0,
@@ -391,6 +396,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/bower_components/sassy-maps/CONTRIBUTING.md",
 		"oF": 0,
@@ -417,6 +423,7 @@
 	"/bower_components/sassy-maps/examples/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/bower_components/sassy-maps/examples/index.html",
 		"oF": 0
@@ -424,6 +431,7 @@
 	"/bower_components/sassy-maps/lib/sassy-maps.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/bower_components/sassy-maps/lib/sassy-maps.rb",
 		"oF": 0
@@ -431,6 +439,7 @@
 	"/bower_components/sassy-maps/lib/sassy-maps/version.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/bower_components/sassy-maps/lib/sassy-maps/version.rb",
 		"oF": 0
@@ -438,6 +447,7 @@
 	"/bower_components/sassy-maps/lib/tapout/reporters/navigator_reporter.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/bower_components/sassy-maps/lib/tapout/reporters/navigator_reporter.rb",
 		"oF": 0
@@ -445,6 +455,7 @@
 	"/bower_components/sassy-maps/Rakefile": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/bower_components/sassy-maps/Rakefile",
 		"oF": 0
@@ -457,6 +468,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/bower_components/sassy-maps/README.md",
 		"oF": 0,
@@ -543,6 +555,7 @@
 	"/bower_components/sassy-maps/sassy-maps.gemspec": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/bower_components/sassy-maps/sassy-maps.gemspec",
 		"oF": 0
@@ -550,6 +563,7 @@
 	"/common_methods.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/common_methods.php",
 		"oF": 0
@@ -577,6 +591,7 @@
 	"/drupal7_theme_methods.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/drupal7_theme_methods.php",
 		"oF": 0
@@ -594,6 +609,7 @@
 	"/editor.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/editor.css.map",
 		"oF": 0
@@ -614,6 +630,7 @@
 	"/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/favicon.ico",
 		"oF": 0
@@ -676,6 +693,7 @@
 	"/favicon/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/favicon/favicon.ico",
 		"oF": 0
@@ -683,6 +701,7 @@
 	"/favicon/site.webmanifest": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/favicon/site.webmanifest",
 		"oF": 0
@@ -1132,6 +1151,7 @@
 		"q": 100
 		},
 	"/jquery.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1153,6 +1173,7 @@
 		"q": 100
 		},
 	"/mhcc.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1165,6 +1186,7 @@
 	"/mhcc_2.info": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/mhcc_2.info",
 		"oF": 0
@@ -1172,6 +1194,7 @@
 	"/ReadMe.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/ReadMe.txt",
 		"oF": 0
@@ -1188,6 +1211,7 @@
 		"q": 100
 		},
 	"/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1198,6 +1222,7 @@
 		"tS": 0
 		},
 	"/script.responsive.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1220,6 +1245,7 @@
 	"/style.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/style.css.map",
 		"oF": 0
@@ -1247,6 +1273,7 @@
 	"/style.responsive.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/style.responsive.css.map",
 		"oF": 0
@@ -1280,6 +1307,7 @@
 	"/template.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/template.php",
 		"oF": 0
@@ -1287,6 +1315,7 @@
 	"/templates/block--banner1.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--banner1.tpl.php",
 		"oF": 0
@@ -1294,6 +1323,7 @@
 	"/templates/block--banner2.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--banner2.tpl.php",
 		"oF": 0
@@ -1301,6 +1331,7 @@
 	"/templates/block--banner3.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--banner3.tpl.php",
 		"oF": 0
@@ -1308,6 +1339,7 @@
 	"/templates/block--banner4.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--banner4.tpl.php",
 		"oF": 0
@@ -1315,6 +1347,7 @@
 	"/templates/block--banner5.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--banner5.tpl.php",
 		"oF": 0
@@ -1322,6 +1355,7 @@
 	"/templates/block--banner6.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--banner6.tpl.php",
 		"oF": 0
@@ -1329,6 +1363,7 @@
 	"/templates/block--content.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--content.tpl.php",
 		"oF": 0
@@ -1336,6 +1371,7 @@
 	"/templates/block--copyright.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--copyright.tpl.php",
 		"oF": 0
@@ -1343,6 +1379,7 @@
 	"/templates/block--extra1.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--extra1.tpl.php",
 		"oF": 0
@@ -1350,6 +1387,7 @@
 	"/templates/block--extra2.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--extra2.tpl.php",
 		"oF": 0
@@ -1357,6 +1395,7 @@
 	"/templates/block--navigation.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--navigation.tpl.php",
 		"oF": 0
@@ -1364,6 +1403,7 @@
 	"/templates/block--user1.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--user1.tpl.php",
 		"oF": 0
@@ -1371,6 +1411,7 @@
 	"/templates/block--user2.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--user2.tpl.php",
 		"oF": 0
@@ -1378,6 +1419,7 @@
 	"/templates/block--user3.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--user3.tpl.php",
 		"oF": 0
@@ -1385,6 +1427,7 @@
 	"/templates/block--user4.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--user4.tpl.php",
 		"oF": 0
@@ -1392,6 +1435,7 @@
 	"/templates/block--vnavigation_left.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--vnavigation_left.tpl.php",
 		"oF": 0
@@ -1399,6 +1443,7 @@
 	"/templates/block--vnavigation_right.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block--vnavigation_right.tpl.php",
 		"oF": 0
@@ -1406,6 +1451,7 @@
 	"/templates/block.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block.tpl.php",
 		"oF": 0
@@ -1413,6 +1459,7 @@
 	"/templates/comment-wrapper.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/comment-wrapper.tpl.php",
 		"oF": 0
@@ -1420,6 +1467,7 @@
 	"/templates/comment.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/comment.tpl.php",
 		"oF": 0
@@ -1427,6 +1475,7 @@
 	"/templates/ds-1col--node-starting-location-mhcc-ride-list.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/ds-1col--node-starting-location-mhcc-ride-list.tpl.php",
 		"oF": 0
@@ -1434,6 +1483,7 @@
 	"/templates/ds-2col-stacked-fluid--node-mhcc-ride-report.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/ds-2col-stacked-fluid--node-mhcc-ride-report.tpl.php",
 		"oF": 0
@@ -1441,6 +1491,7 @@
 	"/templates/ds-2col-stacked-fluid--node.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/ds-2col-stacked-fluid--node.tpl.php",
 		"oF": 0
@@ -1448,6 +1499,7 @@
 	"/templates/html.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/html.tpl.php",
 		"oF": 0
@@ -1455,6 +1507,7 @@
 	"/templates/location.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/location.tpl.php",
 		"oF": 0
@@ -1462,6 +1515,7 @@
 	"/templates/maintenance-page.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/maintenance-page.tpl.php",
 		"oF": 0
@@ -1469,6 +1523,7 @@
 	"/templates/node--article.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/node--article.tpl.php",
 		"oF": 0
@@ -1476,6 +1531,7 @@
 	"/templates/node--news.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/node--news.tpl.php",
 		"oF": 0
@@ -1483,6 +1539,7 @@
 	"/templates/node-og-group-post.tpl": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/node-og-group-post.tpl",
 		"oF": 0
@@ -1490,6 +1547,7 @@
 	"/templates/node-og-group-post.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/node-og-group-post.tpl.php",
 		"oF": 0
@@ -1497,6 +1555,7 @@
 	"/templates/node.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/node.tpl.php",
 		"oF": 0
@@ -1504,6 +1563,7 @@
 	"/templates/page--panelized.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/page--panelized.tpl.php",
 		"oF": 0
@@ -1511,6 +1571,7 @@
 	"/templates/page.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/page.tpl.php",
 		"oF": 0
@@ -1518,6 +1579,7 @@
 	"/templates/simpleads_block.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/simpleads_block.tpl.php",
 		"oF": 0
@@ -1525,6 +1587,7 @@
 	"/templates/simpleads_img_element.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/simpleads_img_element.tpl.php",
 		"oF": 0
@@ -1532,6 +1595,7 @@
 	"/templates/views-exposed-form.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/views-exposed-form.tpl.php",
 		"oF": 0
@@ -1550,6 +1614,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -1561,6 +1626,7 @@
 	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
+	"babelExcludeString": "/\\/node_modules\\//, /\\/core-js\\//, /\\/bower_components\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -1631,6 +1697,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -1652,6 +1724,36 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
+			"active": 0
+			},
 		"modules-amd": {
 			"active": 0
 			},
@@ -1662,6 +1764,9 @@
 			"active": 0
 			},
 		"modules-umd": {
+			"active": 0
+			},
+		"named-capturing-groups-regex": {
 			"active": 0
 			},
 		"new-target": {
@@ -1697,7 +1802,13 @@
 		"parameters": {
 			"active": 0
 			},
+		"partial-application": {
+			"active": 0
+			},
 		"pipeline-operator": {
+			"active": 0
+			},
+		"private-methods": {
 			"active": 0
 			},
 		"property-literals": {
@@ -1733,10 +1844,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -1780,11 +1897,10 @@
 			}
 		},
 	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
-	"bowerSaveDevDependencies": 0,
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
@@ -1929,6 +2045,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -2030,6 +2147,10 @@
 			"optionString": "'all'"
 			},
 		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2381,6 +2502,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-import-assign": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-inline-comments": {
 			"active": 0,
 			"optionString": ""
@@ -2685,6 +2810,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -2785,6 +2914,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -2796,6 +2929,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -3347,6 +3484,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3368,6 +3506,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
@@ -3390,7 +3529,8 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3402,7 +3542,6 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 0,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -3429,6 +3568,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3438,7 +3578,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3459,7 +3600,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3488,7 +3630,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -3531,8 +3674,16 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
@@ -3576,16 +3727,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -3604,7 +3759,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3627,6 +3782,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -3652,10 +3811,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -3664,13 +3819,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -3682,6 +3837,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -3704,13 +3863,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -3719,10 +3878,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -3746,6 +3901,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -3780,6 +3939,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -3789,6 +3952,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3816,15 +3983,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": ""
 	},

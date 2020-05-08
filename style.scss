@@ -612,7 +612,6 @@ li p,
     box-sizing: border-box;
     font-family: 'Neuzeit Grotesk', Tahoma, Arial, Helvetica, Sans-Serif;
     text-decoration: none;
-    text-align: left;
     line-height: normal;
     padding: 0;
     color: #fff;
@@ -3861,6 +3860,7 @@ ul>li:before.closed {
     .view-header {
         text-align: center;
         font-weight: bold;
+        margin: 0.5em 0;
 
         a {
             color: red;
@@ -3875,7 +3875,7 @@ ul>li:before.closed {
         a:visited {
             color: #000000;
             text-decoration: none;
-            line-height: 1.2em;
+            line-height: 1.6em;
         }
         a:hover {
             color: red;
@@ -3892,6 +3892,7 @@ ul>li:before.closed {
     }
     ul.pager {
         text-align: center;
+        margin: 0.5em 0;
 
         .pager-current {
             color: #356982;
