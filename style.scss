@@ -130,7 +130,7 @@ ul.art-vmenu a {
 .art-postcontent a:hover,
 .art-postcontent a.hovered {
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-    line-height: 175%;
+    line-height: 1.2em;
 }
 
 .art-postcontent p {
@@ -1693,7 +1693,7 @@ div.art-block img {
     color: #152933;
     font-size: 16px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-    line-height: 175%;
+    line-height: 1.2em;
 }
 
 .art-blockcontent table,
@@ -1704,7 +1704,7 @@ div.art-block img {
 .art-blockcontent a:hover {
     color: #152933;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-    line-height: 175%;
+    line-height: 1.2em;
     font-size: 14px;
     @include fluid-type(320px, 1020px, 14px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
@@ -1754,7 +1754,7 @@ div.art-block img {
 .art-block li {
     font-size: 16px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-    line-height: 175%;
+    line-height: 1.2em;
     color: #356982;
     margin: 5px 0 0 10px;
 }
@@ -2720,7 +2720,7 @@ blockquote p,
     color: #0D1A21;
     font-size: 16px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-    line-height: 175%;
+    line-height: 1.2em;
 }
 
 .art-footer p {
@@ -3835,7 +3835,7 @@ ul>li:before.closed {
         color: #152933;
         font-size: 16px;
         font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-        line-height: 175%;
+        line-height: 1.2em;
     }
     .view .view-header {
         text-align: center;
@@ -3865,7 +3865,7 @@ ul>li:before.closed {
         a {
             color: red;
             text-decoration: none;
-            line-height: 28px;
+            line-height: 1.2em;
         }
     }
     .view-content,
@@ -3875,7 +3875,7 @@ ul>li:before.closed {
         a:visited {
             color: #000000;
             text-decoration: none;
-            line-height: 28px;
+            line-height: 1.2em;
         }
         a:hover {
             color: red;
