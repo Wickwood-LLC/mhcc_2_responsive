@@ -201,6 +201,7 @@ ul.art-vmenu a {
   margin: 10px 0 0;
   font: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
   text-align: center;
+  font-weight: bold;
   font-size: 24px; }
   @media screen and (min-width: 320px) {
     .art-postcontent h1 {
@@ -212,6 +213,7 @@ ul.art-vmenu a {
 .art-blockcontent h1 {
   margin: 10px 0 0;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
   font-size: 24px; }
   @media screen and (min-width: 320px) {
     .art-blockcontent h1 {
@@ -234,8 +236,8 @@ ul.art-vmenu a {
 .art-postcontent h2 {
   color: #152933;
   margin: 5px 10px;
-  font-size: 29px;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
   font-size: 22px; }
   @media screen and (min-width: 320px) {
     .art-postcontent h2 {
@@ -246,8 +248,8 @@ ul.art-vmenu a {
 
 .art-blockcontent h2 {
   margin: 10px 0 0;
-  font-size: 29px;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
   font-size: 22px; }
   @media screen and (min-width: 320px) {
     .art-blockcontent h2 {
@@ -271,6 +273,7 @@ ul.art-vmenu a {
   color: #152933;
   margin: 10px 0 0;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
   font-size: 20px; }
   @media screen and (min-width: 320px) {
     .art-postcontent h3 {
@@ -283,6 +286,7 @@ ul.art-vmenu a {
   margin: 10px 0 0;
   font-size: 26px;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
   font-size: 20px; }
   @media screen and (min-width: 320px) {
     .art-blockcontent h3 {
@@ -319,6 +323,7 @@ ul.art-vmenu a {
 .art-blockcontent h4 {
   margin: 10px 0 0;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
   font-size: 18px; }
   @media screen and (min-width: 320px) {
     .art-blockcontent h4 {
@@ -342,6 +347,7 @@ ul.art-vmenu a {
   color: #152933;
   margin: 10px 0 0;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
   font-size: 16px; }
   @media screen and (min-width: 320px) {
     .art-postcontent h5 {
@@ -353,6 +359,7 @@ ul.art-vmenu a {
 .art-blockcontent h5 {
   margin: 10px 0 0;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
   font-size: 16px; }
   @media screen and (min-width: 320px) {
     .art-blockcontent h5 {
@@ -376,6 +383,7 @@ ul.art-vmenu a {
   color: #356982;
   margin: 10px 0 0;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
   font-size: 14px; }
   @media screen and (min-width: 320px) {
     .art-postcontent h6 {
@@ -387,6 +395,7 @@ ul.art-vmenu a {
 .art-blockcontent h6 {
   margin: 10px 0 0;
   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-weight: bold;
   font-size: 14px; }
   @media screen and (min-width: 320px) {
     .art-blockcontent h6 {

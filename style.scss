@@ -228,6 +228,7 @@ ul.art-vmenu a {
     margin: 10px 0 0;
     font: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
     text-align: center;
+    font-weight: bold;
     font-size: 24px;
     @include fluid-type(320px, 1020px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
@@ -235,6 +236,7 @@ ul.art-vmenu a {
 .art-blockcontent h1 {
     margin: 10px 0 0;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
     font-size: 24px;
     @include fluid-type(320px, 1020px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
@@ -254,16 +256,16 @@ ul.art-vmenu a {
 .art-postcontent h2 {
     color: #152933;
     margin: 5px 10px;
-    font-size: 29px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
     font-size: 22px;
     @include fluid-type(320px, 1020px, 22px, 29px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 .art-blockcontent h2 {
     margin: 10px 0 0;
-    font-size: 29px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
     font-size: 22px;
     @include fluid-type(320px, 1020px, 22px, 29px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
@@ -284,6 +286,7 @@ ul.art-vmenu a {
     color: #152933;
     margin: 10px 0 0;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
     font-size: 20px;
     @include fluid-type(320px, 1020px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
@@ -292,6 +295,7 @@ ul.art-vmenu a {
     margin: 10px 0 0;
     font-size: 26px;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
     font-size: 20px;
     @include fluid-type(320px, 1020px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
@@ -321,6 +325,7 @@ ul.art-vmenu a {
 .art-blockcontent h4 {
     margin: 10px 0 0;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
     font-size: 18px;
     @include fluid-type(320px, 1020px, 18px, 23px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
@@ -341,6 +346,7 @@ ul.art-vmenu a {
     color: #152933;
     margin: 10px 0 0;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
     font-size: 16px;
     @include fluid-type(320px, 1020px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
@@ -348,6 +354,7 @@ ul.art-vmenu a {
 .art-blockcontent h5 {
     margin: 10px 0 0;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
     font-size: 16px;
     @include fluid-type(320px, 1020px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
@@ -368,6 +375,7 @@ ul.art-vmenu a {
     color: #356982;
     margin: 10px 0 0;    
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
     font-size: 14px;
     @include fluid-type(320px, 1020px, 14px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
@@ -375,6 +383,7 @@ ul.art-vmenu a {
 .art-blockcontent h6 {
     margin: 10px 0 0;
     font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
     font-size: 14px;
     @include fluid-type(320px, 1020px, 14px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
