@@ -1957,11 +1957,11 @@ a.art-search-button {
 #webform-client-form-10386 {
     h5,
     .form-item.webform-component {
-        margin: 0 2.5%;
+        margin: 1em 2.5%;
     }
 
     .form-item {
-        margin: 1em 2.5%;
+        margin: 0 2.5%;
     }
 
     .webform-component-textfield,
@@ -1974,7 +1974,7 @@ a.art-search-button {
             width: 157px;
         }
         input {
-            flex: 1 1 calc(100% - 157px);
+            flex: 1 1 calc(100% - 185px);
         }
     }
 }
