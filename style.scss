@@ -1969,12 +1969,14 @@ a.art-search-button {
     .webform-component-phone {
         display: flex;
         flex-flow: row wrap;
+        align-items: baseline;
 
         label {
             width: 157px;
         }
         input {
             flex: 1 1 calc(100% - 185px);
+            min-width: 300px;
         }
     }
 }

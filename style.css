@@ -1825,7 +1825,8 @@ a.art-search-button {
 #webform-client-form-10386 .webform-component-email,
 #webform-client-form-10386 .webform-component-phone {
   display: flex;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+  align-items: baseline; }
   #webform-client-form-10386 .webform-component-textfield label,
   #webform-client-form-10386 .webform-component-email label,
   #webform-client-form-10386 .webform-component-phone label {
@@ -1833,7 +1834,8 @@ a.art-search-button {
   #webform-client-form-10386 .webform-component-textfield input,
   #webform-client-form-10386 .webform-component-email input,
   #webform-client-form-10386 .webform-component-phone input {
-    flex: 1 1 calc(100% - 185px); }
+    flex: 1 1 calc(100% - 185px);
+    min-width: 300px; }
 
 a.art-search-button span.art-search-button-text {
   display: none; }
