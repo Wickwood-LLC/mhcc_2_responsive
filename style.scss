@@ -5226,7 +5226,7 @@ div.region.region-banner2 div.block {
 }
 
 div.region.region-banner2 div.block .content,
-.webform-confirmation {
+.messages.status.webform-confirmation {
     display: block;
     flex-flow: row wrap;
     align-items: center;
@@ -5235,17 +5235,18 @@ div.region.region-banner2 div.block .content,
 }
 
 @media screen and (min-width: 678px) {
-    div.region.region-banner2 div.block {
+    div.region.region-banner2 div.block,
+    .messages.status.webform-confirmation {
         background-size: 184px 100%;
     }
 
     div.region.region-banner2 div.block .content,
-    .webform-confirmation {
+    .messages.status.webform-confirmation {
         display: flex;
     }
 
     div.region.region-banner2 div.block .view-content,
-    .webform-confirmation {
+    .messages.status.webform-confirmation {
         display: inline-flex;
         align-items: center;
     }
