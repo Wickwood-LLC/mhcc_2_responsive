@@ -5225,7 +5225,8 @@ div.region.region-banner2 div.block {
     background-size: auto;
 }
 
-div.region.region-banner2 div.block .content {
+div.region.region-banner2 div.block .content,
+.webform-confirmation {
     display: block;
     flex-flow: row wrap;
     align-items: center;
@@ -5238,11 +5239,13 @@ div.region.region-banner2 div.block .content {
         background-size: 184px 100%;
     }
 
-    div.region.region-banner2 div.block .content {
+    div.region.region-banner2 div.block .content,
+    .webform-confirmation {
         display: flex;
     }
 
-    div.region.region-banner2 div.block .view-content {
+    div.region.region-banner2 div.block .view-content,
+    .webform-confirmation {
         display: inline-flex;
         align-items: center;
     }
