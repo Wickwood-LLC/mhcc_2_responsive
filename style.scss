@@ -1961,7 +1961,7 @@ a.art-search-button {
     }
 
     .form-item {
-        margin: 0 2.5%;
+        margin: 0 1em;
     }
 
     .webform-component-textfield,
@@ -1978,6 +1978,10 @@ a.art-search-button {
             flex: 1 1 calc(100% - 185px);
             min-width: 300px;
         }
+    }
+
+    .form-actions {
+        text-align: center;
     }
 }
 

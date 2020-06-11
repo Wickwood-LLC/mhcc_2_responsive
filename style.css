@@ -1819,7 +1819,7 @@ a.art-search-button {
   margin: 1em 2.5%; }
 
 #webform-client-form-10386 .form-item {
-  margin: 0 2.5%; }
+  margin: 0 1em; }
 
 #webform-client-form-10386 .webform-component-textfield,
 #webform-client-form-10386 .webform-component-email,
@@ -1836,6 +1836,9 @@ a.art-search-button {
   #webform-client-form-10386 .webform-component-phone input {
     flex: 1 1 calc(100% - 185px);
     min-width: 300px; }
+
+#webform-client-form-10386 .form-actions {
+  text-align: center; }
 
 a.art-search-button span.art-search-button-text {
   display: none; }
