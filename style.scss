@@ -660,7 +660,7 @@ li p,
 }
 
 .region-content {
-    margin: 0 2.5%;
+    margin: auto;
     line-height: 1.2em;
     
     >.region-content {
@@ -2274,7 +2274,9 @@ label.art-radiobutton.hovered:before {
     border-radius: 10px;
     border: 3px solid #9DC4D7;
     padding: 5px;
-    margin: 5px;
+    margin: 5px auto;
+    box-sizing: border-box;
+    width: 98%;
 }
 
 a img {
@@ -3803,7 +3805,8 @@ div.workbench-info-block {
     background-origin: border-box !important;
     border-radius: 6px;
     border: 3px solid #fedd9f;
-    width: 97%;
+    width: 98%;
+    box-sizing: border-box;
 }
 
 
