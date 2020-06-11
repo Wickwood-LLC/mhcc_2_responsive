@@ -1979,6 +1979,11 @@ a.art-search-button {
             min-width: 300px;
         }
     }
+    .webform-component-radios {
+        .form-item {
+            display: inline-block;
+        }
+    }
 
     .form-actions {
         text-align: center;

@@ -1837,6 +1837,9 @@ a.art-search-button {
     flex: 1 1 calc(100% - 185px);
     min-width: 300px; }
 
+#webform-client-form-10386 .webform-component-radios .form-item {
+  display: inline-block; }
+
 #webform-client-form-10386 .form-actions {
   text-align: center; }
 
