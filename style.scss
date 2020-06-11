@@ -1956,8 +1956,26 @@ a.art-search-button {
 
 #webform-client-form-10386 {
     h5,
+    .form-item.webform-component {
+        margin: 0 2.5%;
+    }
+
     .form-item {
         margin: 1em 2.5%;
+    }
+
+    .webform-component-textfield,
+    .webform-component-email,
+    .webform-component-phone {
+        display: flex;
+        flex-flow: row wrap;
+
+        label {
+            width: 157px;
+        }
+        input {
+            flex: 1 1 calc(100% - 157px);
+        }
     }
 }
 
