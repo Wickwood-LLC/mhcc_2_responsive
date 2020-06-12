@@ -3807,7 +3807,7 @@ form#user-login {
         text-align: left;
     }
     input {
-        width: calc(100% - 135px);
+        flex: 1 1 calc(100% - 135px);
         max-width: 400px;
         min-width: 250px;
         float: none;

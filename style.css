@@ -3282,7 +3282,7 @@ form#user-login label {
   text-align: left; }
 
 form#user-login input {
-  width: calc(100% - 135px);
+  flex: 1 1 calc(100% - 135px);
   max-width: 400px;
   min-width: 250px;
   float: none; }
