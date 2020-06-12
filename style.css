@@ -1885,13 +1885,17 @@ a.art-search-button {
 #webform-client-form-10386 .form-actions {
   text-align: center; }
 
+#mhcc-registration-unregister-form-form,
 #mhcc-cancel-ride-form {
   text-align: center; }
+  #mhcc-registration-unregister-form-form #edit-actions,
   #mhcc-cancel-ride-form #edit-actions {
     text-align: center; }
+  #mhcc-registration-unregister-form-form #edit-submit,
   #mhcc-cancel-ride-form #edit-submit {
     background-color: red;
     color: white; }
+    #mhcc-registration-unregister-form-form #edit-submit:hover,
     #mhcc-cancel-ride-form #edit-submit:hover {
       background-color: #cc0000;
       color: white; }
