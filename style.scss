@@ -2038,6 +2038,15 @@ a.art-search-button {
         background-color: red;
         color: white;
         text-decoration: none;
+        display: inline-block;
+        vertical-align: middle;
+        white-space: nowrap;
+        text-align: center;
+        margin: 0;
+        font: normal normal 16px/27px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+        border-radius: 3px;
+        padding: 0 10px;
+        height: 27px;
         
         &:hover {
             background-color: darken(red, 10%);

@@ -1895,7 +1895,16 @@ a.art-search-button {
   #mhcc-cancel-ride-form #edit-cancel {
     background-color: red;
     color: white;
-    text-decoration: none; }
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+    font: normal normal 16px/27px Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    border-radius: 3px;
+    padding: 0 10px;
+    height: 27px; }
     #mhcc-registration-unregister-form-form #edit-cancel:hover,
     #mhcc-cancel-ride-form #edit-cancel:hover {
       background-color: #cc0000;
