@@ -1988,7 +1988,7 @@ a.art-search-button {
         align-items: baseline;
 
         label {
-            width: 157px;
+            width: 160px;
         }
         input {
             flex: 1 1 calc(100% - 185px);
@@ -1998,6 +1998,7 @@ a.art-search-button {
     .webform-component-phone {
         label {
             width: 225px;
+            display: inline-block;
         }
     }
     .webform-component-radios {

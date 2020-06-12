@@ -1857,14 +1857,15 @@ a.art-search-button {
   align-items: baseline; }
   #webform-client-form-10386 .webform-component-textfield label,
   #webform-client-form-10386 .webform-component-email label {
-    width: 157px; }
+    width: 160px; }
   #webform-client-form-10386 .webform-component-textfield input,
   #webform-client-form-10386 .webform-component-email input {
     flex: 1 1 calc(100% - 185px);
     min-width: 300px; }
 
 #webform-client-form-10386 .webform-component-phone label {
-  width: 225px; }
+  width: 225px;
+  display: inline-block; }
 
 #webform-client-form-10386 .webform-component-radios .form-item {
   display: inline-block; }
