@@ -1964,9 +1964,25 @@ a.art-search-button {
         margin: 0 1em;
     }
 
+    .webform-component-date {
+        .form-item {
+            margin: 0;
+            
+            &+ .form-item {
+                margin-left: 1em;
+            }
+
+            label {
+                margin: 0;
+            }
+        }
+
+        .webform-calendar {
+            display: none;
+        }
+    }
     .webform-component-textfield,
-    .webform-component-email,
-    .webform-component-phone {
+    .webform-component-email {
         display: flex;
         flex-flow: row wrap;
         align-items: baseline;
@@ -1979,9 +1995,28 @@ a.art-search-button {
             min-width: 300px;
         }
     }
+    .webform-component-phone {
+        label {
+            width: 225px;
+        }
+    }
     .webform-component-radios {
         .form-item {
             display: inline-block;
+        }
+    }
+    .webform-component--ride-waiver-text-1 {
+        height: 200px;
+        overflow-y: scroll;
+        border: 2px solid #9DC4D7;
+        border-radius: 4px;
+        background: white;
+    }
+    .webform-component--rider-license-plate {
+        display: block;
+        
+        input {
+            width: auto;
         }
     }
 
@@ -3792,7 +3827,9 @@ select#edit-field-ride-type-tid {
 
 /* User Login Styling */
 
-form#user-login {
+form#user-login,
+form#user-pass,
+ {
     .form-item {
         margin: 1em auto;
         width: 50%;

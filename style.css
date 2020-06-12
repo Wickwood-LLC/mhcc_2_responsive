@@ -1840,24 +1840,46 @@ a.art-search-button {
 #webform-client-form-10386 .form-item {
   margin: 0 1em; }
 
+#webform-client-form-10386 .webform-component-date .form-item {
+  margin: 0; }
+  #webform-client-form-10386 .webform-component-date .form-item + .form-item {
+    margin-left: 1em; }
+  #webform-client-form-10386 .webform-component-date .form-item label {
+    margin: 0; }
+
+#webform-client-form-10386 .webform-component-date .webform-calendar {
+  display: none; }
+
 #webform-client-form-10386 .webform-component-textfield,
-#webform-client-form-10386 .webform-component-email,
-#webform-client-form-10386 .webform-component-phone {
+#webform-client-form-10386 .webform-component-email {
   display: flex;
   flex-flow: row wrap;
   align-items: baseline; }
   #webform-client-form-10386 .webform-component-textfield label,
-  #webform-client-form-10386 .webform-component-email label,
-  #webform-client-form-10386 .webform-component-phone label {
+  #webform-client-form-10386 .webform-component-email label {
     width: 157px; }
   #webform-client-form-10386 .webform-component-textfield input,
-  #webform-client-form-10386 .webform-component-email input,
-  #webform-client-form-10386 .webform-component-phone input {
+  #webform-client-form-10386 .webform-component-email input {
     flex: 1 1 calc(100% - 185px);
     min-width: 300px; }
 
+#webform-client-form-10386 .webform-component-phone label {
+  width: 225px; }
+
 #webform-client-form-10386 .webform-component-radios .form-item {
   display: inline-block; }
+
+#webform-client-form-10386 .webform-component--ride-waiver-text-1 {
+  height: 200px;
+  overflow-y: scroll;
+  border: 2px solid #9DC4D7;
+  border-radius: 4px;
+  background: white; }
+
+#webform-client-form-10386 .webform-component--rider-license-plate {
+  display: block; }
+  #webform-client-form-10386 .webform-component--rider-license-plate input {
+    width: auto; }
 
 #webform-client-form-10386 .form-actions {
   text-align: center; }
@@ -3268,35 +3290,41 @@ select#edit-field-ride-type-tid {
   height: 38px; }
 
 /* User Login Styling */
-form#user-login .form-item {
+form#user-login .form-item,
+form#user-pass .form-item {
   margin: 1em auto;
   width: 50%;
   min-width: 250px;
   display: flex;
   flex-flow: row wrap; }
 
-form#user-login label {
+form#user-login label,
+form#user-pass label {
   float: left;
   margin-right: 0;
   width: 130px;
   text-align: left; }
 
-form#user-login input {
+form#user-login input,
+form#user-pass input {
   flex: 1 1 calc(100% - 135px);
   max-width: 400px;
   min-width: 250px;
   float: none; }
-  form#user-login input.art-button {
+  form#user-login input.art-button,
+  form#user-pass input.art-button {
     width: 20%;
     margin-right: auto;
     margin-left: auto;
     display: block; }
 
-form#user-login fieldset {
+form#user-login fieldset,
+form#user-pass fieldset {
   width: 50%;
   margin-right: auto;
   margin-left: auto; }
-  form#user-login fieldset .form-item {
+  form#user-login fieldset .form-item,
+  form#user-pass fieldset .form-item {
     margin-left: 0; }
 
 /*  Styling for Workbench information block. */
