@@ -1833,56 +1833,56 @@ a.art-search-button {
   color: #CCEAF5 !important;
   cursor: pointer; }
 
-#webform-client-form-10386 h5,
-#webform-client-form-10386 .form-item.webform-component {
+.mhcc-waiver-webform h5,
+.mhcc-waiver-webform .form-item.webform-component {
   margin: 1em 2.5%; }
 
-#webform-client-form-10386 .form-item {
+.mhcc-waiver-webform .form-item {
   margin: 0 1em; }
 
-#webform-client-form-10386 .webform-component-date .form-item {
+.mhcc-waiver-webform .webform-component-date .form-item {
   margin: 0; }
-  #webform-client-form-10386 .webform-component-date .form-item + .form-item {
+  .mhcc-waiver-webform .webform-component-date .form-item + .form-item {
     margin-left: 1em; }
-  #webform-client-form-10386 .webform-component-date .form-item label {
+  .mhcc-waiver-webform .webform-component-date .form-item label {
     margin: 0; }
 
-#webform-client-form-10386 .webform-component-date .webform-calendar {
+.mhcc-waiver-webform .webform-component-date .webform-calendar {
   display: none; }
 
-#webform-client-form-10386 .webform-component-textfield,
-#webform-client-form-10386 .webform-component-email {
+.mhcc-waiver-webform .webform-component-textfield,
+.mhcc-waiver-webform .webform-component-email {
   display: flex;
   flex-flow: row wrap;
   align-items: baseline; }
-  #webform-client-form-10386 .webform-component-textfield label,
-  #webform-client-form-10386 .webform-component-email label {
+  .mhcc-waiver-webform .webform-component-textfield label,
+  .mhcc-waiver-webform .webform-component-email label {
     width: 160px; }
-  #webform-client-form-10386 .webform-component-textfield input,
-  #webform-client-form-10386 .webform-component-email input {
+  .mhcc-waiver-webform .webform-component-textfield input,
+  .mhcc-waiver-webform .webform-component-email input {
     flex: 1 1 calc(100% - 185px);
     min-width: 300px; }
 
-#webform-client-form-10386 .webform-component-phone label {
+.mhcc-waiver-webform .webform-component-phone label {
   width: 225px;
   display: inline-block; }
 
-#webform-client-form-10386 .webform-component-radios .form-item {
+.mhcc-waiver-webform .webform-component-radios .form-item {
   display: inline-block; }
 
-#webform-client-form-10386 .webform-component--ride-waiver-text-1 {
+.mhcc-waiver-webform .webform-component--ride-waiver-text-1 {
   height: 200px;
   overflow-y: scroll;
   border: 2px solid #9DC4D7;
   border-radius: 4px;
   background: white; }
 
-#webform-client-form-10386 .webform-component--rider-license-plate {
+.mhcc-waiver-webform .webform-component--rider-license-plate {
   display: block; }
-  #webform-client-form-10386 .webform-component--rider-license-plate input {
+  .mhcc-waiver-webform .webform-component--rider-license-plate input {
     width: auto; }
 
-#webform-client-form-10386 .form-actions {
+.mhcc-waiver-webform .form-actions {
   text-align: center; }
 
 #mhcc-registration-unregister-form-form,
