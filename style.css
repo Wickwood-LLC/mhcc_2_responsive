@@ -1885,6 +1885,17 @@ a.art-search-button {
 #webform-client-form-10386 .form-actions {
   text-align: center; }
 
+#mhcc-cancel-ride-form {
+  text-align: center; }
+  #mhcc-cancel-ride-form #edit-actions {
+    text-align: center; }
+  #mhcc-cancel-ride-form #edit-submit {
+    background-color: red;
+    color: white; }
+    #mhcc-cancel-ride-form #edit-submit:hover {
+      background-color: #cc0000;
+      color: white; }
+
 a.art-search-button span.art-search-button-text {
   display: none; }
 

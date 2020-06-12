@@ -2026,6 +2026,24 @@ a.art-search-button {
     }
 }
 
+#mhcc-cancel-ride-form {
+    text-align: center;
+    
+    #edit-actions {
+        text-align: center;
+    }
+
+    #edit-submit {
+        background-color: red;
+        color: white;
+        
+        &:hover {
+            background-color: darken(red, 10%);
+            color: white;
+        }
+    }
+}
+
 a.art-search-button span.art-search-button-text {
     display: none;
 }
