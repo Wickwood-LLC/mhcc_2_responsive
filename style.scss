@@ -2034,13 +2034,15 @@ a.art-search-button {
         text-align: center;
     }
 
-    #edit-submit {
+    #edit-cancel {
         background-color: red;
         color: white;
+        text-decoration: none;
         
         &:hover {
             background-color: darken(red, 10%);
             color: white;
+            text-decoration: none;
         }
     }
 }

@@ -1891,14 +1891,16 @@ a.art-search-button {
   #mhcc-registration-unregister-form-form #edit-actions,
   #mhcc-cancel-ride-form #edit-actions {
     text-align: center; }
-  #mhcc-registration-unregister-form-form #edit-submit,
-  #mhcc-cancel-ride-form #edit-submit {
+  #mhcc-registration-unregister-form-form #edit-cancel,
+  #mhcc-cancel-ride-form #edit-cancel {
     background-color: red;
-    color: white; }
-    #mhcc-registration-unregister-form-form #edit-submit:hover,
-    #mhcc-cancel-ride-form #edit-submit:hover {
+    color: white;
+    text-decoration: none; }
+    #mhcc-registration-unregister-form-form #edit-cancel:hover,
+    #mhcc-cancel-ride-form #edit-cancel:hover {
       background-color: #cc0000;
-      color: white; }
+      color: white;
+      text-decoration: none; }
 
 a.art-search-button span.art-search-button-text {
   display: none; }
