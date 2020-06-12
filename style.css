@@ -5108,7 +5108,7 @@ div[class*="media-responsive_image_large"].media-element-container {
     color: white;
     line-height: 41px;
     border-radius: 4px;
-    padding: 0 10px;
+    padding: 0 0.1em;
     margin: 0 auto; }
     #superfish-1 a .sf-sub-indicator, #superfish-2 a .sf-sub-indicator {
       display: inline-block;
