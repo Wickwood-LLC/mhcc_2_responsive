@@ -3792,39 +3792,40 @@ select#edit-field-ride-type-tid {
 
 /* User Login Styling */
 
-form#user-login .form-item {
-    margin: 1em auto;
-    width: 50%;
-}
-
-form#user-login label {
-    float: left;
-    margin-right: 0px;
-    width: 130px;
-    text-align: left;
-}
-
-form#user-login input {
-    width: calc(100% - 135px);
-    max-width: 400px;
-    float: none;
-}
-
-form#user-login fieldset {
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-form#user-login fieldset .form-item {
-    margin-left: 0px;
-}
-
-form#user-login input.art-button {
-    width: 20%;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
+form#user-login {
+    .form-item {
+        margin: 1em auto;
+        width: 50%;
+        min-width: 250px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    label {
+        float: left;
+        margin-right: 0;
+        width: 130px;
+        text-align: left;
+    }
+    input {
+        width: calc(100% - 135px);
+        max-width: 400px;
+        min-width: 250px;
+        float: none;
+        &.art-button {
+            width: 20%;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+        }
+    }
+    fieldset {
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        .form-item {
+            margin-left: 0;
+        }
+    }
 }
 
 
