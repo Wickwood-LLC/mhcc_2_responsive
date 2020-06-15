@@ -3465,6 +3465,9 @@ ul > li:before.closed {
   .view-mobile-full-calendar .views-row a {
     line-height: inherit; }
 
+.view-registered-rides .view-content {
+  overflow-y: auto; }
+
 .art-block ul > li.open:before {
   content: none;
   margin-right: 6px;
