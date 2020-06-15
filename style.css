@@ -3475,7 +3475,7 @@ ul > li:before.closed {
     box-sizing: border-box; }
     .page-user-rides-as-leader-registrants #block-system-main .content table th:nth-child(2) {
       width: 100px; }
-  .page-user-rides-as-leader-registrants #block-system-main .content table td:nth-child(1), .page-user-rides-as-leader-registrants #block-system-main .content table td:nth-child(3), .page-user-rides-as-leader-registrants #block-system-main .content table td:nth-child(6) {
+  .page-user-rides-as-leader-registrants #block-system-main .content table td:nth-child(2), .page-user-rides-as-leader-registrants #block-system-main .content table td:nth-child(4), .page-user-rides-as-leader-registrants #block-system-main .content table td:nth-child(5) {
     text-align: center; }
 
 .art-block ul > li.open:before {
