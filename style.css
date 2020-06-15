@@ -11,6 +11,8 @@
   /* CSS2 browsers */
   background: #028ad2;
   /* CSS3 browsers */
+  background: -moz-linear-gradient(0deg, #028ad2 0%, rgba(2, 138, 210, 0.95) 70%, white 100%);
+  background: -webkit-linear-gradient(0deg, #028ad2 0%, rgba(2, 138, 210, 0.95) 70%, white 100%);
   background: linear-gradient(0deg, #028ad2 0%, rgba(2, 138, 210, 0.95) 70%, white 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#028ad2",endColorstr="#ffffff",GradientType=1);
   background-repeat: no-repeat;
@@ -2810,12 +2812,10 @@ blockquote p,
   width: 30px; }
 
 .art-lightbox-wrapper .cw {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg); }
+  transform: rotate(45deg); }
 
 .art-lightbox-wrapper .ccw {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg); }
+  transform: rotate(-45deg); }
 
 .art-lightbox-wrapper .close-alt,
 .art-lightbox-wrapper .arrow-right-alt,
@@ -2861,13 +2861,11 @@ blockquote p,
 /* Begin Additional CSS Styles */
 @media (min-width: 350px) {
   .block-date-navigation ul.jquerymenu {
-    -webkit-column-count: 2;
-            column-count: 2; } }
+    column-count: 2; } }
 
 @media (min-width: 693px) {
   .block-date-navigation ul.jquerymenu {
-    -webkit-column-count: unset;
-            column-count: unset; } }
+    column-count: unset; } }
 
 /* End Additional CSS Styles */
 /* BEGIN FCKEditor, CKEditor, TinyMCE modules support*/
@@ -3533,8 +3531,7 @@ div.group-header div.field-name-field-canceled {
   color: red;
   font-variant: small-caps;
   text-transform: uppercase;
-  -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+  transform: rotate(-30deg);
   position: absolute;
   top: 200px;
   left: 200px;
@@ -3548,8 +3545,7 @@ div.group-left div.field-name-field-canceled {
   color: red;
   font-variant: small-caps;
   text-transform: uppercase;
-  -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+  transform: rotate(-30deg);
   position: absolute;
   top: 30px;
   left: 200px; }
@@ -4980,8 +4976,7 @@ div[class*="media-responsive_image_large"].media-element-container {
   #mini-panel-banner_1_mini_panel .panel-col-first {
     flex: 1 2 20%; }
     #mini-panel-banner_1_mini_panel .panel-col-first .menu {
-      -webkit-column-width: 150px;
-              column-width: 150px; }
+      column-width: 150px; }
     #mini-panel-banner_1_mini_panel .panel-col-first .art-block {
       overflow-x: hidden; }
   #mini-panel-banner_1_mini_panel .panel-col {
@@ -5165,6 +5160,9 @@ div[class*="media-responsive_image_large"].media-element-container {
     border-radius: 4px;
     padding: 0 0.1em;
     margin: 0 auto; }
+    @media (min-width: 826px) {
+      #superfish-1 a, #superfish-2 a {
+        padding: 0 10px; } }
     #superfish-1 a .sf-sub-indicator, #superfish-2 a .sf-sub-indicator {
       display: inline-block;
       position: static;
@@ -5343,4 +5341,3 @@ div[class*="media-responsive_image_large"].media-element-container {
     text-align: center; }
   #mini-panel-header_mini_panel_with_ads_rides .view-simpleads-block {
     display: inline-block; }
-/*# sourceMappingURL=style.css.map */
