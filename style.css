@@ -3469,6 +3469,15 @@ ul > li:before.closed {
 .view-rides .view-content {
   overflow-y: auto; }
 
+.page-user-rides-as-leader-registrants #block-system-main .content {
+  overflow-y: auto; }
+  .page-user-rides-as-leader-registrants #block-system-main .content table th {
+    box-sizing: border-box; }
+    .page-user-rides-as-leader-registrants #block-system-main .content table th:nth-child(2) {
+      width: 100px; }
+  .page-user-rides-as-leader-registrants #block-system-main .content table td:nth-child(1), .page-user-rides-as-leader-registrants #block-system-main .content table td:nth-child(3), .page-user-rides-as-leader-registrants #block-system-main .content table td:nth-child(6) {
+    text-align: center; }
+
 .art-block ul > li.open:before {
   content: none;
   margin-right: 6px;
