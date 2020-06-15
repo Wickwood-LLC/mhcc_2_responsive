@@ -1900,7 +1900,8 @@ a.art-search-button {
   display: block; }
   .mhcc-waiver-webform .webform-component--rider-license-plate input,
   [action="/mhcc-online-ride-registration"] .webform-component--rider-license-plate input {
-    width: auto; }
+    width: auto;
+    min-width: 0; }
 
 .mhcc-waiver-webform .form-actions,
 [action="/mhcc-online-ride-registration"] .form-actions {
