@@ -1954,7 +1954,8 @@ a.art-search-button {
     cursor: pointer;
 }
 
-.mhcc-waiver-webform {
+.mhcc-waiver-webform,
+[action="/mhcc-online-ride-registration"] {
     h5,
     .form-item.webform-component {
         margin: 1em 2.5%;
