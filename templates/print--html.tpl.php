@@ -83,7 +83,7 @@
     <?php endif; ?>
     <?php print $css; ?>
   </head>
-  <body>
+  <body class="<?php print $classes; ?>" <?php print $attributes;?>>
     <?php if (!empty($message)): ?>
       <div class="print-message"><?php print $message; ?></div><p />
     <?php endif; ?>

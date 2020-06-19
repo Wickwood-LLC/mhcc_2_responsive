@@ -1535,6 +1535,34 @@
 		"oAP": "/templates/page.tpl.php",
 		"oF": 0
 		},
+	"/templates/print--html.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/print--html.tpl.php",
+		"oF": 0
+		},
+	"/templates/print--node--bikeabout-post.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/print--node--bikeabout-post.tpl.php",
+		"oF": 0
+		},
+	"/templates/print--pdf.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/print--pdf.tpl.php",
+		"oF": 0
+		},
+	"/templates/print.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/print.tpl.php",
+		"oF": 0
+		},
 	"/templates/simpleads_block.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
