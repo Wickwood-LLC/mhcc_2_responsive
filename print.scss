@@ -8,6 +8,13 @@ body {
     line-height: 1.2em;
     margin: 0 2.5% 1em;
   }
+
+  .pane-print-ui-print-links {
+    display: none;
+  }
+  .sidebar-content {
+    display: none;
+  }
 }
 th {
   text-align: center;

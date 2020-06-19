@@ -9,6 +9,14 @@ body {
   margin: 0 2.5% 1em;
 }
 
+.print-version .pane-print-ui-print-links {
+  display: none;
+}
+
+.print-version .sidebar-content {
+  display: none;
+}
+
 th {
   text-align: center;
   color: #006;
