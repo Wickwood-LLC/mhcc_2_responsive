@@ -30,8 +30,13 @@ td {
   margin: 1em;
 }
 
+p {
+  line-height: 1.2em;
+  margin: 0 2.5% 1em;
+}
+
 a:link {
-  color: #000;
+  color: blue;
 }
 
 a:link img {
@@ -39,7 +44,7 @@ a:link img {
 }
 
 a:visited {
-  color: #000;
+  color: blue;
 }
 
 a:visited img {

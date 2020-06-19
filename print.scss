@@ -25,15 +25,19 @@ td {
 #main {
   margin: 1em;
 }
+p {
+  line-height: 1.2em;
+  margin: 0 2.5% 1em;
+}
 a {
   &:link {
-    color: #000;
+    color: blue;
     img {
       border: 0;
     }
   }
   &:visited {
-    color: #000;
+    color: blue;
     img {
       border: 0;
     }
@@ -42,6 +46,7 @@ a {
     color: #00f;
   }
 }
+
 .print-footnote {
   font-size: xx-small;
 }
