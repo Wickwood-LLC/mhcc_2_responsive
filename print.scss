@@ -3,6 +3,12 @@ body {
   background-color: #fff;
   font-family: sans-serif;
 }
+.print-version {
+  p {
+    line-height: 1.2em;
+    margin: 0 2.5% 1em;
+  }
+}
 th {
   text-align: center;
   color: #006;
@@ -24,10 +30,6 @@ td {
 }
 #main {
   margin: 1em;
-}
-p {
-  line-height: 1.2em;
-  margin: 0 2.5% 1em;
 }
 a {
   &:link {
