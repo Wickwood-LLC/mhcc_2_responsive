@@ -670,3 +670,28 @@ h2.art-postheader {
     border-radius: 6px;
     margin-bottom: 5px;
 }
+
+.media-element-container.mce-align-left {
+    display: inline-flex;
+    float: left;
+    margin-top: 0px;
+    margin-left: 2.5%;
+    margin-bottom: .25em;
+    margin-right: .5em;
+    clear: left;
+}
+
+.media-element-container.mce-align-right {
+    display: inline-flex;
+    float: right;
+    margin-top: 0px;
+    margin-left: .25em;
+    margin-bottom: .5em;
+    margin-right: 2.5%;
+    clear: right;
+}
+
+.media-element-container.mce-align-center {
+    display: table;
+    margin: auto;
+}
