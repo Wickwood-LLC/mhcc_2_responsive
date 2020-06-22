@@ -1,403 +1,492 @@
 @import "bower_components/breakpoint-sass/stylesheets/breakpoint";
 
 body {
-  margin: 1em;
-  background-color: #fff;
-  font-family: sans-serif;
-}
-.print-version {
-  p {
-    line-height: 1.2em;
-    margin: 0 2.5% 1em;
-  }
-
-  .pane-print-ui-print-links {
-    display: none;
-  }
-  .sidebar-content {
-    display: none;
-  }
-}
-th {
-  text-align: center;
-  color: #006;
-  border-bottom: 1px solid #ccc;
-}
-tr {
-  &.odd {
-    background-color: #ddd;
-  }
-  &.even {
+    margin: 1em;
     background-color: #fff;
-  }
+    font-family: sans-serif;
 }
+
+.print-version {
+    p {
+        line-height: 1.2em;
+        margin: 0 2.5% 1em;
+    }
+
+    .pane-print-ui-print-links {
+        display: none;
+    }
+
+    .sidebar-content {
+        display: none;
+    }
+}
+
+th {
+    text-align: center;
+    color: #006;
+    border-bottom: 1px solid #ccc;
+}
+
+tr {
+    &.odd {
+        background-color: #ddd;
+    }
+
+    &.even {
+        background-color: #fff;
+    }
+}
+
 td {
-  padding: 5px;
+    padding: 5px;
 }
+
 #menu {
-  visibility: hidden;
+    visibility: hidden;
 }
+
 #main {
-  margin: 1em;
+    margin: 1em;
 }
+
 a {
-  &:link {
-    color: blue;
-    img {
-      border: 0;
+    &:link {
+        color: blue;
+
+        img {
+            border: 0;
+        }
     }
-  }
-  &:visited {
-    color: blue;
-    img {
-      border: 0;
+
+    &:visited {
+        color: blue;
+
+        img {
+            border: 0;
+        }
     }
-  }
-  &:hover {
-    color: #00f;
-  }
+
+    &:hover {
+        color: #00f;
+    }
 }
 
 .print-footnote {
-  font-size: xx-small;
+    font-size: xx-small;
 }
-.print-site_name {
-}
+
+.print-site_name {}
+
 .print-breadcrumb {
-  font-size: x-small;
+    font-size: x-small;
 }
-.print-title {
-}
+
+.print-title {}
+
 .print-submitted {
-  font-size: small;
+    font-size: small;
 }
+
 .print-created {
-  font-size: small;
+    font-size: small;
 }
+
 .print-taxonomy {
-  text-align: right;
-  li {
-    display: inline;
-  }
+    text-align: right;
+
+    li {
+        display: inline;
+    }
 }
-.print-content {
-}
+
+.print-content {}
+
 .print-hr {
-  border: 0;
-  height: 1px;
-  width: 100%;
-  color: #9e9e9e;
-  background-color: #9e9e9e;
+    border: 0;
+    height: 1px;
+    width: 100%;
+    color: #9e9e9e;
+    background-color: #9e9e9e;
 }
+
 .print-message {
-  border: medium dotted  blue;
-  padding: 1em;
+    border: medium dotted blue;
+    padding: 1em;
 }
+
 .print-source_url {
-  font-size: small;
+    font-size: small;
 }
+
 .print-links {
-  font-size: small;
+    font-size: small;
 }
+
 .print-footer {
-  text-align: center;
-}
-div {
-  &.view-id-full_calendar_view {
-    &.view-display-id-page_6 {
-      div.view-content h3 {
-        background-color: black;
-        color: white;
-        padding-left: 1em;
-        padding-top: .1em;
-        padding-bottom: .1em;
-        margin-bottom: .5em;
-        margin-top: .5em;
-      }
-      span.views-field.views-field-body {
-        margin: 5px 15px 5px 35px;
-        display: list-item;
-        list-style-image: url(../images/bicycle-bullet.png);
-        a {
-          text-decoration: none;
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-    }
-    &.view-display-id-page_4 div {
-      &.view-content h3 {
-        background-color: black;
-        color: white;
-        padding-left: 1em;
-        padding-top: .1em;
-        padding-bottom: .1em;
-        margin-bottom: .5em;
-        margin-top: .5em;
-      }
-      &.views-field.views-field-field-event-description {
-        margin: 5px 15px 5px 35px;
-        display: list-item;
-        list-style-image: url(../images/bicycle-bullet.png);
-        a {
-          text-decoration: none;
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-    }
-  }
-  &.art-postmetadataheader {
     text-align: center;
-  }
-  &.field {
-    &.field-name-field-ride-leader a {
-      text-decoration: none;
-      font-weight: bold;
-      &:hover {
-        text-decoration: underline;
-        color: #279ac4;
-      }
-    }
-    &.field-name-field-starting-location a {
-      text-decoration: none;
-      font-weight: bold;
-      &:hover {
-        text-decoration: underline;
-        color: #279ac4;
-      }
-    }
-  }
-  &.adr {
-    line-height: 1.2em;
-  }
-  &.field-type-entityreference {
-    .art-post {
-      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-      border-radius: 10px;
-      border: 3px solid #ccc;
-      padding: 5px;
-      margin: 5px;
-    }
-    .art-article > .group-footer {
-      margin-right: 0;
-      margin-left: 0;
-    }
-    div.group-footer div.field-label {
-      margin-left: 2.5%;
-      margin-right: 2.5%;
-    }
-  }
-  &.field-name-field-low-temperature {
-    display: block;
-    float: left;
-    margin-right: 1em;
-  }
-  &.field-name-field-temperature {
-    display: block;
-    float: left;
-    margin-right: 1em;
-    div.field-label:before {
-      content: "to ";
-    }
-  }
-  &.group-footer div.field-label {
-    margin-top: 1em;
-  }
-  &.user-profile.view-mode-mhcc_ride_event div.field.field-name-ds-user-picture.field-type-ds.field-label-hidden img {
-    float: right;
-    margin: -.75em .5em .5em 1em;
-  }
-  &.node-ride-event div {
-    &.field-name-field-ride-leader {
-      padding: 5px;
-      //Instead of the line below you could use @include background-origin($origin)
-      background-origin: border-box !important;
-      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-      border-radius: 6px;
-      border: 3px solid #ccc;
-      margin-left: -8px;
-      margin-bottom: 1em;
-    }
-    &.field-name-field-starting-location {
-      padding: 5px;
-      //Instead of the line below you could use @include background-origin($origin)
-      background-origin: border-box !important;
-      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-      border-radius: 6px;
-      border: 3px solid #ccc;
-      margin-left: -8px;
-      margin-bottom: 1em;
-    }
-    &.node-starting-location.view-mode-mhcc_ride_event {
-      margin-left: 1.5em;
-    }
-    &.user-profile.view-mode-mhcc_ride_event {
-      margin-left: 1.5em;
-      .field-label {
-        margin-left: -1.5em;
-      }
-    }
-  }
-  &.field-name-field-ride-leader.field-type-entityreference {
-    background: rgba(221, 221, 221, 0.00);
-    border-style: none;
-  }
-  &.field-name-field-starting-location.field-type-entityreference {
-    background: rgba(221, 221, 221, 0.00);
-    border-style: none;
-  }
-  &.field-name-field-ride.field-type-entityreference div.field.field-name-title {
-    display: none;
-  }
-  &.field-name-field-weather-experienced div.field-item {
-    display: inline-block;
-    &:after {
-      content: ",\00a0\00a";
-    }
-    &:last-of-type:after {
-      content: "";
-    }
-  }
-  &.field-name-field-map-used.field-label-inline .field-label {
-    width: 15em;
-  }
-  &.field-name-field-map-or-ride-suggestions.field-label-inline .field-label {
-    width: 15em;
-  }
-  &.field-name-field-refreshment-stops.field-label-inline .field-label {
-    width: 15em;
-  }
 }
+
+div {
+    &.view-id-full_calendar_view {
+        &.view-display-id-page_6 {
+            div.view-content h3 {
+                background-color: black;
+                color: white;
+                padding-left: 1em;
+                padding-top: .1em;
+                padding-bottom: .1em;
+                margin-bottom: .5em;
+                margin-top: .5em;
+            }
+
+            span.views-field.views-field-body {
+                margin: 5px 15px 5px 35px;
+                display: list-item;
+                list-style-image: url(../images/bicycle-bullet.png);
+
+                a {
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        &.view-display-id-page_4 div {
+            &.view-content h3 {
+                background-color: black;
+                color: white;
+                padding-left: 1em;
+                padding-top: .1em;
+                padding-bottom: .1em;
+                margin-bottom: .5em;
+                margin-top: .5em;
+            }
+
+            &.views-field.views-field-field-event-description {
+                margin: 5px 15px 5px 35px;
+                display: list-item;
+                list-style-image: url(../images/bicycle-bullet.png);
+
+                a {
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    &.art-postmetadataheader {
+        text-align: center;
+    }
+
+    &.field {
+        &.field-name-field-ride-leader a {
+            text-decoration: none;
+            font-weight: bold;
+
+            &:hover {
+                text-decoration: underline;
+                color: #279ac4;
+            }
+        }
+
+        &.field-name-field-starting-location a {
+            text-decoration: none;
+            font-weight: bold;
+
+            &:hover {
+                text-decoration: underline;
+                color: #279ac4;
+            }
+        }
+    }
+
+    &.adr {
+        line-height: 1.2em;
+    }
+
+    &.field-type-entityreference {
+        .art-post {
+            //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            border-radius: 10px;
+            border: 3px solid #ccc;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .art-article>.group-footer {
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        div.group-footer div.field-label {
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+        }
+    }
+
+    &.field-name-field-low-temperature {
+        display: block;
+        float: left;
+        margin-right: 1em;
+    }
+
+    &.field-name-field-temperature {
+        display: block;
+        float: left;
+        margin-right: 1em;
+
+        div.field-label:before {
+            content: "to ";
+        }
+    }
+
+    &.group-footer div.field-label {
+        margin-top: 1em;
+    }
+
+    &.user-profile.view-mode-mhcc_ride_event div.field.field-name-ds-user-picture.field-type-ds.field-label-hidden img {
+        float: right;
+        margin: -.75em .5em .5em 1em;
+    }
+
+    &.node-ride-event div {
+        &.field-name-field-ride-leader {
+            padding: 5px;
+            //Instead of the line below you could use @include background-origin($origin)
+            background-origin: border-box !important;
+            //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            border-radius: 6px;
+            border: 3px solid #ccc;
+            margin-left: -8px;
+            margin-bottom: 1em;
+        }
+
+        &.field-name-field-starting-location {
+            padding: 5px;
+            //Instead of the line below you could use @include background-origin($origin)
+            background-origin: border-box !important;
+            //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            border-radius: 6px;
+            border: 3px solid #ccc;
+            margin-left: -8px;
+            margin-bottom: 1em;
+        }
+
+        &.node-starting-location.view-mode-mhcc_ride_event {
+            margin-left: 1.5em;
+        }
+
+        &.user-profile.view-mode-mhcc_ride_event {
+            margin-left: 1.5em;
+
+            .field-label {
+                margin-left: -1.5em;
+            }
+        }
+    }
+
+    &.field-name-field-ride-leader.field-type-entityreference {
+        background: rgba(221, 221, 221, 0.00);
+        border-style: none;
+    }
+
+    &.field-name-field-starting-location.field-type-entityreference {
+        background: rgba(221, 221, 221, 0.00);
+        border-style: none;
+    }
+
+    &.field-name-field-ride.field-type-entityreference div.field.field-name-title {
+        display: none;
+    }
+
+    &.field-name-field-weather-experienced div.field-item {
+        display: inline-block;
+
+        &:after {
+            content: ",\00a0\00a";
+        }
+
+        &:last-of-type:after {
+            content: "";
+        }
+    }
+
+    &.field-name-field-map-used.field-label-inline .field-label {
+        width: 15em;
+    }
+
+    &.field-name-field-map-or-ride-suggestions.field-label-inline .field-label {
+        width: 15em;
+    }
+
+    &.field-name-field-refreshment-stops.field-label-inline .field-label {
+        width: 15em;
+    }
+}
+
 span {
-  &.starting-location {
-    margin-left: .2em;
-    margin-right: .2em;
-    &:after {
-      content: ", ";
+    &.starting-location {
+        margin-left: .2em;
+        margin-right: .2em;
+
+        &:after {
+            content: ", ";
+        }
     }
-  }
-  &.ride-leader {
-    margin-left: .2em;
-    margin-right: .2em;
-    &:after {
-      content: ", ";
+
+    &.ride-leader {
+        margin-left: .2em;
+        margin-right: .2em;
+
+        &:after {
+            content: ", ";
+        }
     }
-  }
-  &.starting-location-address {
-    margin-right: .2em;
-    &:after {
-      content: ", ";
+
+    &.starting-location-address {
+        margin-right: .2em;
+
+        &:after {
+            content: ", ";
+        }
     }
-  }
-  &.starting-location-directions {
-    margin-right: .2em;
-    &:after {
-      content: ", ";
+
+    &.starting-location-directions {
+        margin-right: .2em;
+
+        &:after {
+            content: ", ";
+        }
     }
-  }
-  &.public-phone {
-    margin-right: .2em;
-    &:after {
-      content: ", ";
+
+    &.public-phone {
+        margin-right: .2em;
+
+        &:after {
+            content: ", ";
+        }
     }
-  }
 }
+
 .art-article {
-  > {
-    .group-left {
-      float: left;
-      width: 45%;
-      margin-left: 2.5%;
-      margin-top: 1px;
+    > {
+        .group-left {
+            float: left;
+            width: 45%;
+            margin-left: 2.5%;
+            margin-top: 1px;
+        }
+
+        .group-right {
+            float: right;
+            width: 45%;
+            margin-right: 2.5%;
+        }
+
+        .group-header {
+            margin-top: 1em;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+            margin-bottom: 1em;
+        }
+
+        .group-footer {
+            clear: both;
+            display: block;
+            overflow: auto;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+        }
     }
-    .group-right {
-      float: right;
-      width: 45%;
-      margin-right: 2.5%;
+
+    &.group-one-column> {
+        .group-left {
+            width: 100%;
+            float: none;
+        }
+
+        .group-right {
+            width: 100%;
+            float: none;
+        }
     }
-    .group-header {
-      margin-top: 1em;
-      margin-left: 2.5%;
-      margin-right: 2.5%;
-      margin-bottom: 1em;
-    }
-    .group-footer {
-      clear: both;
-      display: block;
-      overflow: auto;
-      margin-left: 2.5%;
-      margin-right: 2.5%;
-    }
-  }
-  &.group-one-column > {
-    .group-left {
-      width: 100%;
-      float: none;
-    }
-    .group-right {
-      width: 100%;
-      float: none;
-    }
-  }
 }
+
 .art-postheadericons {
-  padding: 1px;
-  margin: 0;
-  text-align: center;
-}
-fieldset {
-  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-  border-radius: 10px;
-  &#node_mhcc_ride_report_full_group_temp_range {
-    border-style: none;
+    padding: 1px;
     margin: 0;
-    padding: 0;
-    span.fieldset-legend {
-      font-weight: bold;
-    }
-  }
-  &#node_mhcc_ride_report_full_group_number_of_riders {
-    legend {
-      font-weight: bold;
-    }
-    .field-label-inline .field-label {
-      width: 22em;
-    }
-  }
+    text-align: center;
 }
+
+fieldset {
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 10px;
+
+    &#node_mhcc_ride_report_full_group_temp_range {
+        border-style: none;
+        margin: 0;
+        padding: 0;
+
+        span.fieldset-legend {
+            font-weight: bold;
+        }
+    }
+
+    &#node_mhcc_ride_report_full_group_number_of_riders {
+        legend {
+            font-weight: bold;
+        }
+
+        .field-label-inline .field-label {
+            width: 22em;
+        }
+    }
+}
+
 .page-user {
-  div {
-    &.field-name-ds-user-picture img {
-      float: left;
+    div {
+        &.field-name-ds-user-picture img {
+            float: left;
+        }
+
+        &.field-name-field-public-email p {
+            margin: 0;
+        }
     }
-    &.field-name-field-public-email p {
-      margin: 0;
+
+    span {
+        &.country {
+            display: none;
+        }
+
+        &.locality:after {
+            content: ",";
+        }
     }
-  }
-  span {
-    &.country {
-      display: none;
-    }
-    &.locality:after {
-      content: ",";
-    }
-  }
 }
+
 img.print-logo {
-  border: 0;
-  width: 200px;
+    border: 0;
+    width: 200px;
 }
+
 h2.art-postheader {
-  margin: 0;
+    margin: 0;
 }
+
 .group-left .field-label-inline .field-label {
-  width: 11em;
+    width: 11em;
 }
+
 .group-right .field-label-inline .field-label {
-  width: 11em;
+    width: 11em;
 }
 
 .node-type-bikeabout-post,
@@ -405,39 +494,47 @@ h2.art-postheader {
     .row-one {
         width: 100%;
     }
+
     .bikeabout-header {
         text-align: center;
         width: 100%;
     }
+
     .pane-node-field-bikeabout-issue,
     .pane-node-field-bikeabout-post-type {
         font-weight: bold;
         display: inline-block;
         vertical-align: bottom;
     }
-    .pane-node-field-bikeabout-post-type {
-        display: block;
 
-        @include breakpoint(415px) {
+    .pane-node-field-bikeabout-post-type {
+        display: inline-block;
+
+        &:before {
+            content: " - ";
             display: inline-block;
-            &:before {
-                content: " - ";
-                display: inline-block;
-            }
-            .pane-content {
-                display: inline-block;
-            }
+        }
+
+        .pane-content {
+            display: inline-block;
         }
     }
 
     .pane-node-author {
         display: inline;
+        width: auto;
 
         &:before {
-            content: none;
+            content: " - ";
+            display: inline-block;
+            margin-right: 0;
             vertical-align: baseline;
             font-size: inherit;
             font-weight: bold;
+        }
+
+        .pane-content {
+            display: inline-block;
         }
 
         .pane-content:before {
@@ -450,35 +547,16 @@ h2.art-postheader {
             font-size: 0;
             line-height: 0;
         }
-
-        @include breakpoint(570px) {
-            display: inline;
-            width: auto;
-
-            &:before {
-                content: " - ";
-                display: inline-block;
-                margin-right: 0;
-            }
-            .pane-content {
-                display: inline-block;
-            }
-        }
     }
 
     .pane-node-field-primary-image {
-        float: none;
-        margin: auto;
+        float: left;
+        margin-right: 1em;
         text-align: center;
 
         img {
             width: auto;
             display: inline;
-        }
-
-        @include breakpoint(760px) {
-            float: left;
-            margin-right: 1em;
         }
     }
 
@@ -488,16 +566,10 @@ h2.art-postheader {
 }
 
 .pane-content-image-slideshow-panel-pane-1 {
-    width: 95%;
-    float: none;
-    margin: 0 2.5%;
-
-    @include breakpoint(530px) {
-        width: 50%;
-        float: left;
-        margin-right: 1em;
-        margin-left: 2.5%;
-    }
+    width: 50%;
+    float: left;
+    margin-right: 1em;
+    margin-left: 2.5%;
 
     .views-slideshow-cycle-main-frame {
         width: 100% !important;
@@ -510,6 +582,7 @@ h2.art-postheader {
         width: unset;
         text-align: center;
     }
+
     .views-slideshow-pager-field-item {
         cursor: pointer;
         display: inline-block;
@@ -536,33 +609,36 @@ h2.art-postheader {
         margin-bottom: 30px;
         background: unset;
         border: 0;
-        
+
         .slides {
             margin: 0;
-            
+
             &:before {
                 display: none;
             }
 
             li::before {
-                display: none;            
+                display: none;
             }
         }
 
         .flex-control-nav {
             margin: 0;
-            
+
             li {
                 margin: 3px;
             }
         }
+
         .flex-direction-nav {
             li {
                 list-style-image: none !important;
+
                 &::before {
                     display: none;
                 }
             }
+
             a::before {
                 line-height: 1;
                 color: #fed005;
@@ -581,4 +657,12 @@ h2.art-postheader {
             font-size: .9em;
         }
     }
+}
+
+.rest-stop-header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 5px;
 }
