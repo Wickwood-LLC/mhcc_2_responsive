@@ -487,3 +487,99 @@ h2.art-postheader {
         margin: 0 2.5%;
     }
 }
+
+.pane-content-image-slideshow-panel-pane-1 {
+    width: 95%;
+    float: none;
+    margin: 0 2.5%;
+
+    @include breakpoint(530px) {
+        width: 50%;
+        float: left;
+        margin-right: 1em;
+        margin-left: 2.5%;
+    }
+
+    .views-slideshow-cycle-main-frame {
+        width: 100% !important;
+    }
+}
+
+.view-content-image-slideshow {
+    .views-slideshow-controls-bottom {
+        float: none;
+        width: unset;
+        text-align: center;
+    }
+    .views-slideshow-pager-field-item {
+        cursor: pointer;
+        display: inline-block;
+        background: #222;
+        margin: 0.4em;
+        line-height: 12px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        padding: 0;
+
+        a {
+            display: inline-block;
+            text-indent: -9999px;
+        }
+
+        &.active {
+            background: #aaa;
+            cursor: default;
+        }
+    }
+
+    .flexslider {
+        margin-bottom: 30px;
+        background: unset;
+        border: 0;
+        
+        .slides {
+            margin: 0;
+            
+            &:before {
+                display: none;
+            }
+
+            li::before {
+                display: none;            
+            }
+        }
+
+        .flex-control-nav {
+            margin: 0;
+            
+            li {
+                margin: 3px;
+            }
+        }
+        .flex-direction-nav {
+            li {
+                list-style-image: none !important;
+                &::before {
+                    display: none;
+                }
+            }
+            a::before {
+                line-height: 1;
+                color: #fed005;
+            }
+        }
+
+        .flex-caption {
+            text-align: center;
+            background: #BBE3F2;
+            border-radius: 4px;
+            border: 1px solid #9DC4D7;
+            position: relative;
+            z-index: 1;
+            padding: 1px;
+            margin: 5px 2.5% 5px;
+            font-size: .9em;
+        }
+    }
+}

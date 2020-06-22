@@ -549,4 +549,102 @@ h2.art-postheader {
 .node-bikeabout-post .pane-node-field-tags {
   margin: 0 2.5%;
 }
+
+.pane-content-image-slideshow-panel-pane-1 {
+  width: 95%;
+  float: none;
+  margin: 0 2.5%;
+}
+
+@media (min-width: 530px) {
+  .pane-content-image-slideshow-panel-pane-1 {
+    width: 50%;
+    float: left;
+    margin-right: 1em;
+    margin-left: 2.5%;
+  }
+}
+
+.pane-content-image-slideshow-panel-pane-1 .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+}
+
+.view-content-image-slideshow .views-slideshow-controls-bottom {
+  float: none;
+  width: unset;
+  text-align: center;
+}
+
+.view-content-image-slideshow .views-slideshow-pager-field-item {
+  cursor: pointer;
+  display: inline-block;
+  background: #222;
+  margin: 0.4em;
+  line-height: 12px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.view-content-image-slideshow .views-slideshow-pager-field-item a {
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.view-content-image-slideshow .views-slideshow-pager-field-item.active {
+  background: #aaa;
+  cursor: default;
+}
+
+.view-content-image-slideshow .flexslider {
+  margin-bottom: 30px;
+  background: unset;
+  border: 0;
+}
+
+.view-content-image-slideshow .flexslider .slides {
+  margin: 0;
+}
+
+.view-content-image-slideshow .flexslider .slides:before {
+  display: none;
+}
+
+.view-content-image-slideshow .flexslider .slides li::before {
+  display: none;
+}
+
+.view-content-image-slideshow .flexslider .flex-control-nav {
+  margin: 0;
+}
+
+.view-content-image-slideshow .flexslider .flex-control-nav li {
+  margin: 3px;
+}
+
+.view-content-image-slideshow .flexslider .flex-direction-nav li {
+  list-style-image: none !important;
+}
+
+.view-content-image-slideshow .flexslider .flex-direction-nav li::before {
+  display: none;
+}
+
+.view-content-image-slideshow .flexslider .flex-direction-nav a::before {
+  line-height: 1;
+  color: #fed005;
+}
+
+.view-content-image-slideshow .flexslider .flex-caption {
+  text-align: center;
+  background: #BBE3F2;
+  border-radius: 4px;
+  border: 1px solid #9DC4D7;
+  position: relative;
+  z-index: 1;
+  padding: 1px;
+  margin: 5px 2.5% 5px;
+  font-size: .9em;
+}
 /*# sourceMappingURL=print.css.map */
