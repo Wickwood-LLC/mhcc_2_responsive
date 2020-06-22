@@ -1,3 +1,5 @@
+@import "bower_components/breakpoint-sass/stylesheets/breakpoint";
+
 body {
   margin: 1em;
   background-color: #fff;
@@ -396,4 +398,92 @@ h2.art-postheader {
 }
 .group-right .field-label-inline .field-label {
   width: 11em;
+}
+
+.node-type-bikeabout-post,
+.node-bikeabout-post {
+    .row-one {
+        width: 100%;
+    }
+    .bikeabout-header {
+        text-align: center;
+        width: 100%;
+    }
+    .pane-node-field-bikeabout-issue,
+    .pane-node-field-bikeabout-post-type {
+        font-weight: bold;
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    .pane-node-field-bikeabout-post-type {
+        display: block;
+
+        @include breakpoint(415px) {
+            display: inline-block;
+            &:before {
+                content: " - ";
+                display: inline-block;
+            }
+            .pane-content {
+                display: inline-block;
+            }
+        }
+    }
+
+    .pane-node-author {
+        display: inline-block;
+        width: 100%;
+
+        &:before {
+            content: none;
+            vertical-align: baseline;
+            font-size: inherit;
+            font-weight: bold;
+        }
+
+        .pane-content:before {
+            content: url("images/postauthoricon.png");
+            margin-right: 0;
+            bottom: 2px;
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 0;
+            line-height: 0;
+        }
+
+        @include breakpoint(570px) {
+            display: inline;
+            width: auto;
+
+            &:before {
+                content: " - ";
+                display: inline-block;
+                margin-right: 0;
+            }
+            .pane-content {
+                display: inline-block;
+            }
+        }
+    }
+
+    .pane-node-field-primary-image {
+        float: none;
+        margin: auto;
+        text-align: center;
+
+        img {
+            width: auto;
+            display: inline;
+        }
+
+        @include breakpoint(760px) {
+            float: left;
+            margin-right: 1em;
+        }
+    }
+
+    .pane-node-field-tags {
+        margin: 0 2.5%;
+    }
 }
