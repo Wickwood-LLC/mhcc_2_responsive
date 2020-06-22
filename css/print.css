@@ -482,8 +482,7 @@ h2.art-postheader {
 
 .node-type-bikeabout-post .pane-node-author,
 .node-bikeabout-post .pane-node-author {
-  display: inline-block;
-  width: 100%;
+  display: inline;
 }
 
 .node-type-bikeabout-post .pane-node-author:before,
