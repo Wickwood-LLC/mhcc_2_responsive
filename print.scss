@@ -498,6 +498,10 @@ h2.art-postheader {
     .bikeabout-header {
         text-align: center;
         width: 100%;
+
+        img {
+          width: 100%;
+        }
     }
 
     .pane-node-field-bikeabout-issue,
@@ -538,7 +542,7 @@ h2.art-postheader {
         }
 
         .pane-content:before {
-            content: url("images/postauthoricon.png");
+            content: url("../images/postauthoricon.png");
             margin-right: 0;
             bottom: 2px;
             position: relative;

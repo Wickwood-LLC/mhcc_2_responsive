@@ -96,7 +96,7 @@ a:hover {
 }
 
 .print-message {
-  border: medium dotted  blue;
+  border: medium dotted blue;
   padding: 1em;
 }
 
@@ -450,6 +450,11 @@ h2.art-postheader {
   width: 100%;
 }
 
+.node-type-bikeabout-post .bikeabout-header img,
+.node-bikeabout-post .bikeabout-header img {
+  width: 100%;
+}
+
 .node-type-bikeabout-post .pane-node-field-bikeabout-issue,
 .node-type-bikeabout-post .pane-node-field-bikeabout-post-type,
 .node-bikeabout-post .pane-node-field-bikeabout-issue,
@@ -461,23 +466,18 @@ h2.art-postheader {
 
 .node-type-bikeabout-post .pane-node-field-bikeabout-post-type,
 .node-bikeabout-post .pane-node-field-bikeabout-post-type {
-  display: block;
+  display: inline-block;
 }
 
-@media (min-width: 415px) {
-  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type,
-  .node-bikeabout-post .pane-node-field-bikeabout-post-type {
-    display: inline-block;
-  }
-  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type:before,
-  .node-bikeabout-post .pane-node-field-bikeabout-post-type:before {
-    content: " - ";
-    display: inline-block;
-  }
-  .node-type-bikeabout-post .pane-node-field-bikeabout-post-type .pane-content,
-  .node-bikeabout-post .pane-node-field-bikeabout-post-type .pane-content {
-    display: inline-block;
-  }
+.node-type-bikeabout-post .pane-node-field-bikeabout-post-type:before,
+.node-bikeabout-post .pane-node-field-bikeabout-post-type:before {
+  content: " - ";
+  display: inline-block;
+}
+
+.node-type-bikeabout-post .pane-node-field-bikeabout-post-type .pane-content,
+.node-bikeabout-post .pane-node-field-bikeabout-post-type .pane-content {
+  display: inline-block;
 }
 
 .node-type-bikeabout-post .pane-node-author,
@@ -503,7 +503,7 @@ h2.art-postheader {
 
 .node-type-bikeabout-post .pane-node-author .pane-content:before,
 .node-bikeabout-post .pane-node-author .pane-content:before {
-  content: url("images/postauthoricon.png");
+  content: url("../images/postauthoricon.png");
   margin-right: 0;
   bottom: 2px;
   position: relative;
@@ -515,8 +515,8 @@ h2.art-postheader {
 
 .node-type-bikeabout-post .pane-node-field-primary-image,
 .node-bikeabout-post .pane-node-field-primary-image {
-  float: none;
-  margin: auto;
+  float: left;
+  margin-right: 1em;
   text-align: center;
 }
 
@@ -526,32 +526,16 @@ h2.art-postheader {
   display: inline;
 }
 
-@media (min-width: 760px) {
-  .node-type-bikeabout-post .pane-node-field-primary-image,
-  .node-bikeabout-post .pane-node-field-primary-image {
-    float: left;
-    margin-right: 1em;
-  }
-}
-
 .node-type-bikeabout-post .pane-node-field-tags,
 .node-bikeabout-post .pane-node-field-tags {
   margin: 0 2.5%;
 }
 
 .pane-content-image-slideshow-panel-pane-1 {
-  width: 95%;
-  float: none;
-  margin: 0 2.5%;
-}
-
-@media (min-width: 530px) {
-  .pane-content-image-slideshow-panel-pane-1 {
-    width: 50%;
-    float: left;
-    margin-right: 1em;
-    margin-left: 2.5%;
-  }
+  width: 50%;
+  float: left;
+  margin-right: 1em;
+  margin-left: 2.5%;
 }
 
 .pane-content-image-slideshow-panel-pane-1 .views-slideshow-cycle-main-frame {
