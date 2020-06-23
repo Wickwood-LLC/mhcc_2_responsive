@@ -7,6 +7,14 @@ body {
 }
 
 .print-version {
+    @media only screen {
+        width: 8.5in;
+        margin: auto;
+        padding: 1em;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 45px -6px black;
+    }
+
     p {
         line-height: 1.2em;
         margin: 0 2.5% 1em;
@@ -505,7 +513,7 @@ h2.art-postheader {
         width: 100%;
 
         img {
-          width: 100%;
+            width: 100%;
         }
     }
 
