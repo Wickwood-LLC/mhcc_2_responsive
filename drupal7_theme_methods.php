@@ -13,6 +13,8 @@ function mhcc_2_process_html(&$variables)
     }
     $variables['styles'] .= $art_style;
     $variables['scripts'] .= $art_head;
+
+    dpm($vars);
 }
 
 function mhcc_2_breadcrumb($variables)
