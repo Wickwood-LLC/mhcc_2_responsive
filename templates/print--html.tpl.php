@@ -83,6 +83,7 @@
     <?php endif; ?>
     <?php print $css; ?>
   </head>
+  <?php dpm($page); ?>
   <body class="print-version <?php if ($node->type) print "node-type-" . str_replace('_', '-', $node->type); ?>" <?php print $attributes;?>>
     <?php if (!empty($message)): ?>
       <div class="print-message"><?php print $message; ?></div><p />
