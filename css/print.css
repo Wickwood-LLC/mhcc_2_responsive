@@ -19,11 +19,11 @@ body {
   margin: 0 2.5% 1em;
 }
 
-.pane-print-ui-print-links {
+.print-version .pane-print-ui-print-links {
   display: none;
 }
 
-.sidebar-content {
+.print-version .sidebar-content {
   display: none;
 }
 
