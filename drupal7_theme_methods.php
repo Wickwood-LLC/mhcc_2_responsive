@@ -13,8 +13,6 @@ function mhcc_2_process_html(&$variables)
     }
     $variables['styles'] .= $art_style;
     $variables['scripts'] .= $art_head;
-
-    dpm($vars);
 }
 
 function mhcc_2_breadcrumb($variables)
@@ -58,7 +56,8 @@ function mhcc_2_button($variables)
 /**
  * Override or insert variables into the page template.
  */
-function mhcc_2_preprocess_page(&$vars){
+function mhcc_2_preprocess_page(&$vars)
+{
     global $art_style, $art_head;
     $vars['tabs']  = menu_primary_local_tasks();
     $vars['tabs2'] = menu_secondary_local_tasks();
