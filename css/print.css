@@ -4,6 +4,22 @@ body {
   font-family: sans-serif;
 }
 
+.print-version p,
+.pdf-version p {
+  line-height: 1.2em;
+  margin: 0 2.5% 1em;
+}
+
+.print-version .pane-print-ui-print-links,
+.pdf-version .pane-print-ui-print-links {
+  display: none;
+}
+
+.print-version .sidebar-content,
+.pdf-version .sidebar-content {
+  display: none;
+}
+
 @media only screen {
   .print-version {
     width: 8.5in;
@@ -12,19 +28,6 @@ body {
     box-sizing: border-box;
     box-shadow: 0px 1px 45px -6px black;
   }
-}
-
-.print-version p {
-  line-height: 1.2em;
-  margin: 0 2.5% 1em;
-}
-
-.print-version .pane-print-ui-print-links {
-  display: none;
-}
-
-.print-version .sidebar-content {
-  display: none;
 }
 
 th {
