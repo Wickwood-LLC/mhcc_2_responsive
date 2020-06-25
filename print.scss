@@ -19,14 +19,13 @@ body {
         line-height: 1.2em;
         margin: 0 2.5% 1em;
     }
+}
+.pane-print-ui-print-links {
+    display: none;
+}
 
-    .pane-print-ui-print-links {
-        display: none;
-    }
-
-    .sidebar-content {
-        display: none;
-    }
+.sidebar-content {
+    display: none;
 }
 
 th {
@@ -502,8 +501,7 @@ h2.art-postheader {
     width: 11em;
 }
 
-.node-type-bikeabout-post,
-.node-bikeabout-post {
+.node-type-bikeabout-post {
     .row-one {
         width: 100%;
     }
