@@ -762,6 +762,7 @@ div[class*="media-responsive_image_medium_16x9"].media-element-container.mce-ali
 }
 
 div[class*="media-responsive_image_large"].media-element-container {
+  width: 50%;
   display: table;
   float: none;
   margin: 0 auto 0.5em;
