@@ -462,12 +462,7 @@ h2.art-postheader {
 }
 
 .node-type-bikeabout-post .bikeabout-header {
-  text-align: center;
-  width: 100%;
-}
-
-.node-type-bikeabout-post .bikeabout-header img {
-  width: 100%;
+  display: none;
 }
 
 .node-type-bikeabout-post .pane-node-field-bikeabout-issue,
@@ -624,12 +619,8 @@ h2.art-postheader {
   font-size: .9em;
 }
 
-.rest-stop-header img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-  margin-bottom: 5px;
+.rest-stop-header {
+  display: none;
 }
 
 .media-element-container.mce-align-left {
