@@ -3478,6 +3478,29 @@ ul > li:before.closed {
   .page-user-rides-as-leader-registrants #block-system-main .content table td:nth-child(2), .page-user-rides-as-leader-registrants #block-system-main .content table td:nth-child(4), .page-user-rides-as-leader-registrants #block-system-main .content table td:nth-child(5) {
     text-align: center; }
 
+#views-exposed-form-rides-page .views-exposed-widgets {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+#views-exposed-form-rides-page .views-exposed-widget {
+  float: none;
+  display: inline-block; }
+  #views-exposed-form-rides-page .views-exposed-widget .form-submit {
+    margin-top: 0; }
+
+#views-exposed-form-rides-page .views-widget-filter-field_no_repeat_date_and_time_value .views-widget {
+  display: inline-block; }
+
+#views-exposed-form-rides-page .views-widget-filter-field_no_repeat_date_and_time_value #edit-field-no-repeat-date-and-time-value-value-wrapper,
+#views-exposed-form-rides-page .views-widget-filter-field_no_repeat_date_and_time_value #edit-field-no-repeat-date-and-time-value-min-wrapper,
+#views-exposed-form-rides-page .views-widget-filter-field_no_repeat_date_and_time_value #edit-field-no-repeat-date-and-time-value-max-wrapper {
+  display: inline-block; }
+
+#views-exposed-form-rides-page .form-actions {
+  flex: 100%;
+  text-align: center; }
+
 .art-block ul > li.open:before {
   content: none;
   margin-right: 6px;

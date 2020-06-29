@@ -4048,6 +4048,38 @@ ul>li:before.closed {
     }
 }
 
+#views-exposed-form-rides-page {
+  .views-exposed-widgets {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .views-exposed-widget {
+    float: none;
+    display: inline-block;
+
+    .form-submit {
+      margin-top: 0;
+    }
+  }
+
+  .views-widget-filter-field_no_repeat_date_and_time_value {
+    .views-widget {
+      display: inline-block;
+    }
+    #edit-field-no-repeat-date-and-time-value-value-wrapper,
+    #edit-field-no-repeat-date-and-time-value-min-wrapper,
+    #edit-field-no-repeat-date-and-time-value-max-wrapper {
+      display: inline-block;
+    }
+  }
+
+  .form-actions {
+    flex: 100%;
+    text-align: center;
+  }
+}
+
 .art-block ul>li.open:before {
     content: none;
     margin-right: 6px;
