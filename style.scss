@@ -4114,19 +4114,21 @@ ul>li:before.closed {
 
     #edit-submit-rides {
         background-color: green;
+        color: white;
 
         &:hover {
             background-color: lighten(green, 10%);
-            color: #CCEAF5;
+            color: white;
         }
     }
 
     #edit-reset {
         background-color: red;
+        color: white;
 
         &:hover {
             background-color: lighten(red, 10%);
-            color: #CCEAF5;
+            color: white;
         }
     }
 }

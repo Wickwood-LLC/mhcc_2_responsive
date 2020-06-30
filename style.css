@@ -3505,16 +3505,18 @@ ul > li:before.closed {
   margin-bottom: 0; }
 
 #views-exposed-form-rides-page #edit-submit-rides {
-  background-color: green; }
+  background-color: green;
+  color: white; }
   #views-exposed-form-rides-page #edit-submit-rides:hover {
     background-color: #00b300;
-    color: #CCEAF5; }
+    color: white; }
 
 #views-exposed-form-rides-page #edit-reset {
-  background-color: red; }
+  background-color: red;
+  color: white; }
   #views-exposed-form-rides-page #edit-reset:hover {
     background-color: #ff3333;
-    color: #CCEAF5; }
+    color: white; }
 
 .art-block ul > li.open:before {
   content: none;
