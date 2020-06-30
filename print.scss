@@ -748,7 +748,7 @@ div[class*="media-responsive_image_small"].media-element-container {
     float: none;
     margin: 0 auto 0.5em;
     text-align: center;
-    width: 320px;
+    max-width: 320px;
 
     &.mce-align-left {
         float: left;
@@ -771,7 +771,7 @@ div[class*="media-responsive_image_medium_4x3"].media-element-container {
     float: none;
     margin: 0 auto 0.5em;
     text-align: center;
-    width: 480px;
+    max-width: 480px;
 
     &.mce-align-left {
         float: left;
@@ -793,7 +793,7 @@ div[class*="media-responsive_image_medium_16x9"].media-element-container {
     float: none;
     margin: 0 auto 0.5em;
     text-align: center;
-    width: 480px;
+    max-width: 480px;
 
     &.mce-align-left {
         float: left;
@@ -817,7 +817,7 @@ div[class*="media-responsive_image_large"].media-element-container {
     float: none;
     margin: 0 auto 0.5em;
     text-align: center;
-    width: 640px;
+    max-width: 640px;
 }
 
 .ipemessage{
