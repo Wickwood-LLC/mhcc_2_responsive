@@ -64,10 +64,6 @@ li {
   padding: 0;
 }
 
-picture img {
-  width: auto;
-}
-
 /* Reset buttons border. It's important for input and button tags. 
  * border-collapse should be separate for shadow in IE. 
  */
